@@ -4,6 +4,6 @@ Data source: manual
 Data available since: UD v2.1
 License: CC BY-SA 4.0
 Genre: fiction wiki
-Contributors: Gökırmak, Memduh
+Contributors: Gökırmak, Memduh; Tyers, Francis
 Contact: memduhg@gmail.com
 ===============================================================================
