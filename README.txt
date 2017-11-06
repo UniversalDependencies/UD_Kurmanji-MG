@@ -1,11 +1,11 @@
 # Summary
 
 The UD Kurmanji corpus is a corpus of Kurmanji Kurdish. It contains fiction and encyclopaedic texts in
-roughly equal measure. It has been annotated natively in with the UD annotation scheme.
+roughly equal measure. It has been annotated natively in accordance with the UD annotation scheme.
 
 # Introduction
 
-Tbd.
+UD Kurmanji is a Kurmanji (Northern Kurdish) treebank developed with the UD framework. It consists of a Sherlock Holmes story, "The Adventure of the Speckled Band", translated in 1944 by Celadet Bedirxan in the magazine Ronahi, and sentences from the Kurmanji Wikipedia. 
 
 # Acknowledgments 
 
