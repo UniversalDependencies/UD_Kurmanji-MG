@@ -1,0 +1,41 @@
+Sun Feb 11 20:45:50 CET 2018
+perl -I perllib/lib/perl5 -I tools tools/evaluate_treebank.pl --verbose UD_Kurmanji
+Running the following version of tools/evaluate_treebank.pl:
+commit c1cb17aec6a5505b56b885f578dc6b1093bb4b30
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sun Feb 11 20:27:50 2018 +0100
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+Evaluating the following revision of UD_Kurmanji:
+commit 04d4df9f769a3ffc737b201e7b847f8bde447f6f
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sat Nov 11 14:02:24 2017 +0100
+Size: counted 10018 of 10018 words (nodes).
+Size: min(0, log((N/1000)**2)) = 4.60876694987085.
+Size: maximum value 13.815511 is for 1000000 words or more.
+Split: Did not find more than 10000 training words.
+Split: Did not find at least 10000 development words.
+Split: Found at least 10000 test words.
+Lemmas: source of annotation (from README) factor is 0.8.
+Universal POS tags: 17 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 0.8.
+Features: 7673 out of 10018 total words have one or more features.
+Features: source of annotation (from README) factor is 0.8.
+Universal relations: 30 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 1.
+Udapi: found 163 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 10018 words.
+Genres: found 2 out of 14 known.
+(weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
+(weight=0.0769230769230769) * (score{genres}=0.142857142857143) = 0.010989010989011
+(weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
+(weight=0.256410256410256) * (score{size}=0.333593675784499) = 0.0855368399447432
+(weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
+(weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
+(weight=0.307692307692308) * (score{udapi}=0.837292872828908) = 0.257628576255049
+(weight=0.0769230769230769) * (score{udeprels}=0.810810810810811) = 0.0623700623700624
+(TOTAL score=0.618575771610147) * (availability=1) * (validity=1) = 0.618575771610147
+STARS = 3
+UD_Kurmanji	0.618575771610147	3
+Switched to branch 'dev'
+Your branch is up-to-date with 'origin/dev'.
