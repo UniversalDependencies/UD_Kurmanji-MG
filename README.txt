@@ -5,9 +5,9 @@ roughly equal measure. It has been annotated natively in accordance with the UD 
 
 # Introduction
 
-UD Kurmanji is a Kurmanji (Northern Kurdish) treebank developed with the UD framework. It consists of a Sherlock Holmes story, "The Adventure of the Speckled Band", translated in 1944 by Celadet Bedirxan in the magazine Ronahi, and sentences from the Kurmanji Wikipedia. 
+UD Kurmanji is a Kurmanji (Northern Kurdish) treebank developed with the UD framework. It consists of a Sherlock Holmes story, "The Adventure of the Speckled Band", translated in 1944 by Celadet Bedirxan in the magazine Ronahi, and sentences from the Kurmanji Wikipedia.
 
-# Acknowledgments 
+# Acknowledgments
 
 If you use this treebank in your work, please cite:
 
@@ -19,6 +19,13 @@ If you use this treebank in your work, please cite:
     year = 2017
 }
 
+# Changelog
+
+* 2017-11-15 v2.1
+  * First official release after it was used as a surprise dataset in the
+    CoNLL 2017 shared task.
+
+<pre>
 === Machine-readable metadata =================================================
 Data available since: UD v2.1
 License: CC BY-SA 4.0
@@ -34,3 +41,4 @@ Contributing: elsewhere
 Contact: memduhg@gmail.com ftyers@hse.ru
 Paragraphs to web: 1
 ===============================================================================
+</pre>
