@@ -21,6 +21,8 @@ If you use this treebank in your work, please cite:
 
 # Changelog
 
+* 2018-04-15 v2.2
+  * Repository renamed from UD_Kurmanji to UD_Kurmanji-MG.
 * 2017-11-15 v2.1
   * First official release after it was used as a surprise dataset in the
     CoNLL 2017 shared task.
