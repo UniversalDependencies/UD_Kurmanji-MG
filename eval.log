@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Kurmanji-MG:
-commit 54ba40410d83f148ad2bf81073725012819cd90c
-Merge: 1df843d ea815ca
+commit eda9a74d61076b5f0fb5054c5702c6d56811de42
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Fri May 10 21:27:53 2019 +0200
 Size: counted 10260 of 10260 words (nodes).
 Size: min(0, log((N/1000)**2)) = 4.65650567948525.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -23,10 +23,45 @@ Udapi: found 163 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 10260 words.
 Genres: found 2 out of 17 known.
 validate.py --lang kmr --max-err=10 UD_Kurmanji-MG/kmr_mg-ud-test.conllu
-*** PASSED ***
+[Line 42 Sent sherlock:sherlock01.vislcg.txt:4:54 Node 6]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (6:ber:case --> 5:li:dep)
+[Line 53 Sent sherlock:sherlock01.vislcg.txt:4:54 Node 17]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (17:ser:case --> 16:li:dep)
+[Line 280 Sent sherlock:sherlock01.vislcg.txt:18:440 Node 12]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ'
+[Line 284 Sent sherlock:sherlock01.vislcg.txt:18:440 Node 16]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [19]
+[Line 296 Sent sherlock:sherlock01.vislcg.txt:19:481 Node 6]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (6:ber:case --> 5:ji:dep)
+[Line 341 Sent sherlock:sherlock01.vislcg.txt:23:559 Node 1]: [L3 Syntax rel-upos-mark] 'mark' should not be 'NOUN'
+[Line 391 Sent sherlock:sherlock01.vislcg.txt:24:630 Node 13]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [20]
+[Line 395 Sent sherlock:sherlock01.vislcg.txt:24:630 Node 16]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PART'
+[Line 416 Sent sherlock:sherlock01.vislcg.txt:25:672 Node 13]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [20]
+...suppressing further errors regarding Syntax
+[Line 466 Sent sherlock:sherlock01.vislcg.txt:27:768 Node 7]: [L5 Morpho aux-lemma] 'hebûn' is not an auxiliary verb in language [kmr]
+[Line 483 Sent sherlock:sherlock01.vislcg.txt:28:785 Node 13]: [L5 Morpho aux-lemma] 'hebûn' is not an auxiliary verb in language [kmr]
+[Line 710 Sent sherlock:sherlock02.vislcg.txt:14:351 Node 10]: [L5 Morpho aux-lemma] 'hebûn' is not an auxiliary verb in language [kmr]
+[Line 1083 Sent sherlock:sherlock03.vislcg.txt:6:177 Node 3]: [L5 Morpho aux-lemma] 'hebûn' is not an auxiliary verb in language [kmr]
+[Line 1350 Sent sherlock:sherlock03.vislcg.txt:23:623 Node 3]: [L5 Morpho aux-lemma] 'hebûn' is not an auxiliary verb in language [kmr]
+[Line 1402 Sent sherlock:sherlock04.vislcg.txt:2:28 Node 17]: [L5 Morpho aux-lemma] 'hebûn' is not an auxiliary verb in language [kmr]
+[Line 1433 Sent sherlock:sherlock04.vislcg.txt:4:92 Node 11]: [L5 Morpho aux-lemma] 'hebûn' is not an auxiliary verb in language [kmr]
+[Line 1763 Sent sherlock:sherlock05.vislcg.txt:7:164 Node 6]: [L5 Morpho aux-lemma] 'hebûn' is not an auxiliary verb in language [kmr]
+[Line 1823 Sent sherlock:sherlock05.vislcg.txt:10:242 Node 18]: [L5 Morpho aux-lemma] 'hebûn' is not an auxiliary verb in language [kmr]
+...suppressing further errors regarding Morpho
+Morpho errors: 51
+Syntax errors: 393
+*** FAILED *** with 444 errors
+Exit code: 1
 validate.py --lang kmr --max-err=10 UD_Kurmanji-MG/kmr_mg-ud-train.conllu
-*** PASSED ***
-Validity: 1
+[Line 4 Sent wiki:wikibank.vislcg.txt:396:10980 Node 3]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (3:ku:mark --> 2:dema:dep)
+[Line 33 Sent wiki:wikibank.vislcg.txt:397:11025 Node 6]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 47 Sent wiki:wikibank.vislcg.txt:397:11025 Node 20]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 62 Sent wiki:wikibank.vislcg.txt:398:11070 Node 10]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 88 Sent wiki:wikibank.vislcg.txt:400:11118 Node 7]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 110 Sent wiki:wikibank.vislcg.txt:402:11156 Node 6]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (6:ser:case --> 5:li:dep)
+[Line 146 Sent wiki:wikibank.vislcg.txt:405:11221 Node 2]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (2:dijî:case --> 1:Li:dep)
+[Line 151 Sent wiki:wikibank.vislcg.txt:405:11221 Node 6]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 184 Sent wiki:wikibank.vislcg.txt:408:11282 Node 3]: [L3 Syntax leaf-cc] 'cc' not expected to have children (3:ku:cc --> 1:Ji:dep)
+...suppressing further errors regarding Syntax
+Syntax errors: 13
+*** FAILED *** with 13 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
@@ -35,6 +70,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
 (weight=0.307692307692308) * (score{udapi}=0.841130604288499) = 0.258809416704154
 (weight=0.0769230769230769) * (score{udeprels}=0.810810810810811) = 0.0623700623700624
-(TOTAL score=0.618703386229513) * (availability=1) * (validity=1) = 0.618703386229513
-STARS = 3
-UD_Kurmanji-MG	0.618703386229513	3
+(TOTAL score=0.618703386229513) * (availability=1) * (validity=0.01) = 0.00618703386229513
+STARS = 0
+UD_Kurmanji-MG	0.00618703386229513	0
