@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Kurmanji-MG:
-commit eda9a74d61076b5f0fb5054c5702c6d56811de42
+commit c726ba96d06bf36b74ba2c3c2fa54e172ed232cb
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 10 21:27:53 2019 +0200
+Date:   Tue Nov 12 17:26:01 2019 +0100
 Size: counted 10260 of 10260 words (nodes).
 Size: min(0, log((N/1000)**2)) = 4.65650567948525.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,7 +19,7 @@ Features: 7854 out of 10260 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 30 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi: found 163 bugs.
+Udapi: found 258 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 10260 words.
 Genres: found 2 out of 17 known.
 validate.py --lang kmr --max-err=10 UD_Kurmanji-MG/kmr_mg-ud-test.conllu
@@ -33,19 +33,8 @@ validate.py --lang kmr --max-err=10 UD_Kurmanji-MG/kmr_mg-ud-test.conllu
 [Line 395 Sent sherlock:sherlock01.vislcg.txt:24:630 Node 16]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PART'
 [Line 416 Sent sherlock:sherlock01.vislcg.txt:25:672 Node 13]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [20]
 ...suppressing further errors regarding Syntax
-[Line 466 Sent sherlock:sherlock01.vislcg.txt:27:768 Node 7]: [L5 Morpho aux-lemma] 'hebûn' is not an auxiliary verb in language [kmr]
-[Line 483 Sent sherlock:sherlock01.vislcg.txt:28:785 Node 13]: [L5 Morpho aux-lemma] 'hebûn' is not an auxiliary verb in language [kmr]
-[Line 710 Sent sherlock:sherlock02.vislcg.txt:14:351 Node 10]: [L5 Morpho aux-lemma] 'hebûn' is not an auxiliary verb in language [kmr]
-[Line 1083 Sent sherlock:sherlock03.vislcg.txt:6:177 Node 3]: [L5 Morpho aux-lemma] 'hebûn' is not an auxiliary verb in language [kmr]
-[Line 1350 Sent sherlock:sherlock03.vislcg.txt:23:623 Node 3]: [L5 Morpho aux-lemma] 'hebûn' is not an auxiliary verb in language [kmr]
-[Line 1402 Sent sherlock:sherlock04.vislcg.txt:2:28 Node 17]: [L5 Morpho aux-lemma] 'hebûn' is not an auxiliary verb in language [kmr]
-[Line 1433 Sent sherlock:sherlock04.vislcg.txt:4:92 Node 11]: [L5 Morpho aux-lemma] 'hebûn' is not an auxiliary verb in language [kmr]
-[Line 1763 Sent sherlock:sherlock05.vislcg.txt:7:164 Node 6]: [L5 Morpho aux-lemma] 'hebûn' is not an auxiliary verb in language [kmr]
-[Line 1823 Sent sherlock:sherlock05.vislcg.txt:10:242 Node 18]: [L5 Morpho aux-lemma] 'hebûn' is not an auxiliary verb in language [kmr]
-...suppressing further errors regarding Morpho
-Morpho errors: 51
 Syntax errors: 393
-*** FAILED *** with 444 errors
+*** FAILED *** with 393 errors
 Exit code: 1
 validate.py --lang kmr --max-err=10 UD_Kurmanji-MG/kmr_mg-ud-train.conllu
 [Line 4 Sent wiki:wikibank.vislcg.txt:396:10980 Node 3]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (3:ku:mark --> 2:dema:dep)
@@ -68,8 +57,8 @@ Validity: 0.01
 (weight=0.256410256410256) * (score{size}=0.337049120258599) = 0.0864228513483588
 (weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.841130604288499) = 0.258809416704154
+(weight=0.307692307692308) * (score{udapi}=0.748538011695906) = 0.230319388214125
 (weight=0.0769230769230769) * (score{udeprels}=0.810810810810811) = 0.0623700623700624
-(TOTAL score=0.618703386229513) * (availability=1) * (validity=0.01) = 0.00618703386229513
+(TOTAL score=0.590213357739484) * (availability=1) * (validity=0.01) = 0.00590213357739484
 STARS = 0
-UD_Kurmanji-MG	0.00618703386229513	0
+UD_Kurmanji-MG	0.00590213357739484	0
