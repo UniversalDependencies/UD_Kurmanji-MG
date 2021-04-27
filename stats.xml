@@ -39,9 +39,9 @@
     <feat name="AdpType" value="Prep" upos="ADP">1123</feat><!-- di, bi, ji, li, ser, bo, ber, piştî, jê, pê -->
     <feat name="Aspect" value="Perf" upos="VERB">37</feat><!-- hate, hatine, hatiye, nehatiye, da bûye, nehatime, nehatine -->
     <feat name="Aspect" value="Prog" upos="AUX,VERB">86</feat><!-- dida, dikir, dihate, dadiket, dibû, dihatin, digeriya, digirt, rûdinişt, digeriyan -->
+    <feat name="Case" value="Acc" upos="DET,NOUN,NUM,PRON,PROPN">1636</feat><!-- min, me, wî, wê, _, Holmes, te, vê, wan, gund -->
     <feat name="Case" value="Con" upos="ADJ,NOUN,PROPN,X">1288</feat><!-- sala, oda, xweha, zirbavê, navê, serê, zimanê, Stonêrê, dema, dengê -->
     <feat name="Case" value="Nom" upos="DET,NOUN,NUM,PRON,PROPN">985</feat><!-- ew, em, ez, ev, Holmes, Rweylot, du, tu, kurdî, yek -->
-    <feat name="Case" value="Obl" upos="DET,NOUN,NUM,PRON,PROPN">1636</feat><!-- min, me, wî, wê, _, Holmes, te, vê, wan, gund -->
     <feat name="Case" value="Voc" upos="NOUN">1</feat><!-- zanyariyên -->
     <feat name="Definite" value="Def" upos="ADP,NOUN,NUM,PROPN,X">2550</feat><!-- sala, oda, xweha, zirbavê, gund, navê, serê, du, zimanê, kurdan -->
     <feat name="Degree" value="Cmp" upos="ADJ">14</feat><!-- zêdetir, bêtir, xeternaktir, çêtir, bilindtir, dewlementir, girîngtir, meztir -->
