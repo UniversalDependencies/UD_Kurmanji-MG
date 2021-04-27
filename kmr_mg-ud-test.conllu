@@ -89,7 +89,7 @@
 # text = Holmes gote min: Ez gelek esefnak im ko min tu di vî wextî de hişyar kirî.
 1	Holmes	Holmes	PROPN	np	Case=Acc|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	gote	gotin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-3	min	ez	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	2	nmod:dat	_	SpaceAfter=No
+3	min	ez	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	2	obl:dat	_	SpaceAfter=No
 4	:	:	PUNCT	sent	_	2	punct	_	_
 5	Ez	ez	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
 6	gelek	gelek	ADV	preadv	_	7	advmod	_	_
@@ -1369,7 +1369,7 @@
 1	Şerlok	Şerlok	PROPN	np	Case=Acc|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	Holmes	Holmes	PROPN	np	Case=Acc|Gender=Masc|Number=Sing	1	flat	_	_
 3	got	gotin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-4	banû	banû	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nmod:dat	_	_
+4	banû	banû	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	obl:dat	_	_
 5	Stonêrê	Stonêr	PROPN	np	Case=Con|Gender=Masc|Number=Sing	4	flat	_	SpaceAfter=No
 6	:	:	PUNCT	sent	_	13	punct	_	_
 7	We	hûn	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Plur|Person=2|PronType=Prs	13	nsubj	_	_
@@ -1459,7 +1459,7 @@
 4	xwe	xwe	PRON	prn	Gender=Fem,Masc|Number=Plur,Sing|PronType=Prs|Reflex=Yes	2	nmod	_	_
 5	û	û	CCONJ	cnjcoo	_	6	cc	_	_
 6	derketim	derketin	VERB	vblex	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	conj	_	_
-7	lîwanê	lîwanê	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	nmod:dat	_	SpaceAfter=No
+7	lîwanê	lîwanê	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	obl:dat	_	SpaceAfter=No
 8	.	.	PUNCT	sent	_	2	punct	_	_
 
 # sent_id = sherlock:sherlock04.vislcg.txt:7:165
@@ -1503,7 +1503,7 @@
 16	tiştekî	tişt	NOUN	n	Case=Con|Gender=Masc|Number=Sing|PronType=Ind	18	nsubj	_	_
 17	hesinîn	hesinîn	ADJ	adj	Degree=Pos	16	amod	_	_
 18	da bû	dan	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin	12	advcl	_	_
-19	erdê	erd	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	18	nmod:dat	_	SpaceAfter=No
+19	erdê	erd	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	18	obl:dat	_	SpaceAfter=No
 20	.	.	PUNCT	sent	_	12	punct	_	_
 
 # sent_id = sherlock:sherlock04.vislcg.txt:9:243
@@ -1536,11 +1536,11 @@
 1	Min	ez	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	xwe	xwe	PRON	prn	Gender=Fem,Masc|Number=Plur,Sing|PronType=Prs|Reflex=Yes	3	compound:lvc	_	_
 3	da	dan	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-4	derî	derî	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	nmod:dat	_	SpaceAfter=No
+4	derî	derî	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	obl:dat	_	SpaceAfter=No
 5	;	;	PUNCT	sent	_	7	punct	_	_
 6	ez	ez	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
 7	ketim	ketin	VERB	vblex	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	conj	_	_
-8	hundir	hundir	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	nmod:dat	_	SpaceAfter=No
+8	hundir	hundir	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	obl:dat	_	SpaceAfter=No
 9	.	.	PUNCT	sent	_	3	punct	_	_
 
 # sent_id = sherlock:sherlock04.vislcg.txt:12:302
@@ -1578,7 +1578,7 @@
 3	ber	ber	ADP	pr	AdpType=Prep	4	case	_	_
 4	derî	derî	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	_
 5	keti bû	ketin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin	0	root	_	_
-6	erdê	erd	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	nmod:dat	_	SpaceAfter=No
+6	erdê	erd	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	obl:dat	_	SpaceAfter=No
 7	.	.	PUNCT	sent	_	5	punct	_	_
 
 # sent_id = sherlock:sherlock04.vislcg.txt:15:363
@@ -1851,7 +1851,7 @@
 1	Mistentiq	Mistentiq	PROPN	np	Case=Acc|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	gihaşte	gihiştin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	çi	çi	DET	prn	PronType=Int	4	det	_	_
-4	qerar	qerar	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nmod:dat	_	_
+4	qerar	qerar	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	obl:dat	_	_
 5	û	û	CCONJ	cnjcoo	_	6	cc	_	_
 6	netîcê	netîce	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
 7	?	?	PUNCT	sent	_	2	punct	_	_
@@ -2004,7 +2004,7 @@
 9	min	ez	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	8	nmod:poss	_	_
 10	çû	çûn	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	advcl	_	SpaceAfter=No
 11	,	,	PUNCT	cm	_	1	punct	_	_
-12	rehmeta	rehmet	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	10	nmod:dat	_	_
+12	rehmeta	rehmet	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	10	obl:dat	_	_
 13	Xwedê	xwedê	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	12	nmod:poss	_	SpaceAfter=No
 14	.	.	PUNCT	sent	_	1	punct	_	_
 
@@ -2114,7 +2114,7 @@
 13	û	û	CCONJ	cnjcoo	_	15	cc	_	_
 14	min	ez	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
 15	guhast	guhastin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	conj	_	_
-16	oda	ode	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	15	nmod:dat	_	_
+16	oda	ode	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	15	obl:dat	_	_
 17	xweha	xweh	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	16	nmod:poss	_	_
 18	xwe	xwe	PRON	prn	Gender=Fem,Masc|Number=Plur,Sing|PronType=Prs|Reflex=Yes	17	nmod:poss	_	_
 19	a	yê	ADP	con	AdpType=Post|Gender=Fem|Number=Sing	17	case	_	_
@@ -2185,7 +2185,7 @@
 7	îro	îro	ADV	adv	_	9	advmod	_	_
 8	em	em	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
 9	herin	çûn	VERB	vblex	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
-10	Stokmoranê	Stokmoran	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	nmod:dat	_	_
+10	Stokmoranê	Stokmoran	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	obl:dat	_	_
 11	û	û	CCONJ	cnjcoo	_	12	cc	_	_
 12	bêî	hatin	VERB	vblex	Mood=Sub|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	conj	_	_
 13	ko	ku	SCONJ	cnjsub	_	18	mark	_	_
@@ -2213,7 +2213,7 @@
 9	ko	ku	SCONJ	cnjsub	_	11	mark	_	_
 10	îro	îro	ADV	adv	_	11	advmod	_	_
 11	dakeve	daketin	VERB	vblex	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
-12	bajêr	bajar	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	11	nmod:dat	_	SpaceAfter=No
+12	bajêr	bajar	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	11	obl:dat	_	SpaceAfter=No
 13	.	.	PUNCT	sent	_	1	punct	_	_
 
 # sent_id = sherlock:sherlock07.vislcg.txt:2:26
@@ -2244,7 +2244,7 @@
 8	tev	tev	ADV	adv	_	10	advmod	_	_
 9	de	de	ADP	post	AdpType=Post	8	fixed	_	_
 10	herin	çûn	VERB	vblex	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
-11	Stokmoranê	Stokmoran	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	nmod:dat	_	SpaceAfter=No
+11	Stokmoranê	Stokmoran	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	obl:dat	_	SpaceAfter=No
 12	.	.	PUNCT	sent	_	1	punct	_	_
 
 # sent_id = sherlock:sherlock07.vislcg.txt:4:72
@@ -2265,7 +2265,7 @@
 3	Hemîn	Hemîn	ADV	adv	_	5	advmod	_	_
 4	ez	ez	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 5	hatime	hatin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	parataxis	_	_
-6	bajêr	bajar	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	nmod:dat	_	SpaceAfter=No
+6	bajêr	bajar	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	obl:dat	_	SpaceAfter=No
 7	.	.	PUNCT	sent	_	1	punct	_	_
 
 # sent_id = sherlock:sherlock07.vislcg.txt:6:101
@@ -2289,7 +2289,7 @@
 15	ezê	ez	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
 16	ê	dê	PART	fut	Tense=Fut	17	aux	_	_
 17	vegerim	vegerîn	VERB	vblex	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	conj	_	_
-18	gund	gund	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	17	nmod:dat	_	SpaceAfter=No
+18	gund	gund	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	17	obl:dat	_	SpaceAfter=No
 19	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = sherlock:sherlock07.vislcg.txt:7:138
@@ -2361,7 +2361,7 @@
 16	,	,	PUNCT	cm	_	1	punct	_	_
 17	zencîrek	zencîr	NOUN	n	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	18	nsubj	_	_
 18	dikeve	ketin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
-19	erdê	erd	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	18	nmod:dat	_	SpaceAfter=No
+19	erdê	erd	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	18	obl:dat	_	SpaceAfter=No
 20	.	.	PUNCT	sent	_	1	punct	_	_
 
 # sent_id = sherlock:sherlock07.vislcg.txt:10:267
@@ -2401,7 +2401,7 @@
 10	dengekî	deng	NOUN	n	Case=Con|Gender=Masc|Number=Sing|PronType=Ind	12	nmod	_	_
 11	hişk	hişk	ADJ	adj	Degree=Pos	10	amod	_	_
 12	gote	gotin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-13	me	em	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	12	nmod:dat	_	SpaceAfter=No
+13	me	em	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	12	obl:dat	_	SpaceAfter=No
 14	:	:	PUNCT	sent	_	18	punct	_	_
 15	Kî	kî	PRON	prn	PronType=Int	18	nsubj	_	_
 16	ji	ji	ADP	pr	AdpType=Prep	17	case	_	_
@@ -2504,7 +2504,7 @@
 18	serma	serma	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	20	nsubj	_	_
 19	ne	ne	ADV	adv	Polarity=Neg	20	advmod	_	_
 20	dihate	hatin	VERB	vblex	Aspect=Prog|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	conj	_	_
-21	bîrê	bîr	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	20	nmod:dat	_	SpaceAfter=No
+21	bîrê	bîr	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	20	obl:dat	_	SpaceAfter=No
 22	.	.	PUNCT	sent	_	1	punct	_	_
 
 # sent_id = sherlock:sherlock08.vislcg.txt:2:44
@@ -2638,7 +2638,7 @@
 14	tewand	tewandin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	conj	_	_
 15	û	û	CCONJ	cnjcoo	_	16	cc	_	_
 16	gote	gotin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	conj	_	_
-17	Holmes	Holmes	PROPN	np	Case=Acc|Gender=Masc|Number=Sing	16	nmod:dat	_	_
+17	Holmes	Holmes	PROPN	np	Case=Acc|Gender=Masc|Number=Sing	16	obl:dat	_	_
 18	«	«	PUNCT	lquot	_	11	punct	_	SpaceAfter=No
 19	Carekê	car	NOUN	n	Case=Con|Gender=Fem|Number=Sing|PronType=Ind	24	nmod	_	_
 20	din	din	ADJ	adj	_	19	amod	_	_
@@ -2656,7 +2656,7 @@
 32	»	»	PUNCT	rquot	_	11	punct	_	_
 33	hesin	hesin	NOUN	n	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	34	obj	_	_
 34	avête	avêtin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	conj	_	_
-35	tifikê	tifik	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	34	nmod:dat	_	_
+35	tifikê	tifik	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	34	obl:dat	_	_
 36	û	û	CCONJ	cnjcoo	_	39	cc	_	_
 37	terka	terk	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	39	compound:lvc	_	_
 38	me	em	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	37	nmod:poss	_	_
@@ -2670,7 +2670,7 @@
 1	Holmes	Holmes	PROPN	np	Case=Acc|Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	cm	_	3	punct	_	_
 3	gote	gotin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-4	min	ez	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	3	nmod:dat	_	SpaceAfter=No
+4	min	ez	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	3	obl:dat	_	SpaceAfter=No
 5	:	:	PUNCT	sent	_	7	punct	_	_
 6	Çi	çi	DET	prn	PronType=Int	7	det	_	_
 7	mirovekî	mirov	NOUN	n	Case=Con|Gender=Masc|Number=Sing|PronType=Ind	3	ccomp	_	_
@@ -2701,7 +2701,7 @@
 1	Niho	niha	ADV	adv	_	3	advmod	_	_
 2	em	em	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
 3	herin	çûn	VERB	vblex	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	oda	ode	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	3	nmod:dat	_	_
+4	oda	ode	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	3	obl:dat	_	_
 5	xwarinê	xwarin	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	4	nmod:poss	_	SpaceAfter=No
 6	,	,	PUNCT	cm	_	9	punct	_	_
 7	xwirîniya	xwirînî	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	9	obj	_	_
@@ -2715,7 +2715,7 @@
 13	jê	ji	ADP	pr	AdpType=Prep	14	case	_	_
 14	_	ew	PRON	prn	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	15	nmod	_	_
 15	herim	çûn	VERB	vblex	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
-16	civata	civat	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	15	nmod:dat	_	_
+16	civata	civat	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	15	obl:dat	_	_
 17	bijîşkan	bijîşk	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	16	nmod:poss	_	SpaceAfter=No
 18	.	.	PUNCT	sent	_	3	punct	_	_
 
@@ -2724,7 +2724,7 @@
 1	Wextê	wextê	SCONJ	cnjsub	_	3	mark	_	_
 2	Holmes	Holmes	PROPN	np	Case=Acc|Gender=Masc|Number=Sing	3	nsubj	_	_
 3	vegeriya bû	vegerîn	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin	8	advcl	_	_
-4	mal	mal	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	nmod:dat	_	_
+4	mal	mal	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	obl:dat	_	_
 5	saet	saet	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	nsubj	_	_
 6	jî	jî	PART	emph	_	8	advmod	_	_
 7	bû bû	bûn	AUX	vbcop	Mood=Ind|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin	8	cop	_	_
@@ -2735,7 +2735,7 @@
 # text = Holmes gote hevalê xwe Wetsin: Min wesiyetnama jinikê dît.
 1	Holmes	Holmes	PROPN	np	Case=Acc|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	gote	gotin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-3	hevalê	heval	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	2	nmod:dat	_	_
+3	hevalê	heval	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	2	obl:dat	_	_
 4	xwe	xwe	PRON	prn	Gender=Fem,Masc|Number=Plur,Sing|PronType=Prs|Reflex=Yes	3	nmod:poss	_	_
 5	Wetsin	Wetsin	PROPN	np	Case=Acc|Gender=Masc|Number=Sing	3	appos	_	SpaceAfter=No
 6	:	:	PUNCT	sent	_	10	punct	_	_
@@ -2807,7 +2807,7 @@
 7	gava	gava	SCONJ	cnjsub	_	9	mark	_	_
 8	em	em	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
 9	gihaştin	gihiştin	VERB	vblex	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	18	advcl	_	_
-10	gund	gund	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	9	nmod:dat	_	SpaceAfter=No
+10	gund	gund	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	9	obl:dat	_	SpaceAfter=No
 11	,	,	PUNCT	cm	_	18	punct	_	_
 12	em	em	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	_
 13	li	li	ADP	pr	AdpType=Prep	14	case	_	_
@@ -2843,7 +2843,7 @@
 42	berê	berê	ADV	adv	_	44	advmod	_	_
 43	xwe	xwe	PRON	prn	Gender=Fem,Masc|Number=Plur,Sing|PronType=Prs|Reflex=Yes	44	compound:lvc	_	_
 44	da	dan	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
-45	qesra	qesr	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	44	nmod:dat	_	_
+45	qesra	qesr	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	44	obl:dat	_	_
 46	Dr.	Dr.	NOUN	abbr	_	45	nmod:poss	_	_
 47	Rweylot	Rweylot	PROPN	np	Case=Acc|Gender=Masc|Number=Sing	46	flat	_	SpaceAfter=No
 48	.	.	PUNCT	sent	_	4	punct	_	_
@@ -2895,7 +2895,7 @@
 # text = Holmes gote erebeçî, em dixwazin hinekî jî bi peyarî herin, û em ji erebê peya bûn û me da nav zeviyan.
 1	Holmes	Holmes	PROPN	np	Case=Acc|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	gote	gotin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-3	erebeçî	erebeçî	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	nmod:dat	_	SpaceAfter=No
+3	erebeçî	erebeçî	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	obl:dat	_	SpaceAfter=No
 4	,	,	PUNCT	cm	_	6	punct	_	_
 5	em	em	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
 6	dixwazin	xwestin	VERB	vblex	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
@@ -2957,7 +2957,7 @@
 11	bi	bi	ADP	pr	AdpType=Prep	12	case	_	_
 12	ken	ken	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	_
 13	gote	gotin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	_
-14	me	em	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	13	nmod:dat	_	SpaceAfter=No
+14	me	em	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	13	obl:dat	_	SpaceAfter=No
 15	:	:	PUNCT	sent	_	9	punct	_	_
 16	Ez	ez	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
 17	bê	bê	ADP	pr	AdpType=Prep	18	case	_	_
@@ -2973,7 +2973,7 @@
 1	Dr.	Dr.	NOUN	abbr	_	3	nsubj	_	_
 2	Rweylot	Rweylot	PROPN	np	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
 3	çûye	çûn	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-4	bajêr	bajar	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	nmod:dat	_	_
+4	bajêr	bajar	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	obl:dat	_	_
 5	û	û	CCONJ	cnjcoo	_	8	cc	_	_
 6	beriya	berî	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	8	nmod	_	_
 7	êvarê	êvar	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	nmod:poss	_	_
@@ -3095,7 +3095,7 @@
 # text = Em gihaşti bûn lîwana ko deriyên her sê odan lê vedibûn, Holmes li wan nihêrt, oda pêjîn şanî wê da û gote Stonêrê: Ev oda te ye, a navîn oda xweha te a rehmetî, a siseyan jî oda Dr. e, ne we ye?
 1	Em	em	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 2	gihaşti bûn	gihaştin	VERB	vblex	Mood=Ind|Number=Plur|Person=1|Tense=Pqp|VerbForm=Fin	0	root	_	_
-3	lîwana	lîwan	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	2	nmod:dat	_	_
+3	lîwana	lîwan	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	2	obl:dat	_	_
 4	ko	ku	SCONJ	cnjsub	_	12	mark	_	_
 5	deriyên	derî	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Plur	11	nsubj	_	_
 6	her	her	DET	det	Gender=Fem,Masc|Number=Sing|PronType=Ind	8	det	_	_
@@ -3118,7 +3118,7 @@
 22	da	dan	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
 23	û	û	CCONJ	cnjcoo	_	24	cc	_	_
 24	gote	gotin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
-25	Stonêrê	Stonêr	PROPN	np	Case=Acc|Gender=Masc|Number=Sing	24	nmod:dat	_	SpaceAfter=No
+25	Stonêrê	Stonêr	PROPN	np	Case=Acc|Gender=Masc|Number=Sing	24	obl:dat	_	SpaceAfter=No
 26	:	:	PUNCT	sent	_	2	punct	_	_
 27	Ev	ev	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Plur,Sing|PronType=Dem	28	nsubj	_	_
 28	oda	ode	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	24	ccomp	_	_
@@ -3238,7 +3238,7 @@
 # text = Holmes gote Stonêrê: Niho min ji te divêt tu herî oda xwe, penceran bigirî û bidî ber, Stonêrê welê kir.
 1	Holmes	Holmes	PROPN	np	Case=Acc|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	gote	gotin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-3	Stonêrê	Stonêr	PROPN	np	Case=Acc|Gender=Fem|Number=Sing	2	nmod:dat	_	SpaceAfter=No
+3	Stonêrê	Stonêr	PROPN	np	Case=Acc|Gender=Fem|Number=Sing	2	obl:dat	_	SpaceAfter=No
 4	:	:	PUNCT	sent	_	9	punct	_	_
 5	Niho	niha	ADV	adv	_	9	advmod	_	_
 6	min	ez	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	9	nmod	_	_
@@ -3247,7 +3247,7 @@
 9	divêt	divêtin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
 10	tu	tu	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Sing|Person=2|PronType=Prs	11	nsubj	_	_
 11	herî	çûn	VERB	vblex	Mood=Sub|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
-12	oda	ode	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	11	nmod:dat	_	_
+12	oda	ode	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	11	obl:dat	_	_
 13	xwe	xwe	PRON	prn	Gender=Fem,Masc|Number=Plur,Sing|PronType=Prs|Reflex=Yes	12	nmod:poss	_	SpaceAfter=No
 14	,	,	PUNCT	cm	_	2	punct	_	_
 15	penceran	pencere	NOUN	n	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	16	obj	_	_
@@ -3296,7 +3296,7 @@
 16	netîce	netîce	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	18	obj	_	_
 17	ne	ne	ADV	adv	Polarity=Neg	18	advmod	_	_
 18	xiste	xistin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	_
-19	destên	dest	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Plur	18	nmod:dat	_	_
+19	destên	dest	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Plur	18	obl:dat	_	_
 20	xwe	xwe	PRON	prn	Gender=Fem,Masc|Number=Plur,Sing|PronType=Prs|Reflex=Yes	19	nmod:poss	_	SpaceAfter=No
 21	.	.	PUNCT	sent	_	9	punct	_	_
 
@@ -3407,7 +3407,7 @@
 9	da	dan	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 10	û	û	CCONJ	cnjcoo	_	11	cc	_	_
 11	gote	gotin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	_
-12	banû	banû	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	nmod:dat	_	_
+12	banû	banû	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	obl:dat	_	_
 13	Stonêrê	Stonêr	PROPN	np	Case=Con|Gender=Masc|Number=Sing	12	flat	_	SpaceAfter=No
 14	.	.	PUNCT	sent	_	9	punct	_	_
 
@@ -3599,7 +3599,7 @@
 14	dîwarê	dîwar	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	20	nmod	_	_
 15	ko	ku	SCONJ	cnjsub	_	16	mark	_	_
 16	dide	dan	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl	_	_
-17	bexçê	bexçe	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	16	nmod:dat	_	_
+17	bexçê	bexçe	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	16	obl:dat	_	_
 18	de	de	ADP	post	AdpType=Post	14	case	_	_
 19	bihata	hatin	VERB	vblex	Mood=Opt|Number=Sing|Person=3|VerbForm=Fin	20	aux	_	_
 20	çêkirin	çêkirin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
@@ -3610,7 +3610,7 @@
 25	dîwarê	dîwar	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	14	conj	_	_
 26	ko	ku	SCONJ	cnjsub	_	27	mark	_	_
 27	dide	dan	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	acl	_	_
-28	odeke	ode	NOUN	n	Case=Con|Gender=Fem|Number=Sing|PronType=Ind	27	nmod:dat	_	_
+28	odeke	ode	NOUN	n	Case=Con|Gender=Fem|Number=Sing|PronType=Ind	27	obl:dat	_	_
 29	din	din	ADJ	adj	_	28	amod	_	_
 30	....	....	PUNCT	sent	_	20	punct	_	_
 
@@ -3925,7 +3925,7 @@
 11	rabû	rabûn	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 12	û	û	CCONJ	cnjcoo	_	13	cc	_	_
 13	gote	gotin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	conj	_	_
-14	haziran	hazir	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	13	nmod:dat	_	SpaceAfter=No
+14	haziran	hazir	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	13	obl:dat	_	SpaceAfter=No
 15	:	:	PUNCT	sent	_	11	punct	_	_
 16	Ev	ev	DET	det	Case=Nom|Gender=Fem,Masc|Number=Plur,Sing|PronType=Dem	17	det	_	_
 17	şelît	şelît	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	19	nsubj	_	SpaceAfter=No
@@ -4029,7 +4029,7 @@
 # text = Holmes gote banû Stonêrê: Divêt tu qenc guh bidî gotinên min û bi şîretên min ve biçî.
 1	Holmes	Holmes	PROPN	np	Case=Acc|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	gote	gotin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-3	banû	banû	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nmod:dat	_	_
+3	banû	banû	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	obl:dat	_	_
 4	Stonêrê	Stonêr	PROPN	np	Case=Acc|Gender=Fem|Number=Sing	3	flat	_	SpaceAfter=No
 5	:	:	PUNCT	sent	_	6	punct	_	_
 6	Divêt	divêtin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
@@ -4122,7 +4122,7 @@
 6	tiştek	tişt	NOUN	n	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	8	obj	_	_
 7	ne	ne	ADV	adv	Polarity=Neg	8	advmod	_	_
 8	gote	gotin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-9	min	ez	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	8	nmod:dat	_	SpaceAfter=No
+9	min	ez	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	8	obl:dat	_	SpaceAfter=No
 10	.	.	PUNCT	sent	_	8	punct	_	_
 
 # sent_id = sherlock:sherlock14.vislcg.txt:2:20
@@ -4139,7 +4139,7 @@
 10	temamî	temamî	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	case	_	_
 11	ne	ne	ADV	adv	Polarity=Neg	12	advmod	_	_
 12	ketine	ketin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	parataxis	_	_
-13	destên	dest	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Plur	12	nmod:dat	_	_
+13	destên	dest	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Plur	12	obl:dat	_	_
 14	min	ez	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	13	nmod:poss	_	SpaceAfter=No
 15	.	.	PUNCT	sent	_	1	punct	_	_
 
@@ -4212,7 +4212,7 @@
 17	bixwazî	xwestin	VERB	vblex	Mood=Sub|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
 18	û	û	CCONJ	cnjcoo	_	19	cc	_	_
 19	herî	çûn	VERB	vblex	Mood=Sub|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	17	conj	_	_
-20	oda	ode	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	19	nmod:dat	_	_
+20	oda	ode	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	19	obl:dat	_	_
 21	ko	ku	SCONJ	cnjsub	_	27	mark	_	_
 22	berê	berê	ADV	adv	_	27	advmod	_	_
 23	tu	tu	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Sing|Person=2|PronType=Prs	27	nsubj	_	_
@@ -4250,13 +4250,13 @@
 17	awayi	awa	NOUN	n	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	19	nmod	_	_
 18	elam	elam	NOUN	n	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	19	compound:lvc	_	_
 19	bidî	dan	VERB	vblex	Mood=Sub|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	conj	_	_
-20	me	em	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	19	nmod:dat	_	_
+20	me	em	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	19	obl:dat	_	_
 21	ko	ku	SCONJ	cnjsub	_	25	mark	_	_
 22	Dr.	Dr.	NOUN	abbr	_	25	nsubj	_	_
 23	Rweylot	Rweylot	PROPN	np	Case=Acc|Gender=Masc|Number=Sing	22	flat	_	_
 24	xwe	xwe	PRON	prn	Gender=Fem,Masc|Number=Plur,Sing|PronType=Prs|Reflex=Yes	25	obj	_	_
 25	kişandiye	kişandin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	ccomp	_	_
-26	oda	ode	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	25	nmod:dat	_	_
+26	oda	ode	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	25	obl:dat	_	_
 27	xwe	xwe	PRON	prn	Gender=Fem,Masc|Number=Plur,Sing|PronType=Prs|Reflex=Yes	26	nmod:poss	_	SpaceAfter=No
 28	.	.	PUNCT	sent	_	11	punct	_	_
 
@@ -4315,7 +4315,7 @@
 # text = Em vegeriya bûn otêlê û me li riya Dr. Rweylot dipan.
 1	Em	em	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 2	vegeriya bûn	vegerîn	VERB	vblex	Mood=Ind|Number=Plur|Person=1|Tense=Pqp|VerbForm=Fin	0	root	_	_
-3	otêlê	otêl	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	nmod:dat	_	_
+3	otêlê	otêl	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	obl:dat	_	_
 4	û	û	CCONJ	cnjcoo	_	10	cc	_	_
 5	me	em	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
 6	li	li	ADP	pr	AdpType=Prep	7	case	_	_
@@ -4342,7 +4342,7 @@
 13	berê	berê	ADV	adv	_	15	advmod	_	_
 14	xwe	xwe	PRON	prn	Gender=Fem,Masc|Number=Plur,Sing|PronType=Prs|Reflex=Yes	15	obj	_	_
 15	da	dan	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
-16	qesirê	qesir	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	15	nmod:dat	_	SpaceAfter=No
+16	qesirê	qesir	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	15	obl:dat	_	SpaceAfter=No
 17	.	.	PUNCT	sent	_	3	punct	_	_
 
 # sent_id = sherlock:sherlock14.vislcg.txt:14:385
@@ -4393,12 +4393,12 @@
 2	ev	ev	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Plur,Sing|PronType=Dem	4	obj	_	_
 3	hemî	hemî	ADV	adv	_	4	advmod	_	_
 4	digihandin	gihandin	VERB	vblex	Aspect=Prog|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-5	hev	hev	PRON	prn	Gender=Fem,Masc|Number=Plur,Sing|PronType=Prs|Reflex=Yes	4	nmod:dat	_	_
+5	hev	hev	PRON	prn	Gender=Fem,Masc|Number=Plur,Sing|PronType=Prs|Reflex=Yes	4	obl:dat	_	_
 6	lê	lê	CCONJ	cnjcoo	_	4	cc	_	_
 7	em	em	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
 8	ne	ne	ADV	adv	Polarity=Neg	9	advmod	_	_
 9	digihaştin	gihiştin	VERB	vblex	Aspect=Prog|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	4	conj	_	_
-10	netîcekê	netîce	NOUN	n	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	9	nmod:dat	_	SpaceAfter=No
+10	netîcekê	netîce	NOUN	n	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	9	obl:dat	_	SpaceAfter=No
 11	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = sherlock:sherlock15.vislcg.txt:2:22
@@ -4436,7 +4436,7 @@
 # text = Holmes gote min, ev e îşaret, ji oda navîn têt.
 1	Holmes	Holmes	PROPN	np	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	gote	gotin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-3	min	ez	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	2	nmod:dat	_	SpaceAfter=No
+3	min	ez	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	2	obl:dat	_	SpaceAfter=No
 4	,	,	PUNCT	cm	_	3	punct	_	_
 5	ev	ev	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Plur,Sing|PronType=Dem	7	nsubj	_	_
 6	e	bûn	AUX	vbcop	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
@@ -4471,7 +4471,7 @@
 6	ji	ji	ADP	pr	AdpType=Prep	7	case	_	_
 7	daran	dar	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	8	nmod	_	_
 8	avêt	avêtin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-9	erdê	erd	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	8	nmod:dat	_	SpaceAfter=No
+9	erdê	erd	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	8	obl:dat	_	SpaceAfter=No
 10	,	,	PUNCT	cm	_	8	punct	_	_
 11	di	di	ADP	pr	AdpType=Prep	13	case	_	_
 12	nav	nav	NOUN	n	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	11	fixed	_	_
@@ -4491,7 +4491,7 @@
 # text = Min gote Holmes: Te dît?...
 1	Min	ez	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	gote	gotin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-3	Holmes	Holmes	PROPN	np	Case=Acc|Gender=Masc|Number=Sing	2	nmod:dat	_	SpaceAfter=No
+3	Holmes	Holmes	PROPN	np	Case=Acc|Gender=Masc|Number=Sing	2	obl:dat	_	SpaceAfter=No
 4	:	:	PUNCT	sent	_	2	punct	_	_
 5	Te	tu	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	_
 6	dît	dîtin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
@@ -4542,7 +4542,7 @@
 3	rakir	rakirin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	û	û	CCONJ	cnjcoo	_	3	cc	_	_
 5	ket	ketin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
-6	hundir	hundir	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	nmod:dat	_	SpaceAfter=No
+6	hundir	hundir	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	obl:dat	_	SpaceAfter=No
 7	.	.	PUNCT	sent	_	3	punct	_	_
 
 # sent_id = sherlock:sherlock15.vislcg.txt:12:257
@@ -4570,7 +4570,7 @@
 14	û	û	CCONJ	cnjcoo	_	13	cc	_	_
 15	hêdîka	hêdîka	ADV	adv	_	16	advmod	_	_
 16	gote	gotin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
-17	min	ez	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	16	nmod:dat	_	SpaceAfter=No
+17	min	ez	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	16	obl:dat	_	SpaceAfter=No
 18	:	:	PUNCT	sent	_	3	punct	_	_
 19	dengekî	deng	NOUN	n	Case=Con|Gender=Masc|Number=Sing|PronType=Ind	26	nsubj	_	_
 20	piçûk	piçûk	ADJ	adj	Degree=Pos	19	amod	_	_
@@ -4835,7 +4835,7 @@
 # text = Di vê navê de Holmes jî ji cih rabû, kibrîtek pêxist û bi rotikê xwe çend caran li werîsê ko di kulekê re dadiket odê, xist.
 1	Di	di	ADP	pr	AdpType=Prep	2	case	_	_
 2	vê	ev	DET	det	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
-3	navê	nav	NOUN	n	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	9	nmod:dat	_	_
+3	navê	nav	NOUN	n	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	9	obl:dat	_	_
 4	de	de	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	case	_	_
 5	Holmes	Holmes	PROPN	np	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
 6	jî	jî	PART	emph	_	9	advmod	_	_
@@ -4858,7 +4858,7 @@
 23	kulekê	kulek	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	25	nmod	_	_
 24	re	re	ADP	post	AdpType=Post	23	case	_	_
 25	dadiket	daketin	VERB	vblex	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	acl	_	_
-26	odê	ode	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	25	nmod:dat	_	SpaceAfter=No
+26	odê	ode	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	25	obl:dat	_	SpaceAfter=No
 27	,	,	PUNCT	cm	_	28	punct	_	_
 28	xist	xistin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	SpaceAfter=No
 29	.	.	PUNCT	sent	_	28	punct	_	_
@@ -4869,7 +4869,7 @@
 2	bi	bi	ADP	pr	AdpType=Prep	3	case	_	_
 3	hiyecan	hiyecan	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	_
 4	gote	gotin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-5	min	ez	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	4	nmod:dat	_	SpaceAfter=No
+5	min	ez	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	4	obl:dat	_	SpaceAfter=No
 6	:	:	PUNCT	sent	_	8	punct	_	_
 7	Te	tu	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=2|PronType=Prs	8	nsubj	_	_
 8	dît	dîtin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	ccomp	_	_
@@ -4951,7 +4951,7 @@
 12	oda	ode	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	11	nmod:poss	_	_
 13	me	em	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	12	nmod:poss	_	_
 14	digihande	gihandin	VERB	vblex	Aspect=Prog|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	acl	_	_
-15	oda	ode	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	14	nmod:dat	_	_
+15	oda	ode	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	14	obl:dat	_	_
 16	Dr.	Dr.	NOUN	abbr	_	15	nmod:poss	_	_
 17	Rweylot	Rweylot	PROPN	np	Case=Nom|Gender=Masc|Number=Sing	16	appos	_	SpaceAfter=No
 18	.	.	PUNCT	sent	_	4	punct	_	_
@@ -5031,7 +5031,7 @@
 3	xwe	xwe	PRON	prn	Gender=Fem,Masc|Number=Plur,Sing|PronType=Prs|Reflex=Yes	2	nmod:poss	_	_
 4	em	em	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
 5	herin	çûn	VERB	vblex	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_
-6	oda	ode	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	5	nmod:dat	_	_
+6	oda	ode	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	5	obl:dat	_	_
 7	Dr.	Dr.	NOUN	abbr	_	6	nmod:poss	_	_
 8	Rweylot	Rweylot	PROPN	np	Case=Nom|Gender=Masc|Number=Sing	7	appos	_	SpaceAfter=No
 9	.	.	PUNCT	sent	_	1	punct	_	_
@@ -5054,7 +5054,7 @@
 14	berê	berê	ADV	adv	_	16	advmod	_	_
 15	xwe	xwe	PRON	prn	Gender=Fem,Masc|Number=Plur,Sing|PronType=Prs|Reflex=Yes	16	obj	_	_
 16	da	dan	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
-17	oda	ode	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	16	nmod:dat	_	_
+17	oda	ode	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	16	obl:dat	_	_
 18	Dr.	Dr.	NOUN	abbr	_	17	nmod:poss	_	_
 19	Rweylot	Rweylot	PROPN	np	Case=Acc|Gender=Masc|Number=Sing	18	flat	_	SpaceAfter=No
 20	.	.	PUNCT	sent	_	3	punct	_	_
@@ -5082,7 +5082,7 @@
 4	û	û	CCONJ	cnjcoo	_	6	cc	_	_
 5	em	em	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
 6	ketin	ketin	VERB	vblex	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	3	conj	_	_
-7	hundir	hundir	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	nmod:dat	_	SpaceAfter=No
+7	hundir	hundir	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	obl:dat	_	SpaceAfter=No
 8	.	.	PUNCT	sent	_	3	punct	_	_
 
 # sent_id = sherlock:sherlock17.vislcg.txt:14:288
@@ -5104,7 +5104,7 @@
 7	şewqa	şewq	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	9	obj	_	_
 8	xwe	xwe	PRON	prn	Gender=Fem,Masc|Number=Plur,Sing|PronType=Prs|Reflex=Yes	7	nmod:poss	_	_
 9	dida	dan	VERB	vblex	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
-10	dolaba	dolab	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	9	nmod:dat	_	_
+10	dolaba	dolab	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	9	obl:dat	_	_
 11	vekirî	vekirin	VERB	vblex	Tense=Past|VerbForm=Part	10	acl	_	SpaceAfter=No
 12	.	.	PUNCT	sent	_	5	punct	_	_
 
@@ -5126,7 +5126,7 @@
 14	milên	mil	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Plur	16	obj	_	_
 15	xwe	xwe	PRON	prn	Gender=Fem,Masc|Number=Plur,Sing|PronType=Prs|Reflex=Yes	14	nmod:poss	_	_
 16	berda bûn	berdan	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Pqp|VerbForm=Fin	10	conj	_	_
-17	kêlekên	kêlek	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Plur	16	nmod:dat	_	_
+17	kêlekên	kêlek	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Plur	16	obl:dat	_	_
 18	xwe	xwe	PRON	prn	Gender=Fem,Masc|Number=Plur,Sing|PronType=Prs|Reflex=Yes	17	nmod:poss	_	SpaceAfter=No
 19	;	;	PUNCT	sent	_	22	punct	_	_
 20	serê	ser	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	22	nsubj	_	_
@@ -5188,7 +5188,7 @@
 # text = Holmes gote min: Ev e şelîta belek.
 1	Holmes	Holmes	PROPN	np	Case=Acc|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	gote	gotin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-3	min	ez	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	2	nmod:dat	_	SpaceAfter=No
+3	min	ez	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	2	obl:dat	_	SpaceAfter=No
 4	:	:	PUNCT	sent	_	5	punct	_	_
 5	Ev	ev	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Plur,Sing|PronType=Dem	2	ccomp	_	_
 6	e	bûn	AUX	vbcop	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -5250,7 +5250,7 @@
 # text = Holmes gote min: Ev marekî teqanan e.
 1	Holmes	Holmes	PROPN	np	Case=Acc|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	gote	gotin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-3	min	ez	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	2	nmod:dat	_	SpaceAfter=No
+3	min	ez	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	2	obl:dat	_	SpaceAfter=No
 4	:	:	PUNCT	sent	_	6	punct	_	_
 5	Ev	ev	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Plur,Sing|PronType=Dem	6	nsubj	_	_
 6	marekî	mar	NOUN	n	Case=Con|Gender=Masc|Number=Sing|PronType=Ind	2	ccomp	_	_
@@ -5294,13 +5294,13 @@
 1	Em	em	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
 2	wî	ew	PRON	prn	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
 3	vegerînin	vegerandin	VERB	vblex	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	cihê	cih	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	3	nmod:dat	_	_
+4	cihê	cih	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	3	obl:dat	_	_
 5	wî	ew	PRON	prn	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nmod:poss	_	_
 6	û	û	CCONJ	cnjcoo	_	9	cc	_	_
 7	banû	banû	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	obj	_	_
 8	Stonêrê	Stonêr	PROPN	np	Case=Con|Gender=Masc|Number=Sing	7	flat	_	_
 9	bibin	birin	VERB	vblex	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
-10	cihekî	cih	NOUN	n	Case=Con|Gender=Masc|Number=Sing|PronType=Ind	9	nmod:dat	_	_
+10	cihekî	cih	NOUN	n	Case=Con|Gender=Masc|Number=Sing|PronType=Ind	9	obl:dat	_	_
 11	bi-emniyet	bi-emniyet	ADJ	adj	Degree=Pos	10	amod	_	SpaceAfter=No
 12	.	.	PUNCT	sent	_	3	punct	_	_
 
@@ -5319,7 +5319,7 @@
 11	û	û	CCONJ	cnjcoo	_	13	cc	_	_
 12	ew	ew	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
 13	avête	avêtin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
-14	stoyê	stu	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	13	nmod:dat	_	_
+14	stoyê	stu	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	13	obl:dat	_	_
 15	mar	mar	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	14	nmod:poss	_	_
 16	û	û	CCONJ	cnjcoo	_	20	cc	_	_
 17-18	pê	_	_	_	_	_	_	_	_
@@ -5367,7 +5367,7 @@
 2	Stonêr	Stonêr	PROPN	np	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
 3	jî	jî	PART	emph	_	4	advmod	_	_
 4	gihaşti bû	gihiştin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin	0	root	_	_
-5	selametê	selametê	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	4	nmod:dat	_	SpaceAfter=No
+5	selametê	selametê	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	4	obl:dat	_	SpaceAfter=No
 6	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = sherlock:sherlock18.vislcg.txt:14:294
@@ -5408,7 +5408,7 @@
 2	dîtir	dîtir	ADJ	adj	Degree=Pos	1	amod	_	_
 3	Holmes	Holmes	PROPN	np	Case=Acc|Gender=Masc|Number=Sing	4	nsubj	_	_
 4	gote	gotin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-5	min	ez	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	4	nmod:dat	_	SpaceAfter=No
+5	min	ez	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	4	obl:dat	_	SpaceAfter=No
 6	:	:	PUNCT	sent	_	12	punct	_	_
 7	Bêşik	Bêşik	ADV	adv	_	12	advmod	_	_
 8	te	tu	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=2|PronType=Prs	12	nsubj	_	_
@@ -5492,7 +5492,7 @@
 16	dikir	kirin	VERB	vblex	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	advcl	_	_
 17	mar	mar	NOUN	n	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	nsubj	_	_
 18	dihate	hatin	VERB	vblex	Aspect=Prog|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	conj	_	_
-19	cem	cem	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	18	nmod:dat	_	SpaceAfter=No
+19	cem	cem	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	18	obl:dat	_	SpaceAfter=No
 20	.	.	PUNCT	sent	_	11	punct	_	_
 
 # sent_id = sherlock:sherlock19.vislcg.txt:1:0
@@ -5682,7 +5682,7 @@
 23	û	û	CCONJ	cnjcoo	_	25	cc	_	_
 24	ew	ew	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	25	obj	_	_
 25	anî	anîn	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	conj	_	_
-26	oda	ode	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	25	nmod:dat	_	_
+26	oda	ode	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	25	obl:dat	_	_
 27	xweha	xweh	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	26	nmod:poss	_	_
 28	wê	ew	PRON	prn	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	nmod:poss	_	_
 29	da	da	SCONJ	cnjsub	_	31	mark	_	_
@@ -5730,7 +5730,7 @@
 6	qulê	qûle	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	8	nmod	_	_
 7	re	re	ADP	post	AdpType=Post	6	case	_	_
 8	daxiste	daxistin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-9	odê	ode	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	8	nmod:dat	_	SpaceAfter=No
+9	odê	ode	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	8	obl:dat	_	SpaceAfter=No
 10	.	.	PUNCT	sent	_	8	punct	_	_
 
 # sent_id = sherlock:sherlock19.vislcg.txt:13:409
@@ -6110,7 +6110,7 @@
 2	dibistana	dibistan	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	_
 3	amadehiyê	amadehî	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	nmod:poss	_	_
 4	derketiye	derketin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	0	root	_	_
-5	Germanistanê	Germanistan	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	4	nmod:dat	_	_
+5	Germanistanê	Germanistan	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	4	obl:dat	_	_
 6	ji	ji	X	x	_	7	dep	_	_
 7	bo	bo	ADP	pr	AdpType=Prep	8	case	_	_
 8	perwerdehîya	perwerdehî	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	_
@@ -6222,7 +6222,7 @@
 5	1991'ê	1991	NUM	num	NumType=Card	4	nmod:poss	_	_
 6	de	de	ADP	post	AdpType=Post	4	case	_	_
 7	çû	çûn	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-8	rehma	rehm	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	7	nmod:dat	_	_
+8	rehma	rehm	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	7	obl:dat	_	_
 9	xwedê	xwedê	NOUN	n	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	nmod:poss	_	SpaceAfter=No
 10	.	.	PUNCT	sent	_	7	punct	_	_
 
@@ -6409,7 +6409,7 @@
 8	careke	car	NOUN	n	Case=Con|Gender=Fem|Number=Sing|PronType=Ind	10	nmod	_	_
 9	din	din	ADJ	adj	_	8	amod	_	_
 10	vedigere	vegerîn	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
-11	Ermenistanê	Ermenistan	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	nmod:dat	_	SpaceAfter=No
+11	Ermenistanê	Ermenistan	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	obl:dat	_	SpaceAfter=No
 12	.	.	PUNCT	sent	_	5	punct	_	_
 
 # sent_id = wiki:wikibank.vislcg.txt:40:1046
@@ -6441,7 +6441,7 @@
 25	xwendina	xwendin	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	27	obj	_	_
 26	xwe	xwe	PRON	prn	Gender=Fem,Masc|Number=Plur,Sing|PronType=Prs|Reflex=Yes	25	nmod:poss	_	_
 27	nebir	birin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	22	conj	_	_
-28	serî	ser	NOUN	n	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	27	nmod:dat	_	SpaceAfter=No
+28	serî	ser	NOUN	n	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	27	obl:dat	_	SpaceAfter=No
 29	.	.	PUNCT	sent	_	22	punct	_	_
 
 # sent_id = wiki:wikibank.vislcg.txt:41:1105
@@ -7128,7 +7128,7 @@
 5	alîkariyê	alîkarî	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	obj	_	_
 6	werdigire	wergirtin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	derdikeve	derketin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
-8	sefera	sefer	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	7	nmod:dat	_	_
+8	sefera	sefer	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	7	obl:dat	_	_
 9	Ewropayê	ewropa	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	8	nmod:poss	_	SpaceAfter=No
 10	.	.	PUNCT	sent	_	6	punct	_	_
 
@@ -7271,7 +7271,7 @@
 7	1964	1964	NUM	num	NumType=Card	9	nmod	_	_
 8	hat	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
 9	şandine	şandin	VERB	vblex	VerbForm=Inf	0	root	_	_
-10	Tirkiye	Tirkiye	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	nmod:dat	_	_
+10	Tirkiye	Tirkiye	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	obl:dat	_	_
 11	sirgûnê	sirgûn	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	sent	_	9	punct	_	_
 
@@ -7285,7 +7285,7 @@
 6	babê	bab	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	5	nmod:poss	_	_
 7	xwe	xwe	PRON	prn	Gender=Fem,Masc|Number=Plur,Sing|PronType=Prs|Reflex=Yes	6	nmod:poss	_	_
 8	nedît	dîtin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	_
-9	ve	ev	PRON	prn	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	8	nmod:dat	_	SpaceAfter=No
+9	ve	ev	PRON	prn	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	8	obl:dat	_	SpaceAfter=No
 10	.	.	PUNCT	sent	_	8	punct	_	_
 
 # sent_id = wiki:wikibank.vislcg.txt:92:2538
@@ -7297,7 +7297,7 @@
 5	bala	bal	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	7	obj	_	_
 6	xwe	xwe	PRON	prn	Gender=Fem,Masc|Number=Plur,Sing|PronType=Prs|Reflex=Yes	5	nmod:poss	_	_
 7	dide	dan	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	gotûbêjên	gotûbêj	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Plur	7	nmod:dat	_	_
+8	gotûbêjên	gotûbêj	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Plur	7	obl:dat	_	_
 9	polîtîk	polîtîk	ADJ	adj	Degree=Pos	8	amod	_	SpaceAfter=No
 10	.	.	PUNCT	sent	_	7	punct	_	_
 
@@ -7402,7 +7402,7 @@
 7	Osmanîyan	Osmanî	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	6	nmod:poss	_	_
 8	de	de	ADP	post	AdpType=Post	6	case	_	_
 9	derbasê	derbas	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	0	root	_	_
-10	zimanê	ziman	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	9	nmod:dat	_	_
+10	zimanê	ziman	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	9	obl:dat	_	_
 11	kurdî	kurdî	ADJ	adj	_	10	amod	_	_
 12	bûye	bûn	AUX	vbcop	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	SpaceAfter=No
 13	.	.	PUNCT	sent	_	9	punct	_	_
@@ -7562,7 +7562,7 @@
 5	de	de	ADP	post	AdpType=Post	4	case	_	_
 6	giraniyê	giranî	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	obj	_	_
 7	dide	dan	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	konseran	konser	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	7	nmod:dat	_	SpaceAfter=No
+8	konseran	konser	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	7	obl:dat	_	SpaceAfter=No
 9	.	.	PUNCT	sent	_	7	punct	_	_
 
 # sent_id = wiki:wikibank.vislcg.txt:111:2997
@@ -8035,7 +8035,7 @@
 14	bi	bi	ADP	pr	AdpType=Prep	15	case	_	_
 15	hev	hev	PRON	prn	Gender=Fem,Masc|Number=Plur,Sing|PronType=Prs|Reflex=Yes	16	nmod	_	_
 16	re	ketin	VERB	vblex	Aspect=Prog|Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	_
-17	pêşbaziyê	pêşbazî	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	16	nmod:dat	_	SpaceAfter=No
+17	pêşbaziyê	pêşbazî	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	16	obl:dat	_	SpaceAfter=No
 18	.	.	PUNCT	sent	_	9	punct	_	_
 
 # sent_id = wiki:wikibank.vislcg.txt:139:3803
@@ -8099,12 +8099,12 @@
 7	kumê	kum	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	9	obj	_	_
 8	reş	reş	ADJ	adj	Degree=Pos	7	amod	_	_
 9	didin	dan	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
-10	serê	ser	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	9	nmod:dat	_	_
+10	serê	ser	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	9	obl:dat	_	_
 11	xwe	xwe	PRON	prn	Gender=Fem,Masc|Number=Plur,Sing|PronType=Prs|Reflex=Yes	10	nmod:poss	_	_
 12	şaşikeke	şaşik	NOUN	n	Case=Con|Gender=Fem|Number=Sing|PronType=Ind	14	obj	_	_
 13	sor	sor	ADJ	adj	Degree=Pos	12	amod	_	_
 14	didin	dan	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
-15	dora	dor	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	14	nmod:dat	_	_
+15	dora	dor	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	14	obl:dat	_	_
 16	kum	kum	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	15	nmod:poss	_	SpaceAfter=No
 17	.	.	PUNCT	sent	_	5	punct	_	_
 
@@ -8269,7 +8269,7 @@
 3	1983'an	1983	NUM	num	Case=Acc|Number=Plur|NumType=Card	2	nmod:poss	_	_
 4	de	de	ADP	post	AdpType=Post	2	case	_	_
 5	hatiye	hatin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-6	dinê	dinya	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	nmod:dat	_	_
+6	dinê	dinya	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	obl:dat	_	_
 7	û	û	CCONJ	cnjcoo	_	9	cc	_	_
 8	mamostetiyê	mamostetî	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	obj	_	_
 9	dike	kirin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	SpaceAfter=No
@@ -8299,7 +8299,7 @@
 6	li	li	ADP	pr	AdpType=Prep	7	case	_	_
 7	Şamê	Şam	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	8	nmod	_	_
 8	çû	çûn	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-9	rehmeta	rehmet	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	8	nmod:dat	_	_
+9	rehmeta	rehmet	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	8	obl:dat	_	_
 10	xwedê	xwedê	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	9	nmod:poss	_	SpaceAfter=No
 11	.	.	PUNCT	sent	_	8	punct	_	_
 
@@ -8346,7 +8346,7 @@
 9	û	û	CCONJ	cnjcoo	_	10	cc	_	_
 10	girîngî	girîngî	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	conj	_	_
 11	dide	dan	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-12	pîran	pîr	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	11	nmod:dat	_	SpaceAfter=No
+12	pîran	pîr	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	11	obl:dat	_	SpaceAfter=No
 13	.	.	PUNCT	sent	_	11	punct	_	_
 
 # sent_id = wiki:wikibank.vislcg.txt:157:4332
@@ -8544,7 +8544,7 @@
 15	dibistana	dibistan	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	12	conj	_	_
 16	amadehî	amadehî	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	15	nmod:poss	_	_
 17	diçin	çûn	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
-18	navçeya	navçe	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	17	nmod:dat	_	_
+18	navçeya	navçe	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	17	obl:dat	_	_
 19	Stewrê	Stewr	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	18	nmod:poss	_	SpaceAfter=No
 20	.	.	PUNCT	sent	_	8	punct	_	_
 
@@ -8662,14 +8662,14 @@
 2	zînê	zîn	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	1	nmod:poss	_	_
 3	diyariyek	diyarî	NOUN	n	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	4	obj	_	_
 4	da	dan	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-5	wê	ew	PRON	prn	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nmod:dat	_	_
+5	wê	ew	PRON	prn	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obl:dat	_	_
 6	û	û	CCONJ	cnjcoo	_	11	cc	_	_
 7	diya	dî	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	11	nsubj	_	_
 8	wê	ew	PRON	prn	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nmod:poss	_	_
 9	jî	jî	PART	emph	_	11	advmod	_	_
 10	diyariyek	diyarî	NOUN	n	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	11	obj	_	_
 11	da	dan	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
-12	wê	ew	PRON	prn	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nmod:dat	_	SpaceAfter=No
+12	wê	ew	PRON	prn	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obl:dat	_	SpaceAfter=No
 13	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = wiki:wikibank.vislcg.txt:178:4873
@@ -8728,7 +8728,7 @@
 6	malbata	malbat	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	5	nmod:poss	_	_
 7	xwe	xwe	PRON	prn	Gender=Fem,Masc|Number=Plur,Sing|PronType=Prs|Reflex=Yes	6	nmod:poss	_	_
 8	çû	çûn	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-9	akademiya	akademî	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	8	nmod:dat	_	_
+9	akademiya	akademî	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	8	obl:dat	_	_
 10	leşkerî	leşkerî	ADJ	adj	Degree=Pos	9	amod	_	_
 11	dûv	dûv	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	_
 12	re	re	ADP	post	AdpType=Post	11	case	_	_
@@ -8745,7 +8745,7 @@
 2	cîhana	cîhan	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	_
 3	magazînê	magazîn	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	nmod:poss	_	_
 4	derbasê	derbas	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	0	root	_	_
-5	televîzyonê	televîzyon	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	4	nmod:dat	_	_
+5	televîzyonê	televîzyon	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	4	obl:dat	_	_
 6	dibe	bûn	AUX	vbcop	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	SpaceAfter=No
 7	.	.	PUNCT	sent	_	4	punct	_	_
 
@@ -8915,7 +8915,7 @@
 1	Ji	ji	ADP	pr	AdpType=Prep	3	advmod	_	_
 2	wir	wir	ADV	adv	_	1	fixed	_	_
 3	derbasî	derbasî	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	_
-4	Zanîngeha	zanîngeh	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	3	nmod:dat	_	_
+4	Zanîngeha	zanîngeh	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	3	obl:dat	_	_
 5	New	New	PROPN	np	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nmod:poss	_	_
 6	Yorkê	York	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	fixed	_	_
 7	bûye	bûn	AUX	vbcop	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
@@ -8945,7 +8945,7 @@
 1	Hinek	hindek	DET	det	Gender=Fem,Masc|Number=Plur,Sing|PronType=Ind	9	nsubj	_	_
 2	ji	ji	ADP	pr	AdpType=Prep	4	case	_	_
 3	wan	ew	DET	det	Case=Acc|Gender=Fem,Masc|Number=Plur|PronType=Dem	4	det	_	_
-4	cûreyan	cûre	NOUN	n	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	1	nmod:dat	_	_
+4	cûreyan	cûre	NOUN	n	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	1	obl:dat	_	_
 5	xweser	xweser	ADJ	adj	Degree=Pos	4	amod	_	_
 6	li	li	ADP	pr	AdpType=Prep	7	case	_	_
 7	welatekî	welat	NOUN	n	Case=Con|Gender=Masc|Number=Sing|PronType=Ind	9	nmod	_	_
@@ -9180,7 +9180,7 @@
 9	xwe	xwe	PRON	prn	Gender=Fem,Masc|Number=Plur,Sing|PronType=Prs|Reflex=Yes	10	obj	_	_
 10	didin	dan	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	vî	ev	DET	det	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
-12	gundî	gund	NOUN	n	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	10	nmod:dat	_	_
+12	gundî	gund	NOUN	n	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	10	obl:dat	_	_
 13	ji	ji	X	x	_	14	dep	_	_
 14	bo	bo	ADP	pr	AdpType=Prep	15	case	_	_
 15	seyranê	seyran	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
@@ -9213,7 +9213,7 @@
 5	sala	sal	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	_
 6	1991'ê	1991	NUM	num	NumType=Card	5	nmod:poss	_	_
 7	vedigere	vegerîn	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	Tirkiyeyê	Tirkiyê	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	nmod:dat	_	SpaceAfter=No
+8	Tirkiyeyê	Tirkiyê	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	obl:dat	_	SpaceAfter=No
 9	.	.	PUNCT	sent	_	7	punct	_	_
 
 # sent_id = wiki:wikibank.vislcg.txt:212:5788
@@ -9278,7 +9278,7 @@
 5	ji	ji	ADP	pr	AdpType=Prep	6	case	_	_
 6	Fransayê	Fransa	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	_
 7	diçe	çûn	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	Belçîkayê	Belçîka	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	nmod:dat	_	SpaceAfter=No
+8	Belçîkayê	Belçîka	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	obl:dat	_	SpaceAfter=No
 9	.	.	PUNCT	sent	_	7	punct	_	_
 
 # sent_id = wiki:wikibank.vislcg.txt:216:5895
@@ -9429,7 +9429,7 @@
 5	tirkî	tirkî	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	conj	_	_
 6	çîrok	çîrok	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	7	obj	_	_
 7	wergerandine	wergerandin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-8	kurdî	kurdî	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	nmod:dat	_	SpaceAfter=No
+8	kurdî	kurdî	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	obl:dat	_	SpaceAfter=No
 9	.	.	PUNCT	sent	_	7	punct	_	_
 
 # sent_id = wiki:wikibank.vislcg.txt:226:6144
@@ -10219,7 +10219,7 @@
 3	herwiha	herwiha	ADV	adv	_	5	advmod	_	_
 4	jiyan	jiyan	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	obj	_	_
 5	da	dan	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-6	çanda	çand	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	5	nmod:dat	_	_
+6	çanda	çand	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	5	obl:dat	_	_
 7	herêmî	herêmî	ADJ	adj	Degree=Pos	6	amod	_	SpaceAfter=No
 8	.	.	PUNCT	sent	_	5	punct	_	_
 
@@ -10264,7 +10264,7 @@
 9	ku	ku	SCONJ	cnjsub	_	11	mark	_	_
 10	wî	ew	PRON	prn	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
 11	bişînin	şandin	VERB	vblex	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
-12	dibistaneke	dibistan	NOUN	n	Case=Con|Gender=Fem|Number=Sing|PronType=Ind	11	nmod:dat	_	_
+12	dibistaneke	dibistan	NOUN	n	Case=Con|Gender=Fem|Number=Sing|PronType=Ind	11	obl:dat	_	_
 13	muzîkê	muzîk	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	12	nmod:poss	_	SpaceAfter=No
 14	.	.	PUNCT	sent	_	8	punct	_	_
 
@@ -10296,7 +10296,7 @@
 5	giraniya	giranî	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	_
 6	wê	ew	PRON	prn	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nmod:poss	_	_
 7	derdikeve	derketin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	nêzikî	nêzîkî	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	nmod:dat	_	_
+8	nêzikî	nêzîkî	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	obl:dat	_	_
 9	3	3	NUM	num	NumType=Card	12	nummod	_	SpaceAfter=No
 10	-	-	PUNCT	guio	_	11	punct	_	SpaceAfter=No
 11	3,5	3,5	NUM	num	NumType=Card	9	conj	_	_
@@ -10785,7 +10785,7 @@
 5	4	4	NUM	num	NumType=Card	6	nummod	_	_
 6	parçe	parçe	NOUN	n	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	4	xcomp	_	_
 7	berdin	berdan	VERB	vblex	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	4	conj	_	_
-8	quşxaneyê	quşxane	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	nmod:dat	_	SpaceAfter=No
+8	quşxaneyê	quşxane	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	obl:dat	_	SpaceAfter=No
 9	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = wiki:wikibank.vislcg.txt:306:8441
@@ -10884,7 +10884,7 @@
 14	wan	ew	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Plur|PronType=Dem	13	nmod:poss	_	_
 15	Bawer	Bawer	PROPN	np	Case=Nom|Gender=Masc|Number=Sing	13	appos	_	_
 16	hat	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
-17	dinyayê	dinya	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	16	nmod:dat	_	SpaceAfter=No
+17	dinyayê	dinya	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	16	obl:dat	_	SpaceAfter=No
 18	.	.	PUNCT	sent	_	7	punct	_	_
 
 # sent_id = wiki:wikibank.vislcg.txt:313:8604
@@ -10898,7 +10898,7 @@
 7	de	de	ADP	post	AdpType=Post	5	case	_	SpaceAfter=No
 8	,	,	PUNCT	cm	_	9	punct	_	_
 9	hatiye	hatin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-10	Swêdê	Swêd	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	nmod:dat	_	SpaceAfter=No
+10	Swêdê	Swêd	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	obl:dat	_	SpaceAfter=No
 11	.	.	PUNCT	sent	_	9	punct	_	_
 
 # sent_id = wiki:wikibank.vislcg.txt:314:8627
@@ -10935,7 +10935,7 @@
 10	temamî	temamî	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	nmod	_	_
 11	xwe	xwe	PRON	prn	Gender=Fem,Masc|Number=Plur,Sing|PronType=Prs|Reflex=Yes	12	obj	_	_
 12	da	dan	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
-13	rêya	rê	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	12	nmod:dat	_	_
+13	rêya	rê	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	12	obl:dat	_	_
 14	dînî	dîn	NOUN	n	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	13	nmod:poss	_	SpaceAfter=No
 15	.	.	PUNCT	sent	_	7	punct	_	_
 
@@ -10992,7 +10992,7 @@
 5	tê	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	û	û	CCONJ	cnjcoo	_	7	cc	_	_
 7	digiheje	gihîştin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
-8	rûviya	rûvî	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	7	nmod:dat	_	_
+8	rûviya	rûvî	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	7	obl:dat	_	_
 9	stûr	stûr	ADJ	adj	Degree=Pos	8	amod	_	SpaceAfter=No
 10	.	.	PUNCT	sent	_	5	punct	_	_
 
@@ -11007,7 +11007,7 @@
 7	van	ev	DET	det	Case=Acc|Gender=Fem,Masc|Number=Plur|PronType=Dem	8	det	_	_
 8	rêzikan	rêzik	NOUN	n	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	9	nmod	_	_
 9	tîne	anîn	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-10	ziman	ziman	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	9	nmod:dat	_	SpaceAfter=No
+10	ziman	ziman	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	9	obl:dat	_	SpaceAfter=No
 11	.	.	PUNCT	sent	_	9	punct	_	_
 
 # sent_id = wiki:wikibank.vislcg.txt:321:8810
@@ -11158,7 +11158,7 @@
 3	1977an	1977	NUM	num	Case=Acc|Number=Plur|NumType=Card	2	nmod:poss	_	_
 4	de	de	ADP	post	AdpType=Post	2	case	_	_
 5	hat	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-6	Almanyayê	Almanya	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	nmod:dat	_	_
+6	Almanyayê	Almanya	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	obl:dat	_	_
 7	û	û	CCONJ	cnjcoo	_	13	cc	_	_
 8	nêzîkî	nêzîkî	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	_
 9	salekê	sal	NOUN	n	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	13	nmod	_	_
@@ -11536,7 +11536,7 @@
 4	,	,	PUNCT	cm	_	6	punct	_	_
 5	ew	ew	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 6	gihîştiye	gihîştin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	3	ccomp	_	_
-7	nêrîneke	nêrîn	NOUN	n	Case=Con|Gender=Fem|Number=Sing|PronType=Ind	6	nmod:dat	_	_
+7	nêrîneke	nêrîn	NOUN	n	Case=Con|Gender=Fem|Number=Sing|PronType=Ind	6	obl:dat	_	_
 8	taybet	taybet	ADJ	adj	Degree=Pos	7	amod	_	_
 9	bo	bo	ADP	pr	AdpType=Prep	10	case	_	_
 10	xwe	xwe	PRON	prn	Gender=Fem,Masc|Number=Plur,Sing|PronType=Prs|Reflex=Yes	7	nmod	_	SpaceAfter=No
@@ -12036,7 +12036,7 @@
 5	de	de	ADP	post	AdpType=Post	2	case	_	SpaceAfter=No
 6	,	,	PUNCT	cm	_	7	punct	_	_
 7	vedigere	vegerîn	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	Yêrêvanê	Yêrêvan	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	nmod:dat	_	SpaceAfter=No
+8	Yêrêvanê	Yêrêvan	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	obl:dat	_	SpaceAfter=No
 9	,	,	PUNCT	cm	_	7	punct	_	_
 10	mala	mal	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	8	conj	_	_
 11	xwe	xwe	PRON	prn	Gender=Fem,Masc|Number=Plur,Sing|PronType=Prs|Reflex=Yes	10	nmod:poss	_	_
@@ -12123,7 +12123,7 @@
 9	dibe	bûn	AUX	vbcop	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 10	û	û	CCONJ	cnjcoo	_	11	cc	_	_
 11	diçe	çûn	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
-12	Tirkiyê	Tirkiye	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	11	nmod:dat	_	SpaceAfter=No
+12	Tirkiyê	Tirkiye	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	11	obl:dat	_	SpaceAfter=No
 13	.	.	PUNCT	sent	_	8	punct	_	_
 
 # sent_id = wiki:wikibank.vislcg.txt:386:10705
@@ -12204,7 +12204,7 @@
 4	bi	bi	ADP	pr	AdpType=Prep	5	case	_	_
 5	şevê	şev	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	_
 6	diçe	çûn	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl	_	_
-7	Astara	Astara	PROPN	np	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nmod:dat	_	_
+7	Astara	Astara	PROPN	np	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	obl:dat	_	_
 8	û	û	CCONJ	cnjcoo	_	11	cc	_	_
 9	ji	ji	ADP	pr	AdpType=Prep	10	case	_	_
 10	vir	vir	ADV	adv	_	11	nmod	_	_

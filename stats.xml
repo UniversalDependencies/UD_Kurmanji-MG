@@ -105,12 +105,12 @@
     <dep name="flat">119</dep>
     <dep name="mark">181</dep>
     <dep name="nmod">1155</dep>
-    <dep name="nmod:dat">115</dep>
     <dep name="nmod:poss">945</dep>
     <dep name="nsubj">823</dep>
     <dep name="nummod">78</dep>
     <dep name="obj">333</dep>
     <dep name="obl">7</dep>
+    <dep name="obl:dat">115</dep>
     <dep name="orphan">2</dep>
     <dep name="parataxis">72</dep>
     <dep name="punct">1279</dep>

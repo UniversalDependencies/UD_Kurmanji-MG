@@ -187,7 +187,7 @@
 4	dema	dema	SCONJ	cnjsub	_	6	mark	_	_
 5	dîl	dîl	NOUN	n	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	compound:lvc	_	_
 6	dikeve	ketin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	advcl	_	_
-7	destê	dest	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	6	nmod:dat	_	_
+7	destê	dest	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	6	obl:dat	_	_
 8	îngilîzan	îngilîz	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	7	nmod:poss	_	_
 9	ji	ji	ADP	pr	AdpType=Prep	10	case	_	_
 10	aliyê	alî	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	_
