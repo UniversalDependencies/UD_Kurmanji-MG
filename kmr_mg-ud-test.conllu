@@ -797,8 +797,8 @@
 
 # sent_id = sherlock:sherlock02.vislcg.txt:19:521
 # text = Dr. Rweylot gava li Hindistanê bû diya min biya gênêral Stonêr, ji xwe re anî bû.
-1	Dr.	Dr.	NOUN	abbr	_	2	compound:nn	_	_
-2	Rweylot	Rweylot	PROPN	np	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+1	Dr.	Dr.	NOUN	abbr	_	16	nsubj	_	_
+2	Rweylot	Rweylot	PROPN	np	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
 3	gava	gava	SCONJ	cnjsub	_	5	mark	_	_
 4	li	li	ADP	pr	AdpType=Prep	5	case	_	_
 5	Hindistanê	Hindistan	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	16	advcl	_	_
