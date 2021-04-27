@@ -23,6 +23,7 @@ If you use this treebank in your work, please cite:
 
 * 2021-05-15 v2.8
   * The oblique case is labeled Case=Acc following the UD guidelines.
+  * Removed undocumented relation subtype case:circ (2 occurrences).
 * 2018-04-15 v2.2
   * Repository renamed from UD_Kurmanji to UD_Kurmanji-MG.
 * 2017-11-15 v2.1

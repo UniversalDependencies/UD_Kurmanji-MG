@@ -79,7 +79,7 @@
     <feat name="VerbForm" value="Part" upos="VERB">13</feat><!-- mirî, qewimî, bû, dagirtî, daliqandî, diyarkirî, dîti, girtî, keti, parastî -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="37">
+  <deps unique="36">
     <dep name="acl">68</dep>
     <dep name="advcl">72</dep>
     <dep name="advmod">344</dep>
@@ -87,8 +87,7 @@
     <dep name="amod">301</dep>
     <dep name="appos">30</dep>
     <dep name="aux">147</dep>
-    <dep name="case">1527</dep>
-    <dep name="case:circ">2</dep>
+    <dep name="case">1529</dep>
     <dep name="cc">364</dep>
     <dep name="ccomp">138</dep>
     <dep name="compound">5</dep>
