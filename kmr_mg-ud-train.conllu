@@ -7,10 +7,10 @@
 5	bêje	gotin	VERB	vblex	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	advcl	_	_
 6	Mîrê	mîr	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	5	obj	_	_
 7	Botan	Botan	PROPN	np	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	flat	_	SpaceAfter=No
-8	,	,	PUNCT	cm	_	21	punct	_	_
+8	,	,	PUNCT	cm	_	5	punct	_	_
 9	hingî	hingî	ADV	adv	_	21	advmod	_	_
 10	jî	jî	PART	emph	_	21	advmod	_	SpaceAfter=No
-11	,	,	PUNCT	cm	_	21	punct	_	_
+11	,	,	PUNCT	cm	_	10	punct	_	_
 12	mirov	mirov	NOUN	n	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	21	nsubj	_	_
 13	behsa	behs	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	21	obj	_	_
 14	mîrê	mîr	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	13	nmod:poss	_	_
@@ -32,7 +32,7 @@
 5	derê	der	NOUN	n	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	7	nmod	_	_
 6	nayê	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	7	aux	_	_
 7	dîtin	dîtin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
-8	,	,	PUNCT	cm	_	7	punct	_	_
+8	,	,	PUNCT	cm	_	21	punct	_	_
 9	li	li	ADP	pr	AdpType=Prep	11	case	_	_
 10	hinek	hindek	DET	det	Gender=Fem,Masc|Number=Plur,Sing|PronType=Ind	11	det	_	_
 11	çiyayan	çiya	NOUN	n	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	21	nmod	_	_
@@ -40,7 +40,7 @@
 13	wekî	wekî	ADP	pr	AdpType=Prep	14	case	_	_
 14	Çiyayê	çiya	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	_
 15	Stewrê	Stewr	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	14	nmod:poss	_	SpaceAfter=No
-16	)	)	PUNCT	rpar	_	21	punct	_	_
+16	)	)	PUNCT	rpar	_	14	punct	_	_
 17	li	li	ADP	pr	AdpType=Prep	19	case	_	_
 18	hinek	hindek	DET	det	Gender=Fem,Masc|Number=Plur,Sing|PronType=Ind	19	det	_	_
 19	herêman	herêm	NOUN	n	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	21	nmod	_	_
@@ -82,7 +82,7 @@
 1	Piştî	piştî	ADP	pr	AdpType=Prep	2	case	_	_
 2	sedsala	sedsal	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	8	nmod	_	_
 3	17'emîn	17	NUM	num	NumType=Card	2	nummod	_	SpaceAfter=No
-4	,	,	PUNCT	cm	_	8	punct	_	_
+4	,	,	PUNCT	cm	_	2	punct	_	_
 5	xebatên	xebat	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Plur	8	nsubj	_	_
 6	elektrîkê	elektrîk	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	nmod:poss	_	_
 7	hat	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
@@ -196,7 +196,7 @@
 13	ve	ve	ADP	post	AdpType=Post	10	case	_	_
 14	bi	bi	ADP	pr	AdpType=Prep	15	case	_	_
 15	şûrê	şûr	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
-16	,	,	PUNCT	cm	_	24	punct	_	_
+16	,	,	PUNCT	cm	_	15	punct	_	_
 17	ji	ji	ADP	pr	AdpType=Prep	18	case	_	_
 18	ser	ser	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
 19	-	-	PUNCT	guio	_	20	punct	_	SpaceAfter=No
@@ -235,7 +235,7 @@
 5	Rûsya	Rûsya	PROPN	np	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nmod:poss	_	SpaceAfter=No
 6	,	,	PUNCT	cm	_	7	punct	_	_
 7	Ermenistan	Ermenistan	PROPN	np	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
-8	,	,	PUNCT	cm	_	4	punct	_	_
+8	,	,	PUNCT	cm	_	9	punct	_	_
 9	Gurcistan	Gurcistan	PROPN	np	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	conj	_	_
 10	û	û	CCONJ	cnjcoo	_	11	cc	_	_
 11	bajarên	bajar	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Plur	5	conj	_	_
@@ -275,7 +275,7 @@
 3	ji	ji	ADP	pr	AdpType=Prep	4	case	_	_
 4	mezhebên	mezheb	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Plur	11	nmod	_	_
 5	şafiî	şafi	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	nmod:poss	_	SpaceAfter=No
-6	,	,	PUNCT	cm	_	11	punct	_	_
+6	,	,	PUNCT	cm	_	7	punct	_	_
 7	henefî	henefî	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	conj	_	_
 8	û	û	CCONJ	cnjcoo	_	5	cc	_	_
 9	elewî	elewî	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	conj	_	_
