@@ -1,11 +1,11 @@
-Running the following version of tools/evaluate_treebank.pl:
-commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
+Running the following version of UD tools:
+commit ca3b862e9e2871c76cd91bf78ffb089c0c60184d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Apr 21 19:02:58 2018 +0200
+Date:   Thu May 6 20:16:19 2021 +0200
 Evaluating the following revision of UD_Kurmanji-MG:
-commit 04b4c75b4e7c1754ff925667670f09c7bdcb807f
+commit 3846a5b291174925c0a1741a1adb474232bcb5ef
+Merge: 065a598 394e89b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 10 18:22:53 2020 +0200
 Size: counted 10260 of 10260 words (nodes).
 Size: min(0, log((N/1000)**2)) = 4.65650567948525.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,22 +19,24 @@ Features: 7854 out of 10260 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 30 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi: found 258 bugs.
+Udapi:
+               TOTAL        144
+Udapi: found 144 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 10260 words.
 Genres: found 2 out of 17 known.
 validate.py --lang kmr --max-err=10 UD_Kurmanji-MG/kmr_mg-ud-test.conllu
 [Line 42 Sent sherlock:sherlock01.vislcg.txt:4:54 Node 6]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (6:ber:case --> 5:li:dep)
 [Line 53 Sent sherlock:sherlock01.vislcg.txt:4:54 Node 17]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (17:ser:case --> 16:li:dep)
 [Line 280 Sent sherlock:sherlock01.vislcg.txt:18:440 Node 12]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ'
-[Line 284 Sent sherlock:sherlock01.vislcg.txt:18:440 Node 16]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [19]
 [Line 296 Sent sherlock:sherlock01.vislcg.txt:19:481 Node 6]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (6:ber:case --> 5:ji:dep)
 [Line 341 Sent sherlock:sherlock01.vislcg.txt:23:559 Node 1]: [L3 Syntax rel-upos-mark] 'mark' should not be 'NOUN'
-[Line 391 Sent sherlock:sherlock01.vislcg.txt:24:630 Node 13]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [20]
 [Line 395 Sent sherlock:sherlock01.vislcg.txt:24:630 Node 16]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PART'
-[Line 416 Sent sherlock:sherlock01.vislcg.txt:25:672 Node 13]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [20]
+[Line 449 Sent sherlock:sherlock01.vislcg.txt:26:719 Node 18]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PART'
+[Line 482 Sent sherlock:sherlock01.vislcg.txt:28:785 Node 12]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PART'
+[Line 519 Sent sherlock:sherlock02.vislcg.txt:3:49 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP'
 ...suppressing further errors regarding Syntax
-Syntax errors: 393
-*** FAILED *** with 393 errors
+Syntax errors: 279
+*** FAILED *** with 279 errors
 Exit code: 1
 validate.py --lang kmr --max-err=10 UD_Kurmanji-MG/kmr_mg-ud-train.conllu
 [Line 4 Sent wiki:wikibank.vislcg.txt:396:10980 Node 3]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (3:ku:mark --> 2:dema:dep)
@@ -47,8 +49,8 @@ validate.py --lang kmr --max-err=10 UD_Kurmanji-MG/kmr_mg-ud-train.conllu
 [Line 151 Sent wiki:wikibank.vislcg.txt:405:11221 Node 6]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
 [Line 184 Sent wiki:wikibank.vislcg.txt:408:11282 Node 3]: [L3 Syntax leaf-cc] 'cc' not expected to have children (3:ku:cc --> 1:Ji:dep)
 ...suppressing further errors regarding Syntax
-Syntax errors: 13
-*** FAILED *** with 13 errors
+Syntax errors: 11
+*** FAILED *** with 11 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
@@ -57,8 +59,8 @@ Validity: 0.01
 (weight=0.256410256410256) * (score{size}=0.337049120258599) = 0.0864228513483588
 (weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.748538011695906) = 0.230319388214125
+(weight=0.307692307692308) * (score{udapi}=0.859649122807018) = 0.264507422402159
 (weight=0.0769230769230769) * (score{udeprels}=0.810810810810811) = 0.0623700623700624
-(TOTAL score=0.590213357739484) * (availability=1) * (validity=0.01) = 0.00590213357739484
+(TOTAL score=0.624401391927519) * (availability=1) * (validity=0.01) = 0.00624401391927519
 STARS = 0
-UD_Kurmanji-MG	0.00590213357739484	0
+UD_Kurmanji-MG	0.00624401391927519	0
