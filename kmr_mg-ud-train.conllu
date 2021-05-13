@@ -7,10 +7,10 @@
 5	bêje	gotin	VERB	vblex	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	advcl	_	_
 6	Mîrê	mîr	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	5	obj	_	_
 7	Botan	Botan	PROPN	np	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	flat	_	SpaceAfter=No
-8	,	,	PUNCT	cm	_	21	punct	_	_
+8	,	,	PUNCT	cm	_	5	punct	_	_
 9	hingî	hingî	ADV	adv	_	21	advmod	_	_
 10	jî	jî	PART	emph	_	21	advmod	_	SpaceAfter=No
-11	,	,	PUNCT	cm	_	21	punct	_	_
+11	,	,	PUNCT	cm	_	10	punct	_	_
 12	mirov	mirov	NOUN	n	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	21	nsubj	_	_
 13	behsa	behs	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	21	obj	_	_
 14	mîrê	mîr	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	13	nmod:poss	_	_
@@ -29,21 +29,21 @@
 2	kevir	kevir	NOUN	n	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	_
 3	li	li	ADP	pr	AdpType=Prep	5	case	_	_
 4	her	her	DET	det	Gender=Fem,Masc|Number=Sing|PronType=Ind	5	det	_	_
-5	derê	der	NOUN	n	Case=Obl|Gender=Fem|Number=Sing|PronType=Dem	7	nmod	_	_
+5	derê	der	NOUN	n	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	7	nmod	_	_
 6	nayê	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	7	aux	_	_
 7	dîtin	dîtin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
-8	,	,	PUNCT	cm	_	7	punct	_	_
+8	,	,	PUNCT	cm	_	21	punct	_	_
 9	li	li	ADP	pr	AdpType=Prep	11	case	_	_
 10	hinek	hindek	DET	det	Gender=Fem,Masc|Number=Plur,Sing|PronType=Ind	11	det	_	_
-11	çiyayan	çiya	NOUN	n	Case=Obl|Gender=Masc|Number=Plur|PronType=Dem	21	nmod	_	_
+11	çiyayan	çiya	NOUN	n	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	21	nmod	_	_
 12	(	(	PUNCT	lpar	_	14	punct	_	SpaceAfter=No
 13	wekî	wekî	ADP	pr	AdpType=Prep	14	case	_	_
 14	Çiyayê	çiya	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	_
-15	Stewrê	Stewr	PROPN	np	Case=Obl|Definite=Def|Gender=Fem|Number=Sing	14	nmod:poss	_	SpaceAfter=No
-16	)	)	PUNCT	rpar	_	21	punct	_	_
+15	Stewrê	Stewr	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	14	nmod:poss	_	SpaceAfter=No
+16	)	)	PUNCT	rpar	_	14	punct	_	_
 17	li	li	ADP	pr	AdpType=Prep	19	case	_	_
 18	hinek	hindek	DET	det	Gender=Fem,Masc|Number=Plur,Sing|PronType=Ind	19	det	_	_
-19	herêman	herêm	NOUN	n	Case=Obl|Gender=Fem|Number=Plur|PronType=Dem	21	nmod	_	_
+19	herêman	herêm	NOUN	n	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	21	nmod	_	_
 20	dihê	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
 21	dîtin	dîtin	VERB	vblex	VerbForm=Inf	7	conj	_	SpaceAfter=No
 22	.	.	PUNCT	sent	_	7	punct	_	_
@@ -52,13 +52,13 @@
 # text = Di tedawiya vê nexweşiyê de psîkoterapî û bikaranîna dermanan tên bikaranîn.
 1	Di	di	ADP	pr	AdpType=Prep	2	case	_	_
 2	tedawiya	tedawî	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	_
-3	vê	ev	DET	det	Case=Obl|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
-4	nexweşiyê	nexweşî	NOUN	n	Case=Obl|Gender=Fem|Number=Sing|PronType=Dem	2	nmod:poss	_	_
+3	vê	ev	DET	det	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	nexweşiyê	nexweşî	NOUN	n	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	2	nmod:poss	_	_
 5	de	de	ADP	post	AdpType=Post	2	case	_	_
 6	psîkoterapî	psîkoterapî	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	nsubj	_	_
 7	û	û	CCONJ	cnjcoo	_	8	cc	_	_
 8	bikaranîna	bikaranîn	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	6	conj	_	_
-9	dermanan	derman	NOUN	n	Case=Obl|Definite=Def|Gender=Masc|Number=Plur	8	nmod:poss	_	_
+9	dermanan	derman	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	8	nmod:poss	_	_
 10	tên	hatin	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
 11	bikaranîn	bikaranîn	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 12	.	.	PUNCT	sent	_	11	punct	_	_
@@ -70,7 +70,7 @@
 3	bajarên	bajar	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Plur	7	nmod	_	_
 4	din	din	ADJ	adj	_	3	amod	_	_
 5	ên	yê	ADP	con	AdpType=Post|Gender=Fem,Masc|Number=Plur	3	case	_	_
-6	Pakistanê	Pakistan	PROPN	np	Case=Obl|Definite=Def|Gender=Fem|Number=Sing	3	nmod:poss	_	_
+6	Pakistanê	Pakistan	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	nmod:poss	_	_
 7	bajarekî	bajar	NOUN	n	Case=Con|Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
 8	pir	pir	ADV	adv	_	9	advmod	_	_
 9	pêşketî	pêşketî	ADJ	adj	Degree=Pos	7	amod	_	_
@@ -82,9 +82,9 @@
 1	Piştî	piştî	ADP	pr	AdpType=Prep	2	case	_	_
 2	sedsala	sedsal	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	8	nmod	_	_
 3	17'emîn	17	NUM	num	NumType=Card	2	nummod	_	SpaceAfter=No
-4	,	,	PUNCT	cm	_	8	punct	_	_
+4	,	,	PUNCT	cm	_	2	punct	_	_
 5	xebatên	xebat	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Plur	8	nsubj	_	_
-6	elektrîkê	elektrîk	NOUN	n	Case=Obl|Definite=Def|Gender=Fem|Number=Sing	5	nmod:poss	_	_
+6	elektrîkê	elektrîk	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	nmod:poss	_	_
 7	hat	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
 8	perisandin	perisandin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	sent	_	8	punct	_	_
@@ -92,7 +92,7 @@
 # sent_id = wiki:wikibank.vislcg.txt:401:11137
 # text = Seranser Brîtanyayê dagir kiriye, serhildanên navxweyî têk biriye.
 1	Seranser	seranser	ADV	adv	_	3	advmod	_	_
-2	Brîtanyayê	Brîtanya	PROPN	np	Case=Obl|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	Brîtanyayê	Brîtanya	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	_
 3	dagir kiriye	dagirkirin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	cm	_	8	punct	_	_
 5	serhildanên	serhildan	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Plur	8	obj	_	_
@@ -104,12 +104,12 @@
 # sent_id = wiki:wikibank.vislcg.txt:402:11156
 # text = Aboriya gundiyan bi piranî li ser bendavê ye.
 1	Aboriya	aborî	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	_
-2	gundiyan	gundî	NOUN	n	Case=Obl|Gender=Masc|Number=Plur|PronType=Dem	1	nmod:poss	_	_
+2	gundiyan	gundî	NOUN	n	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	1	nmod:poss	_	_
 3	bi	bi	ADP	pr	AdpType=Prep	4	case	_	_
 4	piranî	piranî	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	_
 5	li	li	X	x	_	6	dep	_	_
 6	ser	ser	ADP	pr	AdpType=Prep	7	case	_	_
-7	bendavê	bendav	NOUN	n	Case=Obl|Definite=Def|Gender=Fem|Number=Sing	0	root	_	_
+7	bendavê	bendav	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	0	root	_	_
 8	ye	bûn	AUX	vbcop	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	SpaceAfter=No
 9	.	.	PUNCT	sent	_	7	punct	_	_
 
@@ -118,7 +118,7 @@
 1	Di	di	ADP	pr	AdpType=Prep	2	case	_	_
 2	navên	nav	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Plur	10	nmod	_	_
 3	erdnîgariya	erdnîgarî	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	2	nmod:poss	_	_
-4	Kurdistanê	Kurdîstan	PROPN	np	Case=Obl|Definite=Def|Gender=Fem|Number=Sing	3	nmod:poss	_	_
+4	Kurdistanê	Kurdîstan	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	nmod:poss	_	_
 5	de	de	ADP	post	AdpType=Post	2	case	_	_
 6	dar	dar	NOUN	n	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	10	nsubj	_	_
 7	jî	jî	PART	emph	_	10	advmod	_	_
@@ -136,7 +136,7 @@
 5	hejmara	hejmar	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	9	nsubj	_	_
 6	rûniştvanên	rûniştevan	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Plur	5	nmod:poss	_	_
 7	bajarê	bajar	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	6	nmod:poss	_	_
-8	Sineyê	sine	NOUN	n	Case=Obl|Definite=Def|Gender=Fem|Number=Sing	7	nmod:poss	_	_
+8	Sineyê	sine	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	nmod:poss	_	_
 9	375765	375765	NUM	num	NumType=Card	0	root	_	_
 10	bû	bûn	AUX	vbcop	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	SpaceAfter=No
 11	.	.	PUNCT	sent	_	9	punct	_	_
@@ -145,9 +145,9 @@
 # text = Li dijî Özal çalakiyên kuştinê tên organîzekirin.
 1	Li	li	X	x	_	2	dep	_	_
 2	dijî	dijî	ADP	pr	AdpType=Prep	3	case	_	_
-3	Özal	Özal	PROPN	np	Case=Obl|Gender=Masc|Number=Sing	7	nmod	_	_
+3	Özal	Özal	PROPN	np	Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	_
 4	çalakiyên	çalakî	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Plur	7	nsubj	_	_
-5	kuştinê	kuştin	NOUN	n	Case=Obl|Definite=Def|Gender=Fem|Number=Sing	4	nmod:poss	_	_
+5	kuştinê	kuştin	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	4	nmod:poss	_	_
 6	tên	hatin	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
 7	organîzekirin	organîzekirin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	sent	_	7	punct	_	_
@@ -155,21 +155,21 @@
 # sent_id = wiki:wikibank.vislcg.txt:406:11238
 # text = Li herêmê pirraniya navên cografîk bi Kurdî û Ermenî ne.
 1	Li	li	ADP	pr	AdpType=Prep	2	case	_	_
-2	herêmê	herêm	NOUN	n	Case=Obl|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	_
+2	herêmê	herêm	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	_
 3	pirraniya	pirranî	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	_
 4	navên	nav	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Plur	3	nmod:poss	_	_
 5	cografîk	cografîk	ADJ	adj	Degree=Pos	4	amod	_	_
 6	bi	bi	ADP	pr	AdpType=Prep	7	case	_	_
 7	Kurdî	kurdî	NOUN	n	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	_
 8	û	û	CCONJ	cnjcoo	_	9	cc	_	_
-9	Ermenî	ermenî	NOUN	n	Case=Obl|Definite=Def|Gender=Masc|Number=Sing	7	conj	_	_
+9	Ermenî	ermenî	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	conj	_	_
 10	ne	bûn	AUX	vbcop	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	SpaceAfter=No
 11	.	.	PUNCT	sent	_	7	punct	_	_
 
 # sent_id = wiki:wikibank.vislcg.txt:407:11261
 # text = Bi edebiyatê ve mijûl dibe û di malpera Nefel.
 1	Bi	bi	ADP	pr	AdpType=Prep	2	case	_	_
-2	edebiyatê	edebîyat	NOUN	n	Case=Obl|Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	_
+2	edebiyatê	edebîyat	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	_
 3	ve	ve	ADP	post	AdpType=Post	2	case	_	_
 4	mijûl	mijûl	ADJ	adj	Degree=Pos	5	compound:lvc	_	_
 5	dibe	bûn	AUX	vbcop	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -187,18 +187,18 @@
 4	dema	dema	SCONJ	cnjsub	_	6	mark	_	_
 5	dîl	dîl	NOUN	n	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	compound:lvc	_	_
 6	dikeve	ketin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	advcl	_	_
-7	destê	dest	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	6	nmod:dat	_	_
-8	îngilîzan	îngilîz	NOUN	n	Case=Obl|Definite=Def|Gender=Masc|Number=Plur	7	nmod:poss	_	_
+7	destê	dest	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	6	obl:dat	_	_
+8	îngilîzan	îngilîz	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	7	nmod:poss	_	_
 9	ji	ji	ADP	pr	AdpType=Prep	10	case	_	_
 10	aliyê	alî	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	_
 11	serbazekî	serbaz	NOUN	n	Case=Con|Gender=Masc|Number=Sing|PronType=Ind	10	nmod:poss	_	_
-12	îngilîz	îngilîz	NOUN	n	Case=Obl|Definite=Def|Gender=Masc|Number=Sing	11	nmod:poss	_	_
+12	îngilîz	îngilîz	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	11	nmod:poss	_	_
 13	ve	ve	ADP	post	AdpType=Post	10	case	_	_
 14	bi	bi	ADP	pr	AdpType=Prep	15	case	_	_
 15	şûrê	şûr	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
-16	,	,	PUNCT	cm	_	24	punct	_	_
+16	,	,	PUNCT	cm	_	15	punct	_	_
 17	ji	ji	ADP	pr	AdpType=Prep	18	case	_	_
-18	ser	ser	NOUN	n	Case=Obl|Definite=Def|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+18	ser	ser	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
 19	-	-	PUNCT	guio	_	20	punct	_	SpaceAfter=No
 20	çavê	çav	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	18	conj	_	_
 21	xwe	xwe	PRON	prn	Gender=Fem,Masc|Number=Plur,Sing|PronType=Prs|Reflex=Yes	20	nmod:poss	_	_
@@ -207,7 +207,7 @@
 24	kirin	kirin	VERB	vblex	VerbForm=Inf	0	root	_	_
 25	û	û	CCONJ	cnjcoo	_	29	cc	_	_
 26	cîhê	cih	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	29	nsubj	_	_
-27	birînê	birîn	NOUN	n	Case=Obl|Definite=Def|Gender=Fem|Number=Sing	26	nmod:poss	_	_
+27	birînê	birîn	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	26	nmod:poss	_	_
 28	her	her	ADV	adv	_	29	advmod	_	_
 29	dimîne	man	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	conj	_	SpaceAfter=No
 30	.	.	PUNCT	sent	_	24	punct	_	_
@@ -217,9 +217,9 @@
 1	Beriya	bêrî	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	_
 2	avabûna	avabûn	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	1	nmod:poss	_	_
 3	Komara	komar	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	2	nmod:poss	_	_
-4	Tirkiyeyê	Tirkiyê	PROPN	np	Case=Obl|Definite=Def|Gender=Fem|Number=Sing	3	nmod:poss	_	_
+4	Tirkiyeyê	Tirkiyê	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	nmod:poss	_	_
 5	niştecihên	niştecih	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Plur	9	nsubj	_	_
-6	herêmê	herêm	NOUN	n	Case=Obl|Definite=Def|Gender=Fem|Number=Sing	5	nmod:poss	_	_
+6	herêmê	herêm	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	nmod:poss	_	_
 7	90	90	NUM	num	NumType=Card	8	nummod	_	_
 8	%	%	SYM	sym	_	9	nummod	_	_
 9	kurd	kurd	NOUN	n	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	0	root	_	_
@@ -230,16 +230,16 @@
 # text = Gelek ji wan koçberê Rûsya, Ermenistan, Gurcistan û bajarên Tirkiyeyê bûne.
 1	Gelek	gelek	PRON	prn	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	4	nsubj	_	_
 2	ji	ji	ADP	pr	AdpType=Prep	3	case	_	_
-3	wan	ew	PRON	prn	Case=Obl|Gender=Fem,Masc|Number=Plur|PronType=Dem	1	nmod	_	_
+3	wan	ew	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Plur|PronType=Dem	1	nmod	_	_
 4	koçberê	koçber	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	0	root	_	_
 5	Rûsya	Rûsya	PROPN	np	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nmod:poss	_	SpaceAfter=No
 6	,	,	PUNCT	cm	_	7	punct	_	_
 7	Ermenistan	Ermenistan	PROPN	np	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
-8	,	,	PUNCT	cm	_	4	punct	_	_
+8	,	,	PUNCT	cm	_	9	punct	_	_
 9	Gurcistan	Gurcistan	PROPN	np	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	conj	_	_
 10	û	û	CCONJ	cnjcoo	_	11	cc	_	_
 11	bajarên	bajar	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Plur	5	conj	_	_
-12	Tirkiyeyê	Tirkiyê	PROPN	np	Case=Obl|Definite=Def|Gender=Fem|Number=Sing	11	nmod:poss	_	_
+12	Tirkiyeyê	Tirkiyê	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	11	nmod:poss	_	_
 13	bûne	bûn	AUX	vbcop	Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	SpaceAfter=No
 14	.	.	PUNCT	sent	_	4	punct	_	_
 
@@ -247,11 +247,11 @@
 # text = Loma hêrsa wan dibe sedema zêdebûna pirsgirêkan.
 1	Loma	lewma	ADV	adv	_	5	advmod	_	_
 2	hêrsa	hêrs	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	_
-3	wan	ew	PRON	prn	Case=Obl|Gender=Fem,Masc|Number=Plur|PronType=Dem	2	nmod:poss	_	_
+3	wan	ew	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Plur|PronType=Dem	2	nmod:poss	_	_
 4	dibe	bûn	AUX	vbcop	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 5	sedema	sedem	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	0	root	_	_
 6	zêdebûna	zêdebûn	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	5	nmod:poss	_	_
-7	pirsgirêkan	pirsgirêk	NOUN	n	Case=Obl|Definite=Def|Gender=Fem|Number=Plur	5	nmod:poss	_	SpaceAfter=No
+7	pirsgirêkan	pirsgirêk	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	5	nmod:poss	_	SpaceAfter=No
 8	.	.	PUNCT	sent	_	7	punct	_	_
 
 # sent_id = wiki:wikibank.vislcg.txt:412:11412
@@ -264,7 +264,7 @@
 6	bêtir	bê	ADJ	adj	Degree=Cmp	8	advmod	_	_
 7	dijî	dijî	ADP	pr	AdpType=Prep	8	case	_	_
 8	Kurdên	kurd	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Plur	0	root	_	_
-9	Rojava	rojava	NOUN	n	Case=Obl|Definite=Def|Gender=Masc|Number=Sing	8	nmod:poss	_	_
+9	Rojava	rojava	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	8	nmod:poss	_	_
 10	ye	bûn	AUX	vbcop	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	SpaceAfter=No
 11	.	.	PUNCT	sent	_	8	punct	_	_
 
@@ -274,8 +274,8 @@
 2	misilmanan	misilman	NOUN	n	Case=Nom|Gender=Masc|Number=Plur	1	nmod:poss	_	_
 3	ji	ji	ADP	pr	AdpType=Prep	4	case	_	_
 4	mezhebên	mezheb	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Plur	11	nmod	_	_
-5	şafiî	şafi	NOUN	n	Case=Obl|Definite=Def|Gender=Masc|Number=Sing	4	nmod:poss	_	SpaceAfter=No
-6	,	,	PUNCT	cm	_	11	punct	_	_
+5	şafiî	şafi	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	nmod:poss	_	SpaceAfter=No
+6	,	,	PUNCT	cm	_	7	punct	_	_
 7	henefî	henefî	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	conj	_	_
 8	û	û	CCONJ	cnjcoo	_	5	cc	_	_
 9	elewî	elewî	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	conj	_	_
@@ -286,10 +286,10 @@
 # sent_id = wiki:wikibank.vislcg.txt:414:11460
 # text = Pênc salan li wê dibistanê xwendiye.
 1	Pênc	pênc	NUM	num	Case=Nom|Definite=Def|Number=Plur|NumType=Card	2	nummod	_	_
-2	salan	sal	NOUN	n	Case=Obl|Gender=Fem|Number=Plur|PronType=Dem	6	nmod	_	_
+2	salan	sal	NOUN	n	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	6	nmod	_	_
 3	li	li	ADP	pr	AdpType=Prep	5	case	_	_
-4	wê	ew	DET	det	Case=Obl|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
-5	dibistanê	dibistan	NOUN	n	Case=Obl|Gender=Fem|Number=Sing|PronType=Dem	6	nmod	_	_
+4	wê	ew	DET	det	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	dibistanê	dibistan	NOUN	n	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	6	nmod	_	_
 6	xwendiye	xwandin	VERB	vblex	Number=Sing|Person=3	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	sent	_	6	punct	_	_
 

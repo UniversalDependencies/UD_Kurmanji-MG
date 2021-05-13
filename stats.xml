@@ -39,9 +39,9 @@
     <feat name="AdpType" value="Prep" upos="ADP">1123</feat><!-- di, bi, ji, li, ser, bo, ber, piştî, jê, pê -->
     <feat name="Aspect" value="Perf" upos="VERB">37</feat><!-- hate, hatine, hatiye, nehatiye, da bûye, nehatime, nehatine -->
     <feat name="Aspect" value="Prog" upos="AUX,VERB">86</feat><!-- dida, dikir, dihate, dadiket, dibû, dihatin, digeriya, digirt, rûdinişt, digeriyan -->
+    <feat name="Case" value="Acc" upos="DET,NOUN,NUM,PRON,PROPN">1636</feat><!-- min, me, wî, wê, _, Holmes, te, vê, wan, gund -->
     <feat name="Case" value="Con" upos="ADJ,NOUN,PROPN,X">1288</feat><!-- sala, oda, xweha, zirbavê, navê, serê, zimanê, Stonêrê, dema, dengê -->
     <feat name="Case" value="Nom" upos="DET,NOUN,NUM,PRON,PROPN">985</feat><!-- ew, em, ez, ev, Holmes, Rweylot, du, tu, kurdî, yek -->
-    <feat name="Case" value="Obl" upos="DET,NOUN,NUM,PRON,PROPN">1636</feat><!-- min, me, wî, wê, _, Holmes, te, vê, wan, gund -->
     <feat name="Case" value="Voc" upos="NOUN">1</feat><!-- zanyariyên -->
     <feat name="Definite" value="Def" upos="ADP,NOUN,NUM,PROPN,X">2550</feat><!-- sala, oda, xweha, zirbavê, gund, navê, serê, du, zimanê, kurdan -->
     <feat name="Degree" value="Cmp" upos="ADJ">14</feat><!-- zêdetir, bêtir, xeternaktir, çêtir, bilindtir, dewlementir, girîngtir, meztir -->
@@ -79,7 +79,7 @@
     <feat name="VerbForm" value="Part" upos="VERB">13</feat><!-- mirî, qewimî, bû, dagirtî, daliqandî, diyarkirî, dîti, girtî, keti, parastî -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="37">
+  <deps unique="35">
     <dep name="acl">68</dep>
     <dep name="advcl">72</dep>
     <dep name="advmod">344</dep>
@@ -87,13 +87,11 @@
     <dep name="amod">301</dep>
     <dep name="appos">30</dep>
     <dep name="aux">147</dep>
-    <dep name="case">1527</dep>
-    <dep name="case:circ">2</dep>
+    <dep name="case">1529</dep>
     <dep name="cc">364</dep>
     <dep name="ccomp">138</dep>
     <dep name="compound">5</dep>
     <dep name="compound:lvc">121</dep>
-    <dep name="compound:nn">1</dep>
     <dep name="compound:redup">1</dep>
     <dep name="conj">494</dep>
     <dep name="cop">257</dep>
@@ -103,15 +101,15 @@
     <dep name="discourse">28</dep>
     <dep name="dislocated">2</dep>
     <dep name="fixed">104</dep>
-    <dep name="flat">119</dep>
+    <dep name="flat">120</dep>
     <dep name="mark">181</dep>
     <dep name="nmod">1155</dep>
-    <dep name="nmod:dat">115</dep>
     <dep name="nmod:poss">945</dep>
     <dep name="nsubj">823</dep>
     <dep name="nummod">78</dep>
     <dep name="obj">333</dep>
     <dep name="obl">7</dep>
+    <dep name="obl:dat">115</dep>
     <dep name="orphan">2</dep>
     <dep name="parataxis">72</dep>
     <dep name="punct">1279</dep>
