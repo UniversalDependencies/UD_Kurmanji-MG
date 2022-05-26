@@ -181,8 +181,8 @@
 
 # sent_id = wiki:wikibank.vislcg.txt:408:11282
 # text = Ji ber ku dema dîl dikeve destê îngilîzan ji aliyê serbazekî îngilîz ve bi şûrê, ji ser-çavê xwe tê birîndar kirin û cîhê birînê her dimîne.
-1	Ji	ji	X	x	_	3	dep	_	_
-2	ber	ber	X	x	_	3	dep	_	_
+1	Ji	ji	ADP	x	_	24	mark	_	_
+2	ber	ber	ADP	x	_	1	fixed	_	_
 3	ku	ku	SCONJ	cnjsub	_	24	cc	_	_
 4	dema	dema	SCONJ	cnjsub	_	6	mark	_	_
 5	dîl	dîl	NOUN	n	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	compound:lvc	_	_

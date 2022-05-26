@@ -1831,7 +1831,7 @@
 3	Jê	ji	ADP	pr	AdpType=Prep	4	case	_	_
 4	_	ew	PRON	prn	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	5	nmod	_	_
 5	dixuye	xuyan	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
-6	ko	ku	SCONJ	cnjsub	_	15	mark	_	_
+6	ko	ku	SCONJ	cnjsub	_	10	mark	_	_
 7	gava	gava	SCONJ	cnjsub	_	10	mark	_	_
 8-9	lê	_	_	_	_	_	_	_	_
 8	lê	li	ADP	pr	AdpType=Prep	9	case	_	_
@@ -6925,8 +6925,8 @@
 
 # sent_id = wiki:wikibank.vislcg.txt:70:1918
 # text = Ji ber ku hêz û bandora Îdrîsê Bidlîsî pir mezin bû.
-1	Ji	ji	X	x	_	3	dep	_	_
-2	ber	ber	X	x	_	3	dep	_	_
+1	Ji	ji	ADP	x	_	10	mark	_	_
+2	ber	ber	ADP	x	_	1	fixed	_	_
 3	ku	ku	SCONJ	cnjsub	_	10	cc	_	_
 4	hêz	hêz	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	nsubj	_	_
 5	û	û	CCONJ	cnjcoo	_	6	cc	_	_
@@ -7768,8 +7768,8 @@
 
 # sent_id = wiki:wikibank.vislcg.txt:123:3339
 # text = Ji ber ku Erdal di merasîma 15'ê Tebaxê de bi qezayê şehîd ket.
-1	Ji	ji	X	x	_	3	dep	_	_
-2	ber	ber	X	x	_	3	dep	_	_
+1	Ji	ji	ADP	x	_	13	mark	_	_
+2	ber	ber	ADP	x	_	1	fixed	_	_
 3	ku	ku	SCONJ	cnjsub	_	13	cc	_	_
 4	Erdal	Erdal	PROPN	np	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
 5	di	di	ADP	pr	AdpType=Prep	6	case	_	_
@@ -11962,8 +11962,8 @@
 
 # sent_id = wiki:wikibank.vislcg.txt:376:10425
 # text = Ji ber ku ziman, ne tenê bi bêjeyan û bi kar anina wan heya.
-1	Ji	ji	X	x	_	3	dep	_	_
-2	ber	ber	X	x	_	3	dep	_	_
+1	Ji	ji	ADP	x	_	15	mark	_	_
+2	ber	ber	ADP	x	_	1	fixed	_	_
 3	ku	ku	SCONJ	cnjsub	_	15	cc	_	_
 4	ziman	ziman	NOUN	n	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	nsubj	_	SpaceAfter=No
 5	,	,	PUNCT	cm	_	4	punct	_	_
