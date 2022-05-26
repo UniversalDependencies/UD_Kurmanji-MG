@@ -28,10 +28,10 @@
     <tag name="PRON">879</tag><!-- ew, xwe, ez, em, tu, ev, hev, çi, hûn, tukesî -->
     <tag name="PROPN">442</tag><!-- Holmes, Stonêr, Rweylot, Cûlya, Tirkiyê, ewropa, Şerlok, Amed, Hindistan, Stokmoran -->
     <tag name="PUNCT">1279</tag><!-- ., ,, :, ;, -, ?, (, ), ", ... -->
-    <tag name="SCONJ">182</tag><!-- ku, gava, heke, wextê, dema, da, hem, lewra, gelo, heta -->
+    <tag name="SCONJ">195</tag><!-- ku, gava, heke, dema, ber, wextê, da, hem, lewra, bo -->
     <tag name="SYM">3</tag><!-- /, % -->
     <tag name="VERB">1115</tag><!-- hatin, kirin, dan, gotin, dîtin, girtin, çûn, ketin, karîn, man -->
-    <tag name="X">59</tag><!-- ji, ber, dema, gelek, hişyar, alfabeya, berdewam, bi, dayîk, pêşkêş -->
+    <tag name="X">46</tag><!-- ji, ber, gelek, hişyar, alfabeya, berdewam, bi, dayîk, pêşkêş, binav -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="42">
@@ -96,11 +96,11 @@
     <dep name="conj">494</dep>
     <dep name="cop">257</dep>
     <dep name="csubj">1</dep>
-    <dep name="dep">64</dep>
+    <dep name="dep">51</dep>
     <dep name="det">212</dep>
     <dep name="discourse">28</dep>
     <dep name="dislocated">2</dep>
-    <dep name="fixed">194</dep>
+    <dep name="fixed">207</dep>
     <dep name="flat">120</dep>
     <dep name="mark">181</dep>
     <dep name="nmod">1155</dep>

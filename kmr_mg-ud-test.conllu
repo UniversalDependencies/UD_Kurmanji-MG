@@ -883,8 +883,8 @@
 5	me	em	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	6	nmod	_	_
 6	binêre	nêrîn	VERB	vblex	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
 7	û	û	CCONJ	cnjcoo	_	6	cc	_	_
-8	wextê	wextê	X	x	_	9	dep	_	_
-9	ko	ku	SCONJ	cnjsub	_	11	mark	_	_
+8	wextê	wextê	SCONJ	x	_	11	mark	_	_
+9	ko	ku	SCONJ	cnjsub	_	8	fixed	_	_
 10	em	em	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	_
 11	bizewicin	zewicîn	VERB	vblex	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	17	advcl	_	_
 12	ji	ji	ADP	pr	AdpType=Prep	13	case	_	_
@@ -1228,8 +1228,8 @@
 # sent_id = sherlock:sherlock03.vislcg.txt:16:425
 # text = Ji ber ko dûyê tilîna ya ko zirbavê me dikişand xweha min ewçend aciz kiribû ko Cûlya hate nik min û midekî em bi hev re mijûl bûn.
 1	Ji	Ji	X	x	_	3	dep	_	_
-2	ber	ber	X	x	_	3	dep	_	_
-3	ko	ku	SCONJ	cnjsub	_	15	mark	_	_
+2	ber	ber	SCONJ	x	_	15	mark	_	_
+3	ko	ku	SCONJ	cnjsub	_	2	fixed	_	_
 4	dûyê	dû	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	15	nsubj	_	_
 5	tilîna	tilîn	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	4	nmod:poss	_	_
 6	ya	yê	ADP	con	AdpType=Post|Gender=Fem|Number=Sing	4	case	_	_
@@ -4130,8 +4130,8 @@
 1	Holmes	Holmes	PROPN	np	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	sent	_	12	punct	_	_
 3	Ji	ji	X	x	_	5	dep	_	_
-4	ber	ber	X	x	_	5	dep	_	_
-5	ko	ku	SCONJ	cnjsub	_	12	mark	_	_
+4	ber	ber	SCONJ	x	_	12	mark	_	_
+5	ko	ku	SCONJ	cnjsub	_	4	fixed	_	_
 6	delêletên	delêlet	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Plur	12	nsubj	_	_
 7	wê	ew	PRON	prn	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nmod:poss	_	_
 8	hêj	hêj	ADV	adv	_	12	advmod	_	_
@@ -5555,8 +5555,8 @@
 # sent_id = sherlock:sherlock19.vislcg.txt:4:98
 # text = Ji ber ko herwekî Cûlyayê, Hêlêne jî fîkandina mêr carekê du caran bihîsti bû, Cûlyayê gava Hêlên ew li ber derî û bêhiş li erdê dîti bû ji xweha xwe re goti bû «Şelîta belek».
 1	Ji	ji	X	x	_	3	dep	_	_
-2	ber	ber	X	x	_	3	dep	_	_
-3	ko	ku	CCONJ	cnjadv	_	14	mark	_	_
+2	ber	ber	SCONJ	x	_	14	mark	_	_
+3	ko	ku	CCONJ	cnjadv	_	2	fixed	_	_
 4	herwekî	herwekî	ADP	pr	AdpType=Prep	5	case	_	_
 5	Cûlyayê	Cûlya	PROPN	np	Case=Acc|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	cm	_	5	punct	_	_
@@ -5903,8 +5903,8 @@
 2	dîsa	dîsa	ADV	adv	_	4	advmod	_	_
 3	gewr	gewr	NOUN	n	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	xcomp	_	_
 4	dibin	bûn	AUX	vbcop	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	ta	ta	X	x	_	6	dep	_	_
-6	ku	ku	SCONJ	cnjsub	_	8	mark	_	_
+5	ta	ta	SCONJ	x	_	8	mark	_	_
+6	ku	ku	SCONJ	cnjsub	_	5	fixed	_	_
 7	zivistan	zivistan	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	nsubj	_	_
 8	tê	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
 9	careke	car	NOUN	n	Case=Con|Gender=Fem|Number=Sing|PronType=Ind	12	nmod	_	_
@@ -5954,8 +5954,8 @@
 # sent_id = wiki:wikibank.vislcg.txt:12:270
 # text = Lê dema ku di şer de Danimarka winda dike, êdî Norwec ji Danîmarkayê tê veqetandin û bi Swêdê ve tê girêdan.
 1	Lê	lê	CCONJ	cnjcoo	_	16	cc	_	_
-2	dema	dema	X	x	_	3	dep	_	_
-3	ku	ku	SCONJ	cnjsub	_	9	mark	_	_
+2	dema	dema	SCONJ	x	_	9	mark	_	_
+3	ku	ku	SCONJ	cnjsub	_	2	fixed	_	_
 4	di	di	ADP	pr	AdpType=Prep	5	case	_	_
 5	şer	şer	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	_
 6	de	de	ADP	post	AdpType=Post	5	case	_	_
@@ -6955,8 +6955,8 @@
 13	lê dixin	lêxistin	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	SpaceAfter=No
 14	,	,	PUNCT	cm	_	23	punct	_	_
 15	ji	ji	X	x	_	17	dep	_	_
-16	ber	ber	X	x	_	17	dep	_	_
-17	ku	ku	SCONJ	cnjsub	_	23	mark	_	_
+16	ber	ber	SCONJ	x	_	23	mark	_	_
+17	ku	ku	SCONJ	cnjsub	_	16	fixed	_	_
 18	cihê	cih	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	23	obj	_	_
 19	Şahmaran	Şahmaran	PROPN	np	Case=Nom|Gender=Fem|Number=Sing	18	nmod:poss	_	_
 20	ji	ji	ADP	pr	AdpType=Prep	21	case	_	_
@@ -8196,8 +8196,8 @@
 
 # sent_id = wiki:wikibank.vislcg.txt:147:4075
 # text = Dema ku gundiyek an jî kesekî xerîb nebaşî bikira ceza dikir û bera nav bîra maran dida.
-1	Dema	dema	X	x	_	2	dep	_	_
-2	ku	ku	SCONJ	cnjsub	_	9	mark	_	_
+1	Dema	dema	SCONJ	x	_	9	mark	_	_
+2	ku	ku	SCONJ	cnjsub	_	1	fixed	_	_
 3	gundiyek	gundî	NOUN	n	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	9	nsubj	_	_
 4	an	an	CCONJ	cnjcoo	_	5	cc	_	_
 5	jî	jî	PART	emph	_	6	advmod	_	_
@@ -8483,8 +8483,8 @@
 
 # sent_id = wiki:wikibank.vislcg.txt:166:4551
 # text = Dema ku mirov pirtûkê bixwîne, dê çirûskên hêviyê jî bibîne ….
-1	Dema	dema	X	x	_	2	dep	_	_
-2	ku	ku	SCONJ	cnjsub	_	5	mark	_	_
+1	Dema	dema	SCONJ	x	_	5	mark	_	_
+2	ku	ku	SCONJ	cnjsub	_	1	fixed	_	_
 3	mirov	mirov	NOUN	n	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	_
 4	pirtûkê	pirtûk	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	obj	_	_
 5	bixwîne	xwendin	VERB	vblex	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	SpaceAfter=No
@@ -10182,8 +10182,8 @@
 7	berde	berdan	VERB	vblex	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
 8	û	û	CCONJ	cnjcoo	_	14	cc	_	_
 9	ji	ji	X	x	_	11	dep	_	_
-10	bo	bo	X	x	_	11	dep	_	_
-11	ku	ku	SCONJ	cnjsub	_	14	mark	_	_
+10	bo	bo	SCONJ	x	_	14	mark	_	_
+11	ku	ku	SCONJ	cnjsub	_	10	fixed	_	_
 12	alîkariya	alîkarî	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	14	obj	_	_
 13	malbatê	malbat	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	12	nmod:poss	_	_
 14	bike	kirin	VERB	vblex	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	SpaceAfter=No
@@ -10369,8 +10369,8 @@
 # sent_id = wiki:wikibank.vislcg.txt:282:7720
 # text = Ji ber ku li dijî şerê Afxanistanê derdiket, sala 1980'î de bo demekê hatiye girtin.
 1	Ji	ji	X	x	_	3	dep	_	_
-2	ber	ber	X	x	_	3	dep	_	_
-3	ku	ku	SCONJ	cnjsub	_	8	mark	_	_
+2	ber	ber	SCONJ	x	_	8	mark	_	_
+3	ku	ku	SCONJ	cnjsub	_	2	fixed	_	_
 4	li	li	ADP	x	_	6	case	_	_
 5	dijî	dijî	ADP	pr	AdpType=Prep	4	fixed	_	_
 6	şerê	şer	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	_
@@ -10484,8 +10484,8 @@
 # sent_id = wiki:wikibank.vislcg.txt:289:7915
 # text = Ji ber ku zimanê zanistiyê latînî ye, di kurdî de, navên latînî jî tên bikaranîn.
 1	Ji	ji	X	x	_	3	dep	_	_
-2	ber	ber	X	x	_	3	dep	_	_
-3	ku	ku	SCONJ	cnjsub	_	6	mark	_	_
+2	ber	ber	SCONJ	x	_	6	mark	_	_
+3	ku	ku	SCONJ	cnjsub	_	2	fixed	_	_
 4	zimanê	ziman	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	_
 5	zanistiyê	zanistî	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	4	nmod:poss	_	_
 6	latînî	latînî	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	17	advcl	_	_

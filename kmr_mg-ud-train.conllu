@@ -1,8 +1,8 @@
 # sent_id = wiki:wikibank.vislcg.txt:396:10980
 # text = Lê dema ku mirov bêje Mîrê Botan, hingî jî, mirov behsa mîrê ku li Cizîra Botan mîr e dike.
 1	Lê	lê	CCONJ	cnjcoo	_	5	cc	_	_
-2	dema	dema	X	x	_	3	dep	_	_
-3	ku	ku	SCONJ	cnjsub	_	5	mark	_	_
+2	dema	dema	SCONJ	x	_	5	mark	_	_
+3	ku	ku	SCONJ	cnjsub	_	2	fixed	_	_
 4	mirov	mirov	NOUN	n	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	_
 5	bêje	gotin	VERB	vblex	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	advcl	_	_
 6	Mîrê	mîr	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	5	obj	_	_
