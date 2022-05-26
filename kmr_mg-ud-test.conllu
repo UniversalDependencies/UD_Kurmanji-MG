@@ -530,7 +530,7 @@
 13	digel	digel	ADP	pr	AdpType=Prep	15	case	_	_
 14	her	her	DET	det	Gender=Fem,Masc|Number=Sing|PronType=Ind	15	det	_	_
 15	kit-kitê	kit-kit	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	17	nmod	_	_
-16	bidî	dan	VERB	vblex	Mood=Sub|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	bidî	dan	AUX	vblex	Mood=Sub|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	17	aux	_	_
 17	zanîn	zanîn	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	ccomp	_	SpaceAfter=No
 18	;	;	PUNCT	sent	_	20	punct	_	_
 19	qenc	qenc	ADJ	adj	Degree=Pos	20	advmod	_	_
@@ -2093,7 +2093,7 @@
 8	de	de	ADP	post	AdpType=Post	7	case	_	_
 9	hin	hin	DET	det	Gender=Fem,Masc|Number=Plur,Sing|PronType=Ind	10	det	_	_
 10	tamîr	tamîr	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	12	obj	_	_
-11	dane	dan	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	_
+11	dane	dan	AUX	vblex	Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	_
 12	çêkirin	çêkirin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 13	.	.	PUNCT	sent	_	12	punct	_	_
 
@@ -3016,7 +3016,7 @@
 14	banû	banû	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	18	nmod	_	_
 15	Stonêrê	Stonêr	PROPN	np	Case=Con|Gender=Masc|Number=Sing	14	flat	_	_
 16	re	re	ADP	post	AdpType=Post	15	case	_	_
-17	da	dan	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	aux	_	_
+17	da	dan	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	aux	_	_
 18	zanîn	zanîn	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 19	.	.	PUNCT	sent	_	18	punct	_	_
 
@@ -5453,7 +5453,7 @@
 14	oda	ode	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	11	conj	_	_
 15	Cûlyayê	Cûlya	PROPN	np	Case=Acc|Gender=Fem|Number=Sing	14	nmod:poss	_	_
 16	de	de	ADP	post	AdpType=Post	11	case	_	_
-17	da	dan	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	aux	_	_
+17	da	dan	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	aux	_	_
 18	çêkir	çêkirin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
 19	û	û	CCONJ	cnjcoo	_	33	cc	_	_
 20	bi	bi	ADP	pr	AdpType=Prep	21	case	_	_
@@ -9649,7 +9649,7 @@
 5	bi	bi	ADP	pr	AdpType=Prep	6	case	_	_
 6	cîranên	cîran	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Plur	9	nmod	_	_
 7	xwe	xwe	PRON	prn	Gender=Fem,Masc|Number=Plur,Sing|PronType=Prs|Reflex=Yes	6	nmod:poss	_	_
-8	daye	dan	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
+8	daye	dan	AUX	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
 9	nasîn	nasîn	VERB	vblex	VerbForm=Inf	0	root	_	_
 10	jî	jî	PART	emph	_	9	advmod	_	SpaceAfter=No
 11	.	.	PUNCT	sent	_	9	punct	_	_
@@ -11132,7 +11132,7 @@
 12	kurdî	kurdî	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	nmod:poss	_	_
 13	bi	bi	ADP	pr	AdpType=Prep	14	case	_	_
 14	wî	ew	PRON	prn	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nmod	_	_
-15	dide	dan	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	dide	dan	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
 16	jiberkirin	jiberkirin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 17	.	.	PUNCT	sent	_	16	punct	_	_
 
@@ -11577,7 +11577,7 @@
 18	din	din	ADJ	adj	_	17	amod	_	_
 19	kom kirin	komkirin	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 20	û	û	CCONJ	cnjcoo	_	22	cc	_	_
-21	dan	dan	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	22	aux	_	_
+21	dan	dan	AUX	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	22	aux	_	_
 22	çapkirin	çapkirin	VERB	vblex	VerbForm=Inf	19	conj	_	SpaceAfter=No
 23	.	.	PUNCT	sent	_	19	punct	_	_
 

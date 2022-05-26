@@ -18,7 +18,7 @@
     <tag name="ADJ">439</tag><!-- din, mezin, kurdî, bilind, nû, zêde, aciz, baş, ecêb, kûr -->
     <tag name="ADP">1691</tag><!-- di, de, ji, bi, li, yê, re, ve, ser, bo -->
     <tag name="ADV">249</tag><!-- ne, niha, gelek, herî, tenê, berê, pêk, îro, her, hêj -->
-    <tag name="AUX">307</tag><!-- bûn, dê -->
+    <tag name="AUX">314</tag><!-- bûn, dê, dan -->
     <tag name="CCONJ">365</tag><!-- û, lê, an, ango, yan, qey, heger, herwekî, yanî, hetanî -->
     <tag name="DET">223</tag><!-- ev, ew, her, hin, gelek, çend, tu, hindek, çi, heman -->
     <tag name="INTJ">17</tag><!-- belê, na, heyhat -->
@@ -30,7 +30,7 @@
     <tag name="PUNCT">1279</tag><!-- ., ,, :, ;, -, ?, (, ), ", ... -->
     <tag name="SCONJ">204</tag><!-- ku, gava, heke, dema, ji, ber, wextê, da, hem, lewra -->
     <tag name="SYM">3</tag><!-- /, % -->
-    <tag name="VERB">1166</tag><!-- hatin, kirin, dan, gotin, hebûn, dîtin, girtin, çûn, ketin, karîn -->
+    <tag name="VERB">1159</tag><!-- hatin, kirin, dan, gotin, hebûn, dîtin, girtin, çûn, ketin, karîn -->
     <tag name="X">30</tag><!-- gelek, hişyar, alfabeya, berdewam, dayîk, ji, pêşkêş, bi, binav, derbas -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
