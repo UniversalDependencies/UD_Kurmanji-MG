@@ -338,7 +338,7 @@
 
 # sent_id = sherlock:sherlock01.vislcg.txt:23:559
 # text = Wextê ew rakir me zanî ko mêvana me jinikekê sih salî bû û ji niho de spî bi pora wê keti bû û ji qermîçekên rûyê wê xuya dikir ko jinik di heycaneke mezin de bû.
-1	Wextê	wext	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	3	mark	_	_
+1	Wextê	wext	SCONJ	cnjsub	_	3	mark	_	_
 2	ew	ew	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 3	rakir	rakirin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	advcl	_	_
 4	me	em	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
@@ -8782,7 +8782,7 @@
 # text = Tê gotin ku li ser matematîkê pirtûkeke mazin nivîsandiya.
 1	Tê	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
 2	gotin	gotin	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-3	ku	ku	PRON	prn	Gender=Fem,Masc|Number=Plur,Sing|PronType=Rel	9	mark	_	_
+3	ku	ku	SCONJ	cnjsub	_	9	mark	_	_
 4	li	li	ADP	x	_	6	case	_	_
 5	ser	ser	ADP	pr	AdpType=Prep	4	fixed	_	_
 6	matematîkê	matematîk	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	_
