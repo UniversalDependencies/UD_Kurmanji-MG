@@ -5,18 +5,18 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>754</sentences><tokens>10188</tokens><words>10260</words><fused>72</fused></total>
+    <total><sentences>754</sentences><tokens>10189</tokens><words>10260</words><fused>71</fused></total>
     <train><sentences>20</sentences><tokens>242</tokens><words>242</words><fused>0</fused></train>
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
-    <test><sentences>734</sentences><tokens>9946</tokens><words>10018</words><fused>72</fused></test>
+    <test><sentences>734</sentences><tokens>9947</tokens><words>10018</words><fused>71</fused></test>
   </size>
   <lemmas unique="1818" /><!-- ., bûn, ,, û, ew, di, de, ji, bi, li, xwe, ez, hatin, ku, kirin -->
   <forms unique="2794" /><!-- ., ,, û, di, de, ji, bi, li, xwe, min, ko, jî, :, Holmes, me -->
-  <fusions unique="11" /><!-- jê, pê, lê, tê, emê, ezê, Honê, Tiwê, em, le, lev -->
+  <fusions unique="10" /><!-- jê, pê, lê, tê, emê, ezê, Honê, Tiwê, le, lev -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
     <tag name="ADJ">439</tag><!-- din, mezin, kurdî, bilind, nû, zêde, aciz, baş, ecêb, kûr -->
-    <tag name="ADP">1591</tag><!-- di, de, bi, ji, li, yê, re, ve, ser, bo -->
+    <tag name="ADP">1681</tag><!-- di, de, ji, li, bi, yê, re, ve, ser, bo -->
     <tag name="ADV">248</tag><!-- ne, niha, gelek, herî, tenê, berê, pêk, îro, her, hêj -->
     <tag name="AUX">339</tag><!-- bûn, hebûn -->
     <tag name="CCONJ">365</tag><!-- û, lê, an, ango, yan, qey, heger, herwekî, yanî, hetanî -->
@@ -31,7 +31,7 @@
     <tag name="SCONJ">182</tag><!-- ku, gava, heke, wextê, dema, da, hem, lewra, gelo, heta -->
     <tag name="SYM">3</tag><!-- /, % -->
     <tag name="VERB">1115</tag><!-- hatin, kirin, dan, gotin, dîtin, girtin, çûn, ketin, karîn, man -->
-    <tag name="X">149</tag><!-- li, ji, ber, bi, dema, gelek, hişyar, alfabeya, berdewam, dayîk -->
+    <tag name="X">59</tag><!-- ji, ber, dema, gelek, hişyar, alfabeya, berdewam, bi, dayîk, pêşkêş -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="42">
@@ -96,11 +96,11 @@
     <dep name="conj">494</dep>
     <dep name="cop">257</dep>
     <dep name="csubj">1</dep>
-    <dep name="dep">154</dep>
+    <dep name="dep">64</dep>
     <dep name="det">212</dep>
     <dep name="discourse">28</dep>
     <dep name="dislocated">2</dep>
-    <dep name="fixed">104</dep>
+    <dep name="fixed">194</dep>
     <dep name="flat">120</dep>
     <dep name="mark">181</dep>
     <dep name="nmod">1155</dep>
