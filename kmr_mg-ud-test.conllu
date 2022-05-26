@@ -3102,8 +3102,8 @@
 7	sê	sê	NUM	num	Case=Nom|Definite=Def|Number=Plur|NumType=Card	8	nummod	_	_
 8	odan	ode	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	5	nmod:poss	_	_
 9-10	lê	_	_	_	_	_	_	_	_
-9	lê	li	ADP	pr	AdpType=Prep	10	case	_	_
-10	_	ew	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Sing|PronType=Dem	11	case	_	_
+9	li	li	ADP	pr	AdpType=Prep	10	case	_	_
+10	ew	ew	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Sing|PronType=Dem	11	obl	_	_
 11	vedibûn	vebûn	VERB	vblex	Aspect=Prog|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	acl	_	SpaceAfter=No
 12	,	,	PUNCT	cm	_	16	punct	_	_
 13	Holmes	Holmes	PROPN	np	Case=Acc|Gender=Masc|Number=Sing	16	nsubj	_	_
@@ -4136,7 +4136,7 @@
 7	wê	ew	PRON	prn	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nmod:poss	_	_
 8	hêj	hêj	ADV	adv	_	12	advmod	_	_
 9	bi	bi	ADP	pr	AdpType=Prep	10	case	_	_
-10	temamî	temamî	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	case	_	_
+10	temamî	temamî	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	obl	_	_
 11	ne	ne	ADV	adv	Polarity=Neg	12	advmod	_	_
 12	ketine	ketin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	parataxis	_	_
 13	destên	dest	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Plur	12	obl:dat	_	_
@@ -6778,8 +6778,8 @@
 1	Balkêş	balkêş	ADJ	adj	Degree=Pos	0	root	_	_
 2	e	bûn	AUX	vbcop	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 3	ingilîz	îngilîz	NOUN	n	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	10	nsubj	_	_
-4	wê	ew	DET	det	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
-5	serdemê	serdem	NOUN	n	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	10	nmod	_	_
+4	wê	ew	DET	det	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	serdemê	serdem	NOUN	n	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	10	obl	_	_
 6	de	de	ADP	post	AdpType=Post	5	case	_	_
 7	hem	hem	SCONJ	cnjsub	_	10	cc	_	_
 8	welatê	welat	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	10	obj	_	_
@@ -6795,7 +6795,7 @@
 # sent_id = wiki:wikibank.vislcg.txt:62:1696
 # text = Di navbera salên 1800-1500'an berî zayînê de li herêmê dewleta herî mezin û bi nav û deng ew bûne.
 1	Di	di	ADP	pr	AdpType=Prep	3	case	_	_
-2	navbera	navbera	ADP	pr	AdpType=Prep	1	case	_	_
+2	navbera	navbera	ADP	pr	AdpType=Prep	1	fixed	_	_
 3	salên	sal	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Plur	12	nmod	_	_
 4	1800	1800	NUM	num	NumType=Card	3	nmod:poss	_	SpaceAfter=No
 5	-	-	PUNCT	guio	_	6	punct	_	SpaceAfter=No
@@ -11248,8 +11248,8 @@
 7	,	,	PUNCT	cm	_	8	punct	_	_
 8	jina	jin	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	6	appos	_	_
 9	xwe	xwe	PRON	prn	Gender=Fem,Masc|Number=Plur,Sing|PronType=Prs|Reflex=Yes	8	nmod:poss	_	_
-10	ya	yê	ADP	con	AdpType=Post|Gender=Fem|Number=Sing	8	case	_	_
-11	pêşerojê	pêşeroj	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	nmod:poss	_	SpaceAfter=No
+10	ya	yê	ADP	con	AdpType=Post|Gender=Fem|Number=Sing	11	case	_	_
+11	pêşerojê	pêşeroj	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	8	nmod:poss	_	SpaceAfter=No
 12	,	,	PUNCT	cm	_	6	punct	_	_
 13	nas kir	naskirin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 14	.	.	PUNCT	sent	_	13	punct	_	_
@@ -11392,8 +11392,8 @@
 5	,	,	PUNCT	cm	_	6	punct	_	_
 6	govendê	govend	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
 7	,	,	PUNCT	cm	_	8	punct	_	_
-8	yên	yê	ADP	con	AdpType=Post|Gender=Fem,Masc|Number=Plur	3	case	_	_
-9	dîlanê	dîlan	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	8	nmod:poss	_	_
+8	yên	yê	ADP	con	AdpType=Post|Gender=Fem,Masc|Number=Plur	9	case	_	_
+9	dîlanê	dîlan	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	nmod:poss	_	_
 10	û	û	CCONJ	cnjcoo	_	11	cc	_	_
 11	pîrozbahiyên	pîrozbahî	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Plur	9	conj	_	_
 12	din	din	ADJ	adj	_	11	amod	_	_
