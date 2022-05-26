@@ -2286,7 +2286,7 @@
 13	trêna	trên	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	17	nmod	_	_
 14	nîvro	nîvro	ADJ	adj	_	13	amod	_	_
 15-16	ezê	_	_	_	_	_	_	_	_
-15	ezê	ez	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+15	ez	ez	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
 16	ê	dê	PART	fut	Tense=Fut	17	aux	_	_
 17	vegerim	vegerîn	VERB	vblex	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	conj	_	_
 18	gund	gund	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	17	obl:dat	_	SpaceAfter=No
@@ -2414,15 +2414,15 @@
 # text = Holmes lê vegerand: Şerlok Holmes ez bi xwe me.
 1	Holmes	Holmes	PROPN	np	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 2-3	lê	_	_	_	_	_	_	_	_
-2	lê	li	ADP	pr	AdpType=Prep	3	case	_	_
-3	_	ew	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Sing|PronType=Dem	4	nmod	_	_
+2	li	li	ADP	pr	AdpType=Prep	3	case	_	_
+3	ew	ew	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Sing|PronType=Dem	4	nmod	_	_
 4	vegerand	vegerandin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	:	:	PUNCT	sent	_	6	punct	_	_
 6	Şerlok	Şerlok	PROPN	np	Case=Nom|Gender=Masc|Number=Sing	4	parataxis	_	_
 7	Holmes	Holmes	PROPN	np	Case=Nom|Gender=Masc|Number=Sing	6	flat	_	_
-8	ez	ez	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+8	ez	ez	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 9	bi	bi	ADP	pr	AdpType=Prep	10	case	_	_
-10	xwe	xwe	PRON	prn	Gender=Fem,Masc|Number=Plur,Sing|PronType=Prs|Reflex=Yes	6	nmod	_	_
+10	xwe	xwe	PRON	prn	Gender=Fem,Masc|Number=Plur,Sing|PronType=Prs|Reflex=Yes	6	obl	_	_
 11	me	bûn	AUX	vbcop	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	cop	_	SpaceAfter=No
 12	.	.	PUNCT	sent	_	4	punct	_	_
 
@@ -4610,11 +4610,11 @@
 4	bû	bûn	AUX	vbcop	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	SpaceAfter=No
 5	,	,	PUNCT	cm	_	12	punct	_	_
 6	tu	tu	DET	det	Polarity=Neg|PronType=Ind	7	det	_	_
-7	tişt	tişt	NOUN	n	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	nsubj	_	_
+7	tişt	tişt	NOUN	n	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	nsubj	_	_
 8-9	lê	_	_	_	_	_	_	_	_
-8	lê	li	ADP	pr	AdpType=Prep	9	case	_	_
-9	_	ew	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Sing|PronType=Dem	11	nmod	_	_
-10	ne	ne	ADV	adv	Polarity=Neg	11	advmod	_	_
+8	li	li	ADP	pr	AdpType=Prep	9	case	_	_
+9	ew	ew	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Sing|PronType=Dem	12	obl	_	_
+10	ne	ne	ADV	adv	Polarity=Neg	12	advmod	_	_
 11	hati bû	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin	12	aux	_	_
 12	guhartin	guhartin	VERB	vblex	VerbForm=Inf	3	conj	_	SpaceAfter=No
 13	.	.	PUNCT	sent	_	12	punct	_	_
@@ -4889,7 +4889,7 @@
 
 # sent_id = sherlock:sherlock16.vislcg.txt:18:395
 # text = Çavên min yên ko hînî tariyê bû bûn bi kibrîta ko Holmes vêxisti bû ji nû ve şevreş bû bûn.
-1	Çavên	çav	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Plur	17	nsubj	_	_
+1	Çavên	çav	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Plur	16	nsubj	_	_
 2	min	ez	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	1	nmod:poss	_	_
 3	yên	yê	ADP	con	AdpType=Post|Gender=Fem,Masc|Number=Plur	1	case	_	_
 4	ko	ku	SCONJ	cnjsub	_	7	mark	_	_
@@ -4897,7 +4897,7 @@
 6	tariyê	tarî	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	_
 7	bû bûn	bûn	AUX	vbcop	Mood=Ind|Number=Plur|Person=3|Tense=Pqp|VerbForm=Fin	1	acl	_	_
 8	bi	bi	ADP	pr	AdpType=Prep	9	case	_	_
-9	kibrîta	kibrît	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	17	nmod	_	_
+9	kibrîta	kibrît	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	16	obl	_	_
 10	ko	ku	SCONJ	cnjsub	_	12	mark	_	_
 11	Holmes	Holmes	PROPN	np	Case=Acc|Gender=Masc|Number=Sing	12	nsubj	_	_
 12	vêxisti bû	vêxistin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin	9	acl	_	_
@@ -9527,10 +9527,10 @@
 # text = Bi vê fermandariya xwe di artêşê de navdar dibe, xelatê werdigire.
 1	Bi	bi	ADP	pr	AdpType=Prep	3	case	_	_
 2	vê	ev	DET	prn	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
-3	fermandariya	fermandarî	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	_
+3	fermandariya	fermandarî	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	8	obl	_	_
 4	xwe	xwe	PRON	prn	Gender=Fem,Masc|Number=Plur,Sing|PronType=Prs|Reflex=Yes	3	nmod:poss	_	_
 5	di	di	ADP	pr	AdpType=Prep	6	case	_	_
-6	artêşê	artêş	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	_
+6	artêşê	artêş	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	8	obl	_	_
 7	de	de	ADP	post	AdpType=Post	6	case	_	_
 8	navdar	navdar	ADJ	adj	Degree=Pos	0	root	_	_
 9	dibe	bûn	AUX	vbcop	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	SpaceAfter=No
