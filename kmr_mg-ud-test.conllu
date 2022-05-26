@@ -1227,9 +1227,9 @@
 
 # sent_id = sherlock:sherlock03.vislcg.txt:16:425
 # text = Ji ber ko dûyê tilîna ya ko zirbavê me dikişand xweha min ewçend aciz kiribû ko Cûlya hate nik min û midekî em bi hev re mijûl bûn.
-1	Ji	Ji	X	x	_	3	dep	_	_
-2	ber	ber	SCONJ	x	_	15	mark	_	_
-3	ko	ku	SCONJ	cnjsub	_	2	fixed	_	_
+1	Ji	Ji	SCONJ	x	_	15	mark	_	_
+2	ber	ber	SCONJ	x	_	1	fixed	_	_
+3	ko	ku	SCONJ	cnjsub	_	1	fixed	_	_
 4	dûyê	dû	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	15	nsubj	_	_
 5	tilîna	tilîn	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	4	nmod:poss	_	_
 6	ya	yê	ADP	con	AdpType=Post|Gender=Fem|Number=Sing	4	case	_	_
@@ -4129,9 +4129,9 @@
 # text = Holmes: Ji ber ko delêletên wê hêj bi temamî ne ketine destên min.
 1	Holmes	Holmes	PROPN	np	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	sent	_	12	punct	_	_
-3	Ji	ji	X	x	_	5	dep	_	_
-4	ber	ber	SCONJ	x	_	12	mark	_	_
-5	ko	ku	SCONJ	cnjsub	_	4	fixed	_	_
+3	Ji	ji	SCONJ	x	_	12	mark	_	_
+4	ber	ber	SCONJ	x	_	3	fixed	_	_
+5	ko	ku	SCONJ	cnjsub	_	3	fixed	_	_
 6	delêletên	delêlet	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Plur	12	nsubj	_	_
 7	wê	ew	PRON	prn	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nmod:poss	_	_
 8	hêj	hêj	ADV	adv	_	12	advmod	_	_
@@ -4300,8 +4300,8 @@
 
 # sent_id = sherlock:sherlock14.vislcg.txt:11:306
 # text = Bi xatirê te û şîretên min ji bîr meke.
-1	Bi	bi	ADP	pr	AdpType=Prep	0	root	_	_
-2	xatirê	xatir	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	1	fixed	_	_
+1	Bi	bi	ADP	pr	AdpType=Prep	2	case	_	_
+2	xatirê	xatir	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	0	root	_	_
 3	te	tu	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=2|PronType=Prs	2	nmod:poss	_	_
 4	û	û	CCONJ	cnjcoo	_	9	cc	_	_
 5	şîretên	şîret	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Plur	9	obj	_	_
@@ -4309,7 +4309,7 @@
 7	ji	ji	ADP	pr	AdpType=Prep	9	compound:lvc	_	_
 8	bîr	bîr	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	fixed	_	_
 9	meke	kirin	VERB	vblex	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin	2	conj	_	SpaceAfter=No
-10	.	.	PUNCT	sent	_	1	punct	_	_
+10	.	.	PUNCT	sent	_	2	punct	_	_
 
 # sent_id = sherlock:sherlock14.vislcg.txt:12:327
 # text = Em vegeriya bûn otêlê û me li riya Dr. Rweylot dipan.
@@ -5554,9 +5554,9 @@
 
 # sent_id = sherlock:sherlock19.vislcg.txt:4:98
 # text = Ji ber ko herwekî Cûlyayê, Hêlêne jî fîkandina mêr carekê du caran bihîsti bû, Cûlyayê gava Hêlên ew li ber derî û bêhiş li erdê dîti bû ji xweha xwe re goti bû «Şelîta belek».
-1	Ji	ji	X	x	_	3	dep	_	_
-2	ber	ber	SCONJ	x	_	14	mark	_	_
-3	ko	ku	CCONJ	cnjadv	_	2	fixed	_	_
+1	Ji	ji	SCONJ	x	_	14	mark	_	_
+2	ber	ber	SCONJ	x	_	1	fixed	_	_
+3	ko	ku	CCONJ	cnjadv	_	1	fixed	_	_
 4	herwekî	herwekî	ADP	pr	AdpType=Prep	5	case	_	_
 5	Cûlyayê	Cûlya	PROPN	np	Case=Acc|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	cm	_	5	punct	_	_
@@ -6669,7 +6669,7 @@
 7	dagir kirin	dagirkirin	VERB	vblex	VerbForm=Inf	0	root	_	_
 8	û	û	CCONJ	cnjcoo	_	13	cc	_	_
 9	dagir	dagir	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	13	nsubj	_	_
-10	kirina	kirin	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	9	fixed	_	_
+10	kirina	kirin	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	9	compound	_	_
 11	Anatoliya	Anatoliya	PROPN	np	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	nmod:poss	_	_
 12	jî	jî	PART	emph	_	13	advmod	_	_
 13	dest pê kir	destpêkirin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	SpaceAfter=No
@@ -6954,9 +6954,9 @@
 12	gelekî	gelekî	ADV	adv	_	13	advmod	_	_
 13	lê dixin	lêxistin	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	SpaceAfter=No
 14	,	,	PUNCT	cm	_	23	punct	_	_
-15	ji	ji	X	x	_	17	dep	_	_
-16	ber	ber	SCONJ	x	_	23	mark	_	_
-17	ku	ku	SCONJ	cnjsub	_	16	fixed	_	_
+15	ji	ji	SCONJ	x	_	23	mark	_	_
+16	ber	ber	SCONJ	x	_	15	fixed	_	_
+17	ku	ku	SCONJ	cnjsub	_	15	fixed	_	_
 18	cihê	cih	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	23	obj	_	_
 19	Şahmaran	Şahmaran	PROPN	np	Case=Nom|Gender=Fem|Number=Sing	18	nmod:poss	_	_
 20	ji	ji	ADP	pr	AdpType=Prep	21	case	_	_
@@ -10181,9 +10181,9 @@
 6	dibistanê	dibistan	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	_
 7	berde	berdan	VERB	vblex	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
 8	û	û	CCONJ	cnjcoo	_	14	cc	_	_
-9	ji	ji	X	x	_	11	dep	_	_
-10	bo	bo	SCONJ	x	_	14	mark	_	_
-11	ku	ku	SCONJ	cnjsub	_	10	fixed	_	_
+9	ji	ji	SCONJ	x	_	14	mark	_	_
+10	bo	bo	SCONJ	x	_	9	fixed	_	_
+11	ku	ku	SCONJ	cnjsub	_	9	fixed	_	_
 12	alîkariya	alîkarî	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	14	obj	_	_
 13	malbatê	malbat	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	12	nmod:poss	_	_
 14	bike	kirin	VERB	vblex	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	SpaceAfter=No
@@ -10368,9 +10368,9 @@
 
 # sent_id = wiki:wikibank.vislcg.txt:282:7720
 # text = Ji ber ku li dijî şerê Afxanistanê derdiket, sala 1980'î de bo demekê hatiye girtin.
-1	Ji	ji	X	x	_	3	dep	_	_
-2	ber	ber	SCONJ	x	_	8	mark	_	_
-3	ku	ku	SCONJ	cnjsub	_	2	fixed	_	_
+1	Ji	ji	SCONJ	x	_	8	mark	_	_
+2	ber	ber	SCONJ	x	_	1	fixed	_	_
+3	ku	ku	SCONJ	cnjsub	_	1	fixed	_	_
 4	li	li	ADP	x	_	6	case	_	_
 5	dijî	dijî	ADP	pr	AdpType=Prep	4	fixed	_	_
 6	şerê	şer	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	_
@@ -10483,9 +10483,9 @@
 
 # sent_id = wiki:wikibank.vislcg.txt:289:7915
 # text = Ji ber ku zimanê zanistiyê latînî ye, di kurdî de, navên latînî jî tên bikaranîn.
-1	Ji	ji	X	x	_	3	dep	_	_
-2	ber	ber	SCONJ	x	_	6	mark	_	_
-3	ku	ku	SCONJ	cnjsub	_	2	fixed	_	_
+1	Ji	ji	SCONJ	x	_	6	mark	_	_
+2	ber	ber	SCONJ	x	_	1	fixed	_	_
+3	ku	ku	SCONJ	cnjsub	_	1	fixed	_	_
 4	zimanê	ziman	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	_
 5	zanistiyê	zanistî	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	4	nmod:poss	_	_
 6	latînî	latînî	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	17	advcl	_	_
