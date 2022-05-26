@@ -391,8 +391,8 @@
 13	,	,	PUNCT	cm	_	20	punct	_	_
 14	şalê	şalê	ADV	adv	_	20	advmod	_	_
 15-16	ezê	_	_	_	_	_	_	_	_
-15	ezê	ez	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
-16	ê	dê	PART	fut	Tense=Fut	20	aux	_	_
+15	ez	ez	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+16	dê	dê	PART	fut	Tense=Fut	20	aux	_	_
 17	dermanê	derman	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	20	obj	_	_
 18	derdê	derd	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	17	nmod:poss	_	_
 19	te	tu	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=2|PronType=Prs	18	nmod:poss	_	_
@@ -445,8 +445,8 @@
 15	,	,	PUNCT	cm	_	14	punct	_	_
 16	şalê	şalê	ADV	adv	_	19	advmod	_	_
 17-18	ezê	_	_	_	_	_	_	_	_
-17	ezê	ez	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
-18	ê	dê	PART	fut	Tense=Fut	19	aux	_	_
+17	ez	ez	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+18	dê	dê	PART	fut	Tense=Fut	19	aux	_	_
 19	bikarim	karîn	VERB	vblex	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
 20	ji	ji	ADP	pr	AdpType=Prep	22	case	_	_
 21	bin	bin	NOUN	n	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	20	fixed	_	_
@@ -2219,8 +2219,8 @@
 # sent_id = sherlock:sherlock07.vislcg.txt:2:26
 # text = Honê bi rahetî bikarin bi îşê xwe mijûl bibin.
 1-2	Honê	_	_	_	_	_	_	_	_
-1	Honê	Hûn	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Plur|Person=2|PronType=Prs	5	nsubj	_	_
-2	_	dê	PART	fut	Tense=Fut	5	aux	_	_
+1	Hûn	hûn	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Plur|Person=2|PronType=Prs	5	nsubj	_	_
+2	dê	dê	PART	fut	Tense=Fut	5	aux	_	_
 3	bi	bi	ADP	pr	AdpType=Prep	4	case	_	_
 4	rahetî	rahetî	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	_
 5	bikarin	karîn	VERB	vblex	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	_
@@ -2240,7 +2240,7 @@
 5	,	,	PUNCT	cm	_	10	punct	_	_
 6-7	emê	_	_	_	_	_	_	_	_
 6	emê	em	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
-7	ê	dê	PART	fut	Tense=Fut	10	aux	_	_
+7	dê	dê	PART	fut	Tense=Fut	10	aux	_	_
 8	tev	tev	ADV	adv	_	10	advmod	_	_
 9	de	de	ADP	post	AdpType=Post	8	fixed	_	_
 10	herin	çûn	VERB	vblex	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
@@ -2250,8 +2250,8 @@
 # sent_id = sherlock:sherlock07.vislcg.txt:4:72
 # text = Tiwê bi xwe çi bikî?
 1-2	Tiwê	_	_	_	_	_	_	_	_
-1	Tiwê	tu	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	_
-2	_	dê	PART	fut	Tense=Fut	6	aux	_	_
+1	Tu	tu	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	_
+2	dê	dê	PART	fut	Tense=Fut	6	aux	_	_
 3	bi	bi	ADP	pr	AdpType=Prep	4	case	_	_
 4	xwe	xwe	PRON	prn	Gender=Fem,Masc|Number=Plur,Sing|PronType=Prs|Reflex=Yes	6	nmod	_	_
 5	çi	çi	PRON	prn	PronType=Int	6	obj	_	_
@@ -2276,8 +2276,8 @@
 4	hene	hebûn	AUX	vbhaver	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	cm	_	10	punct	_	_
 6-7	ezê	_	_	_	_	_	_	_	_
-6	ezê	ez	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
-7	ê	dê	PART	fut	Tense=Fut	10	aux	_	_
+6	ez	ez	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+7	dê	dê	PART	fut	Tense=Fut	10	aux	_	_
 8	wan	ew	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Plur|PronType=Dem	10	obj	_	_
 9	pêk	pêk	ADV	adv	_	10	compound:lvc	_	_
 10	binim	anîn	VERB	vblex	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	_
@@ -2287,7 +2287,7 @@
 14	nîvro	nîvro	ADJ	adj	_	13	amod	_	_
 15-16	ezê	_	_	_	_	_	_	_	_
 15	ez	ez	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
-16	ê	dê	PART	fut	Tense=Fut	17	aux	_	_
+16	dê	dê	PART	fut	Tense=Fut	17	aux	_	_
 17	vegerim	vegerîn	VERB	vblex	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	conj	_	_
 18	gund	gund	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	17	obl:dat	_	SpaceAfter=No
 19	.	.	PUNCT	sent	_	4	punct	_	_
@@ -2690,8 +2690,8 @@
 8	da	de	ADP	post	AdpType=Post	7	case	_	SpaceAfter=No
 9	,	,	PUNCT	cm	_	7	punct	_	_
 10-11	emê	_	_	_	_	_	_	_	_
-10	emê	em	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
-11	ê	dê	PART	fut	Tense=Fut	13	aux	_	_
+10	em	em	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
+11	dê	dê	PART	fut	Tense=Fut	13	aux	_	_
 12	çêtir	baş	ADJ	adj	Degree=Cmp	13	advmod	_	_
 13	bixebitin	xebitandin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
 14	.	.	PUNCT	sent	_	13	punct	_	_
@@ -2709,8 +2709,8 @@
 9	bişkênînin	şikenandin	VERB	vblex	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
 10	;	;	PUNCT	sent	_	15	punct	_	_
 11-12	ezê	_	_	_	_	_	_	_	_
-11	ezê	ez	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
-12	ê	dê	PART	fut	Tense=Fut	15	aux	_	_
+11	ez	ez	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+12	dê	dê	PART	fut	Tense=Fut	15	aux	_	_
 13-14	jê	_	_	_	_	_	_	_	_
 13	jê	ji	ADP	pr	AdpType=Prep	14	case	_	_
 14	_	ew	PRON	prn	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	15	nmod	_	_
@@ -4071,8 +4071,8 @@
 7	xwe	xwe	PRON	prn	Gender=Fem,Masc|Number=Plur,Sing|PronType=Prs|Reflex=Yes	6	nmod:poss	_	SpaceAfter=No
 8	,	,	PUNCT	cm	_	9	punct	_	_
 9-10	emê	_	_	_	_	_	_	_	_
-9	emê	em	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	4	appos	_	_
-10	ê	dê	PART	fut	Tense=Fut	17	aux	_	_
+9	em	em	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	4	appos	_	_
+10	dê	dê	PART	fut	Tense=Fut	17	aux	_	_
 11	şeva	şev	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	17	obj	_	_
 12	xwe	xwe	PRON	prn	Gender=Fem,Masc|Number=Plur,Sing|PronType=Prs|Reflex=Yes	11	nmod:poss	_	_
 13	di	di	ADP	pr	AdpType=Prep	14	case	_	_
@@ -4162,8 +4162,8 @@
 # sent_id = sherlock:sherlock14.vislcg.txt:4:78
 # text = Honê tê de çi bikin?
 1-2	Honê	_	_	_	_	_	_	_	_
-1	Honê	hûn	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Plur|Person=2|PronType=Prs	7	nsubj	_	_
-2	_	dê	PART	fut	Tense=Fut	7	aux	_	_
+1	Hûn	hûn	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Plur|Person=2|PronType=Prs	7	nsubj	_	_
+2	dê	dê	PART	fut	Tense=Fut	7	aux	_	_
 3-4	tê	_	_	_	_	_	_	_	_
 3	tê	di	ADP	pr	AdpType=Prep	4	case	_	_
 4	_	ew	PRON	prn	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	7	nmod	_	_
@@ -4177,8 +4177,8 @@
 1	Holmes	Holmes	PROPN	np	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	sent	_	13	punct	_	_
 3-4	Emê	_	_	_	_	_	_	_	_
-3	Emê	em	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
-4	_	dê	PART	fut	Tense=Fut	13	aux	_	_
+3	Em	em	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
+4	dê	dê	PART	fut	Tense=Fut	13	aux	_	_
 5	li	li	ADP	pr	AdpType=Prep	7	case	_	_
 6	wî	ew	DET	det	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
 7	dengê	deng	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	_
@@ -5390,8 +5390,8 @@
 # sent_id = sherlock:sherlock18.vislcg.txt:15:323
 # text = Emê wan ji devê Şerlok Holmes bi xwe bibihîsin.
 1-2	Emê	_	_	_	_	_	_	_	_
-1	Emê	em	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
-2	_	dê	PART	fut	Tense=Fut	10	aux	_	_
+1	Em	em	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
+2	dê	dê	PART	fut	Tense=Fut	10	aux	_	_
 3	wan	ew	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Plur|PronType=Dem	10	obj	_	_
 4	ji	ji	ADP	pr	AdpType=Prep	5	case	_	_
 5	devê	dev	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	_
@@ -8234,8 +8234,8 @@
 1	Em	em	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 2	bibêjin	gotin	VERB	vblex	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3-4	emê	_	_	_	_	_	_	_	_
-3	emê	em	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	_
-4	ê	dê	PART	fut	Tense=Fut	12	aux	_	_
+3	em	em	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	_
+4	dê	dê	PART	fut	Tense=Fut	12	aux	_	_
 5	ji	ji	ADP	pr	AdpType=Prep	6	case	_	_
 6	tona	ton	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	12	nmod	_	_
 7	Do	do	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nmod:poss	_	SpaceAfter=No
@@ -9258,7 +9258,7 @@
 3	rêbazê	rêbaz	NOUN	n	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	14	nmod	_	_
 4	de	de	ADP	post	AdpType=Post	3	case	_	_
 5	em	em	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	_
-6	ê	dê	PART	fut	Tense=Fut	14	aux	_	_
+6	dê	dê	PART	fut	Tense=Fut	14	aux	_	_
 7	zanyariyên	zanyarî	NOUN	n	Case=Voc|Definite=Def|Gender=Fem|Number=Plur	14	obj	_	_
 8	giştî	giştî	ADJ	adj	Degree=Pos	7	amod	_	_
 9	yên	yê	ADP	con	AdpType=Post|Gender=Fem,Masc|Number=Plur	7	case	_	_
