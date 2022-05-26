@@ -30,7 +30,7 @@
 3	li	li	ADP	pr	AdpType=Prep	5	case	_	_
 4	her	her	DET	det	Gender=Fem,Masc|Number=Sing|PronType=Ind	5	det	_	_
 5	derê	der	NOUN	n	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	7	nmod	_	_
-6	nayê	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	nayê	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	7	aux	_	_
 7	dîtin	dîtin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	cm	_	21	punct	_	_
 9	li	li	ADP	pr	AdpType=Prep	11	case	_	_
@@ -44,7 +44,7 @@
 17	li	li	ADP	pr	AdpType=Prep	19	case	_	_
 18	hinek	hindek	DET	det	Gender=Fem,Masc|Number=Plur,Sing|PronType=Ind	19	det	_	_
 19	herêman	herêm	NOUN	n	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	21	nmod	_	_
-20	dihê	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+20	dihê	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
 21	dîtin	dîtin	VERB	vblex	VerbForm=Inf	7	conj	_	SpaceAfter=No
 22	.	.	PUNCT	sent	_	7	punct	_	_
 
@@ -59,7 +59,7 @@
 7	û	û	CCONJ	cnjcoo	_	8	cc	_	_
 8	bikaranîna	bikaranîn	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	6	conj	_	_
 9	dermanan	derman	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	8	nmod:poss	_	_
-10	tên	hatin	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	tên	hatin	AUX	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
 11	bikaranîn	bikaranîn	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 12	.	.	PUNCT	sent	_	11	punct	_	_
 
@@ -85,7 +85,7 @@
 4	,	,	PUNCT	cm	_	2	punct	_	_
 5	xebatên	xebat	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Plur	8	nsubj	_	_
 6	elektrîkê	elektrîk	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	nmod:poss	_	_
-7	hat	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+7	hat	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
 8	perisandin	perisandin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	sent	_	8	punct	_	_
 
@@ -148,7 +148,7 @@
 3	Özal	Özal	PROPN	np	Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	_
 4	çalakiyên	çalakî	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Plur	7	nsubj	_	_
 5	kuştinê	kuştin	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	4	nmod:poss	_	_
-6	tên	hatin	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	tên	hatin	AUX	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
 7	organîzekirin	organîzekirin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	sent	_	7	punct	_	_
 
@@ -202,7 +202,7 @@
 19	-	-	PUNCT	guio	_	20	punct	_	SpaceAfter=No
 20	çavê	çav	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	18	conj	_	_
 21	xwe	xwe	PRON	prn	Gender=Fem,Masc|Number=Plur,Sing|PronType=Prs|Reflex=Yes	20	nmod:poss	_	_
-22	tê	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+22	tê	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
 23	birîndar	birîndar	ADJ	adj	Degree=Pos	24	xcomp	_	_
 24	kirin	kirin	VERB	vblex	VerbForm=Inf	0	root	_	_
 25	û	û	CCONJ	cnjcoo	_	29	cc	_	_

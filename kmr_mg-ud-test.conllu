@@ -666,7 +666,7 @@
 7	û	û	CCONJ	cnjcoo	_	6	cc	_	_
 8	hin	hin	DET	det	Gender=Fem,Masc|Number=Plur,Sing|PronType=Ind	9	det	_	_
 9	salan	sal	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	11	nmod	_	_
-10	hate	hatin	VERB	vblex	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
+10	hate	hatin	AUX	vblex	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
 11	ava kirin	avakirin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 12	.	.	PUNCT	sent	_	11	punct	_	_
 
@@ -1495,7 +1495,7 @@
 8	wek	wek	ADP	pr	AdpType=Prep	9	case	_	_
 9	şingîniya	şingînî	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	_
 10	zencîrekê	zencîr	NOUN	n	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	9	nmod:poss	_	_
-11	dihate	hatin	VERB	vblex	Aspect=Prog|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	_
+11	dihate	hatin	AUX	vblex	Aspect=Prog|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	_
 12	bihîstin	bihîstin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 13	;	;	PUNCT	sent	_	18	punct	_	_
 14	qey	qey	CCONJ	cnjadv	_	18	mark	_	_
@@ -1961,7 +1961,7 @@
 8	tu	tu	DET	det	Polarity=Neg|PronType=Ind	9	det	_	_
 9	awayî	awa	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	13	nmod	_	_
 10	ne	ne	ADV	adv	Polarity=Neg	11	advmod	_	_
-11	hate	hatin	VERB	vblex	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	_
+11	hate	hatin	AUX	vblex	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	_
 12	seh	seh	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	13	compound:lvc	_	_
 13	kirin	kirin	VERB	vblex	VerbForm=Inf	1	parataxis	_	SpaceAfter=No
 14	.	.	PUNCT	sent	_	13	punct	_	_
@@ -1973,7 +1973,7 @@
 3	Belê	belê	INTJ	ij	_	8	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	cm	_	3	punct	_	_
 5	ne	ne	ADV	adv	Polarity=Neg	6	advmod	_	_
-6	hate	hatin	VERB	vblex	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+6	hate	hatin	AUX	vblex	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
 7	seh	seh	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	compound:lvc	_	_
 8	kirin	kirin	VERB	vblex	VerbForm=Inf	1	parataxis	_	SpaceAfter=No
 9	.	.	PUNCT	sent	_	8	punct	_	_
@@ -3271,7 +3271,7 @@
 6	;	;	PUNCT	sent	_	10	punct	_	_
 7	pencerê	pencere	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	nsubj	_	_
 8	ne	ne	ADV	adv	Polarity=Neg	9	advmod	_	_
-9	dihatin	hatin	VERB	vblex	Aspect=Prog|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	_
+9	dihatin	hatin	AUX	vblex	Aspect=Prog|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	_
 10	vekirin	vekirin	VERB	vblex	VerbForm=Inf	5	conj	_	SpaceAfter=No
 11	.	.	PUNCT	sent	_	10	punct	_	_
 
@@ -3452,7 +3452,7 @@
 6	ko	ku	SCONJ	cnjsub	_	10	mark	_	_
 7	zengil	zengil	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	_
 8	nû	nû	ADV	adv	_	10	advmod	_	_
-9	hatiye	hatin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	_
+9	hatiye	hatin	AUX	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	_
 10	danîn	danîn	VERB	vblex	VerbForm=Inf	5	ccomp	_	SpaceAfter=No
 11	.	.	PUNCT	sent	_	1	punct	_	_
 
@@ -3489,7 +3489,7 @@
 11	sal	sal	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	4	conj	_	_
 12	ko	ku	SCONJ	cnjsub	_	15	mark	_	_
 13	zengil	zengil	NOUN	n	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	nsubj	_	_
-14	hatiye	hatin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux	_	_
+14	hatiye	hatin	AUX	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux	_	_
 15	danîn	danîn	VERB	vblex	VerbForm=Inf	11	advcl	_	SpaceAfter=No
 16	.	.	PUNCT	sent	_	1	punct	_	_
 
@@ -3592,7 +3592,7 @@
 7	guhartina	guhartin	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	_
 8	hewa	hewa	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	_
 9	odê	ode	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	8	nmod:poss	_	_
-10	hatiye	hatin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
+10	hatiye	hatin	AUX	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
 11	çêkirin	çêkirin	VERB	vblex	VerbForm=Inf	20	advcl	_	_
 12	ko	ku	SCONJ	cnjsub	_	20	mark	_	_
 13	di	di	ADP	pr	AdpType=Prep	14	case	_	_
@@ -3601,7 +3601,7 @@
 16	dide	dan	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl	_	_
 17	bexçê	bexçe	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	16	obl:dat	_	_
 18	de	de	ADP	post	AdpType=Post	14	case	_	_
-19	bihata	hatin	VERB	vblex	Mood=Opt|Number=Sing|Person=3|VerbForm=Fin	20	aux	_	_
+19	bihata	hatin	AUX	vblex	Mood=Opt|Number=Sing|Person=3|VerbForm=Fin	20	aux	_	_
 20	çêkirin	çêkirin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 21	;	;	PUNCT	sent	_	25	punct	_	_
 22	ne	ne	ADV	adv	Polarity=Neg	24	advmod	_	_
@@ -3625,7 +3625,7 @@
 7	jî	jî	PART	emph	_	11	advmod	_	_
 8	vê	ev	DET	det	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
 9	paşiyê	paşî	NOUN	n	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	11	nmod	_	_
-10	hate	hatin	VERB	vblex	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
+10	hate	hatin	AUX	vblex	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
 11	çêkirin	çêkirin	VERB	vblex	VerbForm=Inf	1	parataxis	_	SpaceAfter=No
 12	,	,	PUNCT	cm	_	14	punct	_	_
 13	berê	berê	ADV	adv	_	14	advmod	_	_
@@ -4615,7 +4615,7 @@
 8	li	li	ADP	pr	AdpType=Prep	9	case	_	_
 9	ew	ew	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Sing|PronType=Dem	12	obl	_	_
 10	ne	ne	ADV	adv	Polarity=Neg	12	advmod	_	_
-11	hati bû	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin	12	aux	_	_
+11	hati bû	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin	12	aux	_	_
 12	guhartin	guhartin	VERB	vblex	VerbForm=Inf	3	conj	_	SpaceAfter=No
 13	.	.	PUNCT	sent	_	12	punct	_	_
 
@@ -4709,7 +4709,7 @@
 4	ji	ji	ADP	pr	AdpType=Prep	5	case	_	_
 5	der	der	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	nmod	_	_
 6	ve	ve	ADP	post	AdpType=Post	5	case	_	_
-7	hate	hatin	VERB	vblex	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+7	hate	hatin	AUX	vblex	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
 8	xirmişandin	xerpişandin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	sent	_	8	punct	_	_
 
@@ -4735,7 +4735,7 @@
 4	dengê	deng	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	_
 5	saeta	saet	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	4	nmod:poss	_	_
 6	dêrê	dêr	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	nmod:poss	_	_
-7	dihate	hatin	VERB	vblex	Aspect=Prog|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+7	dihate	hatin	AUX	vblex	Aspect=Prog|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
 8	bihîstin	bihîstin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	sent	_	8	punct	_	_
 
@@ -4779,7 +4779,7 @@
 14	an	an	CCONJ	cnjcoo	_	15	cc	_	_
 15	madenê	maden	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	12	conj	_	_
 16	ko	ku	SCONJ	cnjsub	_	19	mark	_	_
-17	dihate	hatin	VERB	vblex	Aspect=Prog|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	aux	_	_
+17	dihate	hatin	AUX	vblex	Aspect=Prog|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	aux	_	_
 18	germ	germ	ADJ	adj	Degree=Pos	19	compound:lvc	_	_
 19	kirin	kirin	VERB	vblex	VerbForm=Inf	15	acl	_	SpaceAfter=No
 20	.	.	PUNCT	sent	_	8	punct	_	_
@@ -5847,7 +5847,7 @@
 7	mirovên	mirov	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Plur	11	nmod	_	_
 8	mirî	mirin	VERB	vblex	Tense=Past|VerbForm=Part	7	acl	_	_
 9	jî	jî	PART	emph	_	11	advmod	_	_
-10	tê	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	tê	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
 11	gotin	gotin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 12	.	.	PUNCT	sent	_	11	punct	_	_
 
@@ -5858,7 +5858,7 @@
 3	heta	heta	SCONJ	cnjsub	_	7	mark	_	_
 4	Hukumeta	hukûmet	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	_
 5	Iraqê	Iraq	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	4	nmod:poss	_	_
-6	hat	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
+6	hat	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
 7	avakirin	avakirin	VERB	vblex	VerbForm=Inf	10	advcl	_	_
 8	li	li	ADP	pr	AdpType=Prep	10	case	_	_
 9	Duhokê	Duhok	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	_
@@ -5875,7 +5875,7 @@
 6	-	-	PUNCT	guio	_	7	punct	_	SpaceAfter=No
 7	10	10	NUM	num	NumType=Card	5	nmod	_	_
 8	salî	salî	ADJ	adj	Degree=Pos	4	amod	_	_
-9	hatiye	hatin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	_
+9	hatiye	hatin	AUX	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	_
 10	amadekirin	amade kirin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	sent	_	10	punct	_	_
 
@@ -5922,7 +5922,7 @@
 5	navê	nav	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	_
 6	Mam	mam	NOUN	n	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	nmod:poss	_	_
 7	Azad	azad	ADJ	adj	Degree=Pos	6	flat	_	_
-8	tê	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+8	tê	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
 9	bi	bi	ADP	pr	AdpType=Prep	10	case	_	_
 10	nav	nav	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	11	obl	_	_
 11	kirin	navkirin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
@@ -5936,7 +5936,7 @@
 4	û	û	CCONJ	cnjcoo	_	5	cc	_	_
 5	şowên	şow	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Plur	2	conj	_	_
 6	taybet	taybet	ADJ	adj	Degree=Pos	5	amod	_	_
-7	hatin	hatin	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+7	hatin	hatin	AUX	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
 8	çêkirin	çêkirin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	sent	_	8	punct	_	_
 
@@ -5947,7 +5947,7 @@
 3	wan	ew	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Plur|PronType=Dem	7	nmod	_	_
 4	xebateke	xebat	NOUN	n	Case=Con|Gender=Fem|Number=Sing|PronType=Ind	7	nsubj	_	_
 5	zanistî	zanistî	ADJ	adj	Degree=Pos	4	amod	_	_
-6	nehatiye	hatin	VERB	vblex	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	7	aux	_	_
+6	nehatiye	hatin	AUX	vblex	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	7	aux	_	_
 7	kirin	kirin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	sent	_	7	punct	_	_
 
@@ -5967,13 +5967,13 @@
 12	Norwec	Norwêc	PROPN	np	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	16	nsubj	_	_
 13	ji	ji	ADP	pr	AdpType=Prep	14	case	_	_
 14	Danîmarkayê	Danîmarka	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	16	nmod	_	_
-15	tê	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	tê	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
 16	veqetandin	veqetandin	VERB	vblex	VerbForm=Inf	0	root	_	_
 17	û	û	CCONJ	cnjcoo	_	22	cc	_	_
 18	bi	bi	ADP	pr	AdpType=Prep	19	case	_	_
 19	Swêdê	Swêd	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	22	nmod	_	_
 20	ve	ve	ADP	post	AdpType=Post	19	case	_	_
-21	tê	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+21	tê	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
 22	girêdan	girêdan	VERB	vblex	VerbForm=Inf	16	conj	_	SpaceAfter=No
 23	.	.	PUNCT	sent	_	22	punct	_	_
 
@@ -6016,7 +6016,7 @@
 5	gelek	gelek	DET	det	Number=Plur|PronType=Ind	6	det	_	_
 6	xwarinan	xwarin	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	9	nmod	_	_
 7	de	de	ADP	post	AdpType=Post	6	case	_	_
-8	tê	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	tê	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
 9	bikaranîn	bikaranîn	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	sent	_	9	punct	_	_
 
@@ -6025,10 +6025,10 @@
 1	Gelek	gelek	DET	det	Number=Plur|PronType=Ind	2	det	_	_
 2	helbestên	helbest	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Plur	8	nsubj	_	_
 3	ku	ku	SCONJ	cnjsub	_	5	mark	_	_
-4	hatine	hatin	VERB	vblex	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
+4	hatine	hatin	AUX	vblex	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
 5	nivisandin	nivîsandin	VERB	vblex	VerbForm=Inf	2	acl	_	SpaceAfter=No
 6	,	,	PUNCT	cm	_	2	punct	_	_
-7	nehatine	hatin	VERB	vblex	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	8	aux	_	_
+7	nehatine	hatin	AUX	vblex	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	8	aux	_	_
 8	çapkirin	çapkirin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	sent	_	8	punct	_	_
 
@@ -6042,7 +6042,7 @@
 6	ji	ji	ADP	pr	AdpType=Prep	7	case	_	_
 7	qismên	qism	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Plur	10	nmod	_	_
 8	sûreyan	sûre	NOUN	n	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	7	nmod:poss	_	_
-9	tê	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	tê	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
 10	pêkanîn	pêkanîn	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	sent	_	10	punct	_	_
 
@@ -6209,7 +6209,7 @@
 11	katolîk	katolîk	NOUN	n	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	flat	_	SpaceAfter=No
 12	,	,	PUNCT	cm	_	13	punct	_	_
 13	re	re	ADP	post	AdpType=Post	5	case	_	_
-14	tê	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	tê	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
 15	gotin	gotin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 16	.	.	PUNCT	sent	_	15	punct	_	_
 
@@ -6264,7 +6264,7 @@
 8	bi	bi	ADP	pr	AdpType=Prep	9	case	_	_
 9	kurdan	kurd	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	12	nmod	_	_
 10	rê	re	ADP	post	AdpType=Post	9	case	_	_
-11	hat	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	_
+11	hat	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	_
 12	kirin	kirin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 13	.	.	PUNCT	sent	_	12	punct	_	_
 
@@ -6289,7 +6289,7 @@
 16	tê	di	ADP	pr	AdpType=Prep	17	case	_	_
 17	_	ew	PRON	prn	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	20	nmod	_	_
 18	de	de	ADP	post	AdpType=Post	17	case	_	_
-19	hatine	hatin	VERB	vblex	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	20	aux	_	_
+19	hatine	hatin	AUX	vblex	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	20	aux	_	_
 20	rêzkirin	rêzkirin	VERB	vblex	VerbForm=Inf	7	acl	_	_
 21	û	û	CCONJ	cnjcoo	_	22	cc	_	_
 22	şîrovekirin	şîrovekirin	VERB	vblex	VerbForm=Inf	20	conj	_	SpaceAfter=No
@@ -6600,7 +6600,7 @@
 18	Navendî	navendî	ADJ	adj	Degree=Pos	17	amod	_	_
 19	ya	yê	ADP	con	AdpType=Post|Gender=Fem|Number=Sing	17	case	_	_
 20	PDK'ê	PDK	NOUN	n	Case=Acc|Gender=Fem|Number=Sing	17	nmod:poss	_	_
-21	hate	hatin	VERB	vblex	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	aux	_	_
+21	hate	hatin	AUX	vblex	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	aux	_	_
 22	hilbijartin	hilbijartin	VERB	vblex	VerbForm=Inf	6	conj	_	SpaceAfter=No
 23	.	.	PUNCT	sent	_	6	punct	_	_
 
@@ -6665,7 +6665,7 @@
 3	Iran	îran	PROPN	np	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	cm	_	5	punct	_	_
 5	Lîbya	Lîbya	PROPN	np	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
-6	hat	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
+6	hat	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
 7	dagir kirin	dagirkirin	VERB	vblex	VerbForm=Inf	0	root	_	_
 8	û	û	CCONJ	cnjcoo	_	13	cc	_	_
 9	dagir	dagir	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	13	nsubj	_	_
@@ -6684,7 +6684,7 @@
 5	û	û	CCONJ	cnjcoo	_	6	cc	_	_
 6	kargehan	kargeh	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	4	conj	_	_
 7	de	de	ADP	post	AdpType=Post	4	case	_	_
-8	dihatin	hatin	VERB	vblex	Aspect=Prog|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
+8	dihatin	hatin	AUX	vblex	Aspect=Prog|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
 9	bikaranîn	bikaranîn	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	sent	_	9	punct	_	_
 
@@ -6736,7 +6736,7 @@
 4	gund	gund	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	nmod:poss	_	_
 5	lêkolîneke	lêkolîn	NOUN	n	Case=Con|Gender=Fem|Number=Sing|PronType=Ind	8	nsubj	_	_
 6	zanistî	zanistî	ADJ	adj	Degree=Pos	5	amod	_	_
-7	nehatiye	hatin	VERB	vblex	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	8	aux	_	_
+7	nehatiye	hatin	AUX	vblex	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	8	aux	_	_
 8	kirin	kirin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	sent	_	8	punct	_	_
 
@@ -6769,7 +6769,7 @@
 8	ji	ji	ADP	pr	AdpType=Prep	9	case	_	_
 9	weşanên	weşan	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Plur	12	nmod	_	_
 10	Soran	Soran	PROPN	np	Case=Acc|Gender=Masc|Number=Sing	9	nmod:poss	_	_
-11	hat	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	_
+11	hat	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	_
 12	weşandin	weşandin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 13	.	.	PUNCT	sent	_	12	punct	_	_
 
@@ -6864,7 +6864,7 @@
 4	1975	1975	NUM	num	NumType=Card	3	nmod:poss	_	_
 5	li	li	ADP	pr	AdpType=Prep	6	case	_	_
 6	Berlînê	Berlîn	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	8	nmod	_	_
-7	hat	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+7	hat	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
 8	damezrandin	damezrandin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	sent	_	8	punct	_	_
 
@@ -6884,7 +6884,7 @@
 12	hijmar	hijmar	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	conj	_	_
 13	û	û	CCONJ	cnjcoo	_	14	cc	_	_
 14	hwd	hwd	NOUN	abbr	_	6	conj	_	_
-15	tên	hatin	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	tên	hatin	AUX	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
 16	nivîsandin	nivîsandin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 17	.	.	PUNCT	sent	_	16	punct	_	_
 
@@ -6981,7 +6981,7 @@
 12	(	(	PUNCT	lpar	_	13	punct	_	SpaceAfter=No
 13	GAP	GAP	NOUN	abbr	_	8	appos	_	SpaceAfter=No
 14	)	)	PUNCT	rpar	_	13	punct	_	_
-15	tê	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+15	tê	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
 16	destek	destek	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	17	compound:lvc	_	_
 17	kirin	kirin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 18	.	.	PUNCT	sent	_	17	punct	_	_
@@ -7016,7 +7016,7 @@
 13	kurdî	kurdî	ADJ	adj	_	11	amod	_	SpaceAfter=No
 14	"	"	PUNCT	lquot	_	11	punct	_	_
 15	jî	jî	PART	emph	_	17	advmod	_	_
-16	tê	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	tê	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
 17	bikaranîn	bikaranîn	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 18	.	.	PUNCT	sent	_	17	punct	_	_
 
@@ -7051,7 +7051,7 @@
 12	baş	baş	ADJ	adj	Degree=Pos	8	amod	_	_
 13	a	yê	ADP	con	AdpType=Post|Gender=Fem|Number=Sing	8	case	_	_
 14	dinyayê	dinya	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	8	nmod:poss	_	_
-15	tê	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	tê	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
 16	qebûlkirin	qebûlkirin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 17	.	.	PUNCT	sent	_	16	punct	_	_
 
@@ -7115,7 +7115,7 @@
 7	de	de	ADP	post	AdpType=Post	4	case	_	SpaceAfter=No
 8	,	,	PUNCT	cm	_	4	punct	_	_
 9	firqe	firqe	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	11	nsubj	_	_
-10	tên	hatin	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	tên	hatin	AUX	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
 11	sazkirin	sazkirin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 12	.	.	PUNCT	sent	_	11	punct	_	_
 
@@ -7243,7 +7243,7 @@
 5	bo	bo	ADP	pr	AdpType=Prep	6	case	_	_
 6	sîstema	sîstem	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	_
 7	bingehîn	bingehîn	ADJ	adj	Degree=Pos	6	amod	_	_
-8	hatiye	hatin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
+8	hatiye	hatin	AUX	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
 9	amadekirin	amade kirin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	sent	_	9	punct	_	_
 
@@ -7269,7 +7269,7 @@
 5	ew	ew	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 6	di	di	ADP	pr	AdpType=Prep	7	case	_	_
 7	1964	1964	NUM	num	NumType=Card	9	nmod	_	_
-8	hat	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
+8	hat	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
 9	şandine	şandin	VERB	vblex	VerbForm=Inf	0	root	_	_
 10	Tirkiye	Tirkiye	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	obl:dat	_	_
 11	sirgûnê	sirgûn	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
@@ -7346,7 +7346,7 @@
 3	şerê	şer	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	2	nmod:poss	_	_
 4	2003'î	2003	NUM	num	NumType=Card	3	nmod:poss	_	_
 5	rewş	rewş	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	_
-6	hate	hatin	VERB	vblex	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
+6	hate	hatin	AUX	vblex	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
 7	guhertin	guhertin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	sent	_	7	punct	_	_
 
@@ -7360,7 +7360,7 @@
 6	navên	nav	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Plur	5	nmod:poss	_	_
 7	berpirs	berpirs	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	nmod:poss	_	_
 8	tenê	tenê	ADV	adv	_	10	advmod	_	_
-9	tê	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	tê	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
 10	xebitandin	xebitandin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	sent	_	10	punct	_	_
 
@@ -7595,7 +7595,7 @@
 10	kevn	kevn	ADJ	adj	Degree=Pos	9	amod	_	_
 11	a	yê	ADP	con	AdpType=Post|Gender=Fem|Number=Sing	9	case	_	_
 12	serdemê	serdem	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	nmod:poss	_	_
-13	hatibû	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin	14	aux	_	_
+13	hatibû	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin	14	aux	_	_
 14	nivîsîn	nivîsîn	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 15	.	.	PUNCT	sent	_	14	punct	_	_
 
@@ -7639,7 +7639,7 @@
 1	Li	li	ADP	pr	AdpType=Prep	2	case	_	_
 2	bajarê	bajar	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	_
 3	Medînê	Medîne	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	nmod:poss	_	_
-4	hatiye	hatin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
+4	hatiye	hatin	AUX	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
 5	danin	danîn	VERB	vblex	VerbForm=Inf	0	root	_	_
 6	û	û	CCONJ	cnjcoo	_	10	cc	_	_
 7	bi	bi	ADP	pr	AdpType=Prep	8	case	_	_
@@ -7791,7 +7791,7 @@
 4	Weşanên	weşan	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Plur	3	nmod:poss	_	_
 5	Avesta	Avesta	NOUN	n	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nmod:poss	_	_
 6	ve	ve	ADP	post	AdpType=Post	3	case	_	_
-7	hatiye	hatin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+7	hatiye	hatin	AUX	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
 8	weşandin	weşandin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	sent	_	8	punct	_	_
 
@@ -7804,7 +7804,7 @@
 5	hatina	hatin	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	6	aux	_	_
 6	nivîsandin	nivîsandin	VERB	vblex	VerbForm=Inf	1	acl	_	SpaceAfter=No
 7	,	,	PUNCT	cm	_	1	punct	_	_
-8	têne	hatin	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	têne	hatin	AUX	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
 9	guharandin	guharandin	VERB	vblex	VerbForm=Inf	0	root	_	_
 10	bi	bi	ADP	pr	AdpType=Prep	11	case	_	_
 11	tirki	tirkî	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	_
@@ -7813,7 +7813,7 @@
 14	wan	ew	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Plur|PronType=Dem	13	nmod:poss	_	_
 15	yên	yê	ADP	con	AdpType=Post|Gender=Fem,Masc|Number=Plur	13	case	_	_
 16	kurdî	kurdî	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	13	nmod	_	_
-17	têne	hatin	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	têne	hatin	AUX	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
 18	windakirin	windakirin	VERB	vblex	VerbForm=Inf	9	parataxis	_	SpaceAfter=No
 19	.	.	PUNCT	sent	_	18	punct	_	_
 
@@ -7827,7 +7827,7 @@
 6	de	de	ADP	post	AdpType=Post	4	case	_	_
 7	wekî	wekî	SCONJ	cnjsub	_	8	mark	_	_
 8	bêje	gotin	VERB	vblex	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
-9	hatiye	hatin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	_
+9	hatiye	hatin	AUX	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	_
 10	bikaranîn	bikaranîn	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	sent	_	10	punct	_	_
 
@@ -7921,7 +7921,7 @@
 4	Îngilistanê	Îngilistan	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	nmod:poss	_	_
 5	jibo	ji bo	ADP	pr	AdpType=Prep	6	case	_	_
 6	penîr	penîr	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	_
-7	tê	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	tê	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
 8	bikaranîn	bikaranîn	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	sent	_	8	punct	_	_
 
@@ -7933,7 +7933,7 @@
 4	bavê	bav	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	_
 5	derûnnasiya	derûnnasî	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	4	nmod:poss	_	_
 6	kûr	kûr	ADJ	adj	Degree=Pos	5	amod	_	_
-7	tê	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	tê	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
 8	zanîn	zanîn	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	sent	_	8	punct	_	_
 
@@ -7979,7 +7979,7 @@
 12	wêjeyî	wêjeyî	ADJ	adj	Degree=Pos	10	conj	_	_
 13	û	û	CCONJ	cnjcoo	_	14	cc	_	_
 14	civakî	civakî	ADJ	adj	_	10	conj	_	_
-15	hatine	hatin	VERB	vblex	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	16	aux	_	_
+15	hatine	hatin	AUX	vblex	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	16	aux	_	_
 16	kirin	kirin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 17	.	.	PUNCT	sent	_	16	punct	_	_
 
@@ -7994,7 +7994,7 @@
 7	ya	yê	ADP	con	AdpType=Post|Gender=Fem|Number=Sing	5	flat	_	_
 8	Stenbolê	Stenbol	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	flat	_	_
 9	ve	ve	ADP	post	AdpType=Post	5	case	_	_
-10	hatine	hatin	VERB	vblex	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
+10	hatine	hatin	AUX	vblex	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
 11	weşandin	weşandin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 12	.	.	PUNCT	sent	_	11	punct	_	_
 
@@ -8048,7 +8048,7 @@
 6	û	û	CCONJ	cnjcoo	_	7	cc	_	_
 7	wateya	wate	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	5	conj	_	_
 8	gund	gund	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	nmod:poss	_	_
-9	nehatiye	hatin	VERB	vblex	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	10	aux	_	_
+9	nehatiye	hatin	AUX	vblex	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	10	aux	_	_
 10	kirin	kirin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	sent	_	10	punct	_	_
 
@@ -8084,7 +8084,7 @@
 5	bi	bi	ADP	pr	AdpType=Prep	6	case	_	_
 6	Semsûrê	Semsûr	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	_
 7	ve	ve	ADP	post	AdpType=Post	6	case	_	_
-8	hatiye	hatin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
+8	hatiye	hatin	AUX	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
 9	girêdan	girêdan	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	sent	_	9	punct	_	_
 
@@ -8136,7 +8136,7 @@
 24	bi	bi	ADP	pr	AdpType=Prep	25	case	_	_
 25	Mako	Mako	PROPN	np	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	28	nmod	_	_
 26	ve	ve	ADP	post	AdpType=Post	28	case	_	_
-27	tê	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+27	tê	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
 28	girêdan	girêdan	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 29	.	.	PUNCT	sent	_	28	punct	_	_
 
@@ -8329,7 +8329,7 @@
 7	de	de	ADP	post	AdpType=Post	4	case	_	_
 8	nivîsên	nivîs	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Plur	11	nsubj	_	_
 9	wî	ew	PRON	prn	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nmod:poss	_	_
-10	hatine	hatin	VERB	vblex	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
+10	hatine	hatin	AUX	vblex	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
 11	weşandin	weşandin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 12	.	.	PUNCT	sent	_	11	punct	_	_
 
@@ -8359,7 +8359,7 @@
 6	de	de	ADP	post	AdpType=Post	5	case	_	_
 7	ti	tu	DET	det	Polarity=Neg|PronType=Ind	8	det	_	_
 8	tiştek	tişt	NOUN	n	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	10	nsubj	_	_
-9	nayê	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	nayê	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	10	aux	_	_
 10	gotin	gotin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 11	,	,	PUNCT	cm	_	16	punct	_	_
 12	ku	ku	SCONJ	cnjsub	_	16	mark	_	_
@@ -8394,7 +8394,7 @@
 5	sîstema	sîstem	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	9	nsubj	_	_
 6	îro	îro	ADV	adv	_	7	advmod	_	_
 7	heye	hebûn	VERB	vbhaver	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	_
-8	hatiye	hatin	VERB	vblex	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
+8	hatiye	hatin	AUX	vblex	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
 9	rûniştin	rûniştin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	sent	_	9	punct	_	_
 
@@ -8507,7 +8507,7 @@
 6	çavên	çav	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Plur	8	nmod	_	_
 7	rût	rût	ADJ	adj	Degree=Pos	6	amod	_	_
 8	dikarin	karîn	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-9	bên	hatin	VERB	vblex	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	bên	hatin	AUX	vblex	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
 10	dîtin	dîtin	VERB	vblex	VerbForm=Inf	8	ccomp	_	SpaceAfter=No
 11	.	.	PUNCT	sent	_	8	punct	_	_
 
@@ -8575,7 +8575,7 @@
 2	ber	ber	ADP	pr	AdpType=Prep	1	fixed	_	_
 3	vê	ev	DET	det	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
 4	yekê	yek	NUM	num	Case=Acc|Definite=Def|Number=Sing|NumType=Card	6	nmod	_	_
-5	tê	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	tê	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 6	zanîn	zanîn	VERB	vblex	VerbForm=Inf	0	root	_	_
 7	ku	ku	SCONJ	cnjsub	_	13	mark	_	_
 8	ew	ew	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
@@ -8636,7 +8636,7 @@
 7	navê	nav	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	_
 8	Dîroka	dîrok	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	7	nmod:poss	_	_
 9	Herodot	Herodot	PROPN	np	Case=Acc|Gender=Masc|Number=Sing	8	nmod:poss	_	_
-10	tê	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	tê	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
 11	naskirin	naskirin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 12	.	.	PUNCT	sent	_	11	punct	_	_
 
@@ -8780,7 +8780,7 @@
 
 # sent_id = wiki:wikibank.vislcg.txt:185:5050
 # text = Tê gotin ku li ser matematîkê pirtûkeke mazin nivîsandiya.
-1	Tê	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+1	Tê	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
 2	gotin	gotin	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	ku	ku	SCONJ	cnjsub	_	9	mark	_	_
 4	li	li	ADP	x	_	6	case	_	_
@@ -8805,7 +8805,7 @@
 10	li	li	ADP	pr	AdpType=Prep	12	case	_	_
 11	her	her	DET	det	Gender=Fem,Masc|Number=Sing|PronType=Ind	12	det	_	_
 12	zimanê	ziman	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	_
-13	hatiye	hatin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux	_	_
+13	hatiye	hatin	AUX	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux	_	_
 14	wergerandin	wergerandin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 15	.	.	PUNCT	sent	_	14	punct	_	_
 
@@ -8869,7 +8869,7 @@
 5	aliyê	alî	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	_
 6	Romayiyan	Romayî	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	5	nmod:poss	_	_
 7	ve	ve	ADP	post	AdpType=Post	5	case	_	_
-8	hate	hatin	VERB	vblex	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
+8	hate	hatin	AUX	vblex	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
 9	dagirkirin	dagirkirin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	sent	_	9	punct	_	_
 
@@ -8933,7 +8933,7 @@
 2	bi	bi	ADP	pr	AdpType=Prep	3	case	_	_
 3	hostatiyeke	hostatî	NOUN	n	Case=Con|Gender=Fem|Number=Sing|PronType=Ind	6	nmod	_	_
 4	mezin	mezin	ADJ	adj	Degree=Pos	3	amod	_	_
-5	hatine	hatin	VERB	vblex	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
+5	hatine	hatin	AUX	vblex	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
 6	şekirin	şekirin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	cm	_	9	punct	_	_
 8	ango	ango	CCONJ	cnjadv	_	9	cc	_	_
@@ -8958,7 +8958,7 @@
 14-15	lê	_	_	_	_	_	_	_	_
 14	lê	li	ADP	pr	AdpType=Prep	15	case	_	_
 15	_	ew	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Sing|PronType=Dem	17	nmod	_	_
-16	tê	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	tê	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
 17	kirin	kirin	VERB	vblex	VerbForm=Inf	9	conj	_	SpaceAfter=No
 18	.	.	PUNCT	sent	_	17	punct	_	_
 
@@ -9134,7 +9134,7 @@
 8	caran	car	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	12	nmod	_	_
 9	behsa	behs	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	12	nsubj	_	_
 10	Mûsa	Mûsa	PROPN	np	Case=Acc|Gender=Masc|Number=Sing	9	nmod:poss	_	_
-11	tê	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	tê	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
 12	kirin	kirin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 13	.	.	PUNCT	sent	_	12	punct	_	_
 
@@ -9163,7 +9163,7 @@
 5	lêkolînên	lêkolîn	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Plur	9	nmod	_	_
 6	zanistî	zanistî	ADJ	adj	Degree=Pos	5	amod	_	_
 7	jî	jî	PART	emph	_	9	advmod	_	_
-8	hatiye	hatin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
+8	hatiye	hatin	AUX	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
 9	pejirandin	pejirandin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	sent	_	9	punct	_	_
 
@@ -9230,7 +9230,7 @@
 10-11	pê	_	_	_	_	_	_	_	_
 10	pê	bi	ADP	pr	AdpType=Prep	11	case	_	_
 11	_	ew	PRON	prn	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	13	nmod	_	_
-12	tê	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	tê	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
 13	axaftin	axaftin	VERB	vblex	VerbForm=Inf	6	acl	_	_
 14	kurmancî	Kurmancî	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	_
 15	ye	bûn	AUX	vbcop	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	SpaceAfter=No
@@ -9247,7 +9247,7 @@
 7	de	de	ADP	post	AdpType=Post	5	case	_	_
 8	li	li	ADP	pr	AdpType=Prep	9	case	_	_
 9	Edeneyê	Edene	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	_
-10	hatiye	hatin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
+10	hatiye	hatin	AUX	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
 11	dinê	dinya	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 12	.	.	PUNCT	sent	_	11	punct	_	_
 
@@ -9309,7 +9309,7 @@
 8	bi	bi	ADP	pr	AdpType=Prep	9	case	_	_
 9	Mêrdînê	Mêrdîn	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	12	nmod	_	_
 10	ve	ve	ADP	post	AdpType=Post	9	case	_	_
-11	hatiye	hatin	VERB	vblex	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	_
+11	hatiye	hatin	AUX	vblex	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	_
 12	girêdan	girêdan	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 13	.	.	PUNCT	sent	_	12	punct	_	_
 
@@ -9402,7 +9402,7 @@
 12	ser	ser	ADP	pr	AdpType=Prep	11	fixed	_	_
 13	welatê	welat	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	_
 14	wenda	wenda	ADJ	adj	Degree=Pos	13	amod	_	_
-15	tê	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	tê	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
 16	nasîn	nasîn	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 17	.	.	PUNCT	sent	_	16	punct	_	_
 
@@ -9441,7 +9441,7 @@
 5	de	de	ADP	post	AdpType=Post	2	case	_	_
 6	gelek	gelek	DET	det	Number=Plur|PronType=Ind	7	det	_	_
 7	Spor	spor	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	10	nsubj	_	_
-8	hatin	hatin	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	_
+8	hatin	hatin	AUX	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	_
 9	pêk	pêk	ADV	adv	_	10	compound:lvc	_	_
 10	anîn	anîn	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	sent	_	10	punct	_	_
@@ -9582,7 +9582,7 @@
 6	navçeyeke	navçe	NOUN	n	Case=Con|Gender=Fem|Number=Sing|PronType=Ind	10	nmod	_	_
 7	navenda	navend	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	6	nmod:poss	_	_
 8	Edeneyê	Edene	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	nmod:poss	_	_
-9	hatiye	hatin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	_
+9	hatiye	hatin	AUX	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	_
 10	avakirin	avakirin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	sent	_	10	punct	_	_
 
@@ -9711,7 +9711,7 @@
 18	bi	bi	ADP	pr	AdpType=Prep	19	case	_	_
 19	hev	hev	PRON	prn	Gender=Fem,Masc|Number=Plur,Sing|PronType=Prs|Reflex=Yes	22	nmod	_	_
 20	cûda	cûda	ADJ	adj	Degree=Pos	22	xcomp	_	_
-21	hatin	hatin	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	22	aux	_	_
+21	hatin	hatin	AUX	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	22	aux	_	_
 22	nirxandin	nirxandin	VERB	vblex	VerbForm=Inf	11	advcl	_	SpaceAfter=No
 23	.	.	PUNCT	sent	_	11	punct	_	_
 
@@ -9799,7 +9799,7 @@
 15	"	"	PUNCT	lquot	_	16	punct	_	SpaceAfter=No
 16	August	August	PROPN	np	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
 17	"	"	PUNCT	rquot	_	16	punct	_	_
-18	hat	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	aux	_	_
+18	hat	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	aux	_	_
 19	navendin	navendin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 20	.	.	PUNCT	sent	_	19	punct	_	_
 
@@ -9869,7 +9869,7 @@
 6	di	di	ADP	pr	AdpType=Prep	7	case	_	_
 7	şerran	şerr	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	10	nmod	_	_
 8	de	de	ADP	post	AdpType=Post	7	case	_	_
-9	dihatin	hatin	VERB	vblex	Aspect=Prog|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	_
+9	dihatin	hatin	AUX	vblex	Aspect=Prog|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	_
 10	bikaranîn	bikaranîn	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	sent	_	10	punct	_	_
 
@@ -9922,7 +9922,7 @@
 7	derve	derve	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	_
 8	welat	welat	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	_
 9	jî	jî	PART	emph	_	11	advmod	_	_
-10	tê	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	tê	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
 11	bikaranîn	bikaranîn	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 12	.	.	PUNCT	sent	_	11	punct	_	_
 
@@ -10118,7 +10118,7 @@
 4	ku	ku	SCONJ	cnjsub	_	8	mark	_	_
 5	wek	wek	ADP	pr	AdpType=Prep	6	case	_	_
 6	lekî	lek	NOUN	n	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	8	nmod	_	_
-7	tê	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	tê	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
 8	binavkirin	binavkirin	VERB	vblex	VerbForm=Inf	1	acl	_	SpaceAfter=No
 9	,	,	PUNCT	cm	_	1	punct	_	_
 10	zimanêkî	ziman	NOUN	n	Case=Con|Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
@@ -10139,7 +10139,7 @@
 4	hemû	hemû	DET	det	Gender=Fem,Masc|Number=Plur|PronType=Ind	5	det	_	_
 5	deverên	dever	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Plur	8	nmod	_	_
 6	cîhanê	cîhan	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	nmod:poss	_	_
-7	dihatin	hatin	VERB	vblex	Aspect=Prog|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+7	dihatin	hatin	AUX	vblex	Aspect=Prog|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
 8	nîşandan	nîşandan	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	sent	_	8	punct	_	_
 
@@ -10236,7 +10236,7 @@
 9	pênc	pênc	NUM	num	Case=Nom|Definite=Def|Number=Plur|NumType=Card	8	conj	_	_
 10	malên	mal	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Plur	13	nmod	_	_
 11	merivan	meriv	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	10	nmod:poss	_	_
-12	hatiye	hatin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	_
+12	hatiye	hatin	AUX	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	_
 13	avakirin	avakirin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 14	.	.	PUNCT	sent	_	13	punct	_	_
 
@@ -10327,7 +10327,7 @@
 8	dibe	bûn	AUX	vbcop	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 9	bi	bi	ADP	pr	AdpType=Prep	10	case	_	_
 10	çavan	çav	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	12	nmod	_	_
-11	nayê	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	nayê	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	12	aux	_	_
 12	dîtin	dîtin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 13	.	.	PUNCT	sent	_	12	punct	_	_
 
@@ -10339,9 +10339,9 @@
 4	aliyê	alî	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	_
 5	persan	pers	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	4	nmod:poss	_	_
 6	ve	ve	ADP	post	AdpType=Post	4	case	_	_
-7	hatiye	hatin	VERB	vblex	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+7	hatiye	hatin	AUX	vblex	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
 8	çêkirin	çêkirin	VERB	vblex	VerbForm=Inf	1	acl	_	_
-9	tê	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	tê	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
 10	hilweşandin	hilweşandin	VERB	vblex	VerbForm=Inf	0	root	_	_
 11	û	û	CCONJ	cnjcoo	_	18	cc	_	_
 12	kevirên	kevir	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Plur	18	nsubj	_	_
@@ -10382,7 +10382,7 @@
 12	de	de	ADP	post	AdpType=Post	10	case	_	_
 13	bo	bo	ADP	pr	AdpType=Prep	14	case	_	_
 14	demekê	dem	NOUN	n	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	16	nmod	_	_
-15	hatiye	hatin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux	_	_
+15	hatiye	hatin	AUX	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux	_	_
 16	girtin	girtin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 17	.	.	PUNCT	sent	_	16	punct	_	_
 
@@ -10396,7 +10396,7 @@
 6	)	)	PUNCT	rpar	_	5	punct	_	_
 7	a	yê	ADP	con	AdpType=Post|Gender=Fem|Number=Sing	2	case	_	_
 8	nû	nû	ADV	adv	_	10	advmod	_	_
-9	hatibû	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin	10	aux	_	_
+9	hatibû	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin	10	aux	_	_
 10	avakirin	avakirin	VERB	vblex	VerbForm=Inf	2	acl	_	_
 11	dikir	kirin	VERB	vblex	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 12	.	.	PUNCT	sent	_	11	punct	_	_
@@ -10433,7 +10433,7 @@
 7	sala	sal	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	_
 8	2007an	2007	NUM	num	Case=Acc|Number=Plur|NumType=Card	7	nmod:poss	_	_
 9	de	de	ADP	post	AdpType=Post	7	case	_	_
-10	hate	hatin	VERB	vblex	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
+10	hate	hatin	AUX	vblex	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
 11	vekirin	vekirin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 12	.	.	PUNCT	sent	_	11	punct	_	_
 
@@ -10477,7 +10477,7 @@
 5	komputerê	kompûter	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	4	nmod:poss	_	_
 6	de	de	ADP	post	AdpType=Post	4	case	_	_
 7	wiha	wiha	ADV	adv	_	9	advmod	_	_
-8	hatine	hatin	VERB	vblex	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
+8	hatine	hatin	AUX	vblex	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
 9	rêzkirin	rêzkirin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	sent	_	9	punct	_	_
 
@@ -10498,7 +10498,7 @@
 13	navên	nav	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Plur	17	nsubj	_	_
 14	latînî	latînî	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	13	nmod:poss	_	_
 15	jî	jî	PART	emph	_	17	advmod	_	_
-16	tên	hatin	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	tên	hatin	AUX	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
 17	bikaranîn	bikaranîn	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 18	.	.	PUNCT	sent	_	17	punct	_	_
 
@@ -10524,7 +10524,7 @@
 2	wekî	wekî	ADP	pr	AdpType=Prep	3	case	_	_
 3	welatê	welat	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	_
 4	otomobîlan	otomobîl	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	3	nmod:poss	_	_
-5	tê	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	tê	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 6	zanîn	zanîn	VERB	vblex	VerbForm=Inf	0	root	_	_
 7	lewra	lewra	SCONJ	cnjsub	_	16	mark	_	_
 8	ji	ji	ADP	pr	AdpType=Prep	9	case	_	_
@@ -10622,7 +10622,7 @@
 9	û	û	CCONJ	cnjcoo	_	10	cc	_	_
 10	Şerê	şer	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	7	conj	_	_
 11	psîkolojîk	psîkolojîk	ADJ	adj	Degree=Pos	10	amod	_	_
-12	hatine	hatin	VERB	vblex	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	_
+12	hatine	hatin	AUX	vblex	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	_
 13	amadekirin	amade kirin	VERB	vblex	VerbForm=Inf	4	acl	_	_
 14	bikartîne	bikaranîn	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 15	yan	yan	CCONJ	cnjcoo	_	17	cc	_	_
@@ -10643,7 +10643,7 @@
 9	û	û	CCONJ	cnjcoo	_	11	cc	_	_
 10	bê	bê	ADP	pr	AdpType=Prep	11	case	_	_
 11	sînor	sînor	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	_
-12	tê	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	tê	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
 13	binavkirin	binavkirin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 14	.	.	PUNCT	sent	_	13	punct	_	_
 
@@ -10672,7 +10672,7 @@
 7	Îsraîlê	Îsraîl	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	_
 8	re	re	ADP	post	AdpType=Post	7	case	_	SpaceAfter=No
 9	,	,	PUNCT	cm	_	2	punct	_	_
-10	hat	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
+10	hat	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
 11	berdan	berdan	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 12	.	.	PUNCT	sent	_	11	punct	_	_
 
@@ -10701,7 +10701,7 @@
 8	ku	ku	SCONJ	cnjsub	_	12	mark	_	_
 9	sirûdeke	sirûd	NOUN	n	Case=Con|Gender=Fem|Number=Sing|PronType=Ind	12	nsubj	_	_
 10	neteweyî	neteweyî	ADJ	adj	Degree=Pos	9	amod	_	_
-11	were	hatin	VERB	vblex	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	were	hatin	AUX	vblex	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
 12	çêkirin	çêkirin	VERB	vblex	VerbForm=Inf	7	ccomp	_	SpaceAfter=No
 13	.	.	PUNCT	sent	_	7	punct	_	_
 
@@ -10796,7 +10796,7 @@
 4	nivîskarê	nivîskar	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	2	conj	_	_
 5	lîstikan	lîstik	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	4	nmod:poss	_	_
 6	jî	jî	PART	emph	_	8	advmod	_	_
-7	tê	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	tê	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
 8	nasîn	nasîn	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	sent	_	8	punct	_	_
 
@@ -11107,7 +11107,7 @@
 3	bi	bi	ADP	pr	AdpType=Prep	5	case	_	_
 4	gelek	gelek	DET	det	Number=Plur|PronType=Ind	5	det	_	_
 5	zimanan	ziman	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	7	nmod	_	_
-6	hatine	hatin	VERB	vblex	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
+6	hatine	hatin	AUX	vblex	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
 7	wergerandin	wergerandin	VERB	vblex	VerbForm=Inf	0	root	_	_
 8	û	û	CCONJ	cnjcoo	_	10	cc	_	_
 9	balê	bal	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	obj	_	_
@@ -11345,7 +11345,7 @@
 4	de	de	ADP	post	AdpType=Post	3	case	_	_
 5	weke	weke	ADP	pr	AdpType=Prep	6	case	_	_
 6	vegotinekê	vegotin	NOUN	n	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	8	nmod	_	_
-7	tê	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	tê	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
 8	gotin	gotin	VERB	vblex	VerbForm=Inf	0	root	_	_
 9	ku	ku	SCONJ	cnjsub	_	15	mark	_	_
 10	"	"	PUNCT	lquot	_	15	punct	_	SpaceAfter=No
@@ -11399,7 +11399,7 @@
 12	din	din	ADJ	adj	_	11	amod	_	_
 13	jî	jî	PART	emph	_	16	advmod	_	_
 14	gelek	gelek	ADV	preadv	_	16	advmod	_	_
-15	tên	hatin	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	tên	hatin	AUX	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
 16	hezkirin	hezkirin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 17	.	.	PUNCT	sent	_	16	punct	_	_
 
@@ -11454,7 +11454,7 @@
 1	Li	li	ADP	pr	AdpType=Prep	2	case	_	_
 2	bajarê	bajar	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	_
 3	Medînê	Medîne	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	nmod:poss	_	_
-4	hatiye	hatin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
+4	hatiye	hatin	AUX	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
 5	danin	danîn	VERB	vblex	VerbForm=Inf	0	root	_	_
 6	û	û	CCONJ	cnjcoo	_	10	cc	_	_
 7	dirêjiya	dirêjî	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	10	nsubj	_	_
@@ -11617,7 +11617,7 @@
 12	û	û	CCONJ	cnjcoo	_	13	cc	_	_
 13	taybetiya	taybetî	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	9	conj	_	_
 14	wan	ew	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Plur|PronType=Dem	13	nmod:poss	_	_
-15	tê	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	tê	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
 16	kirin	kirin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 17	.	.	PUNCT	sent	_	16	punct	_	_
 
@@ -11637,7 +11637,7 @@
 11	jê	ji	ADP	pr	AdpType=Prep	12	case	_	_
 12	_	ew	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	15	nmod	_	_
 13	re	re	ADP	post	AdpType=Post	12	case	_	_
-14	hatiye	hatin	VERB	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux	_	_
+14	hatiye	hatin	AUX	vblex	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux	_	_
 15	bikaranîn	bikaranîn	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 16	.	.	PUNCT	sent	_	15	punct	_	_
 
@@ -11673,7 +11673,7 @@
 4	ji	ji	ADP	x	_	6	case	_	_
 5	bo	bo	ADP	pr	AdpType=Prep	4	fixed	_	_
 6	stranê	stran	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	8	nmod	_	_
-7	tê	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	tê	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
 8	perwerdekirin	perwerdekirin	VERB	vblex	VerbForm=Inf	10	advcl	_	SpaceAfter=No
 9	,	,	PUNCT	cm	_	8	punct	_	_
 10	divê	divêtin	VERB	vblex	Number=Sing|Person=3	0	root	_	_
@@ -11681,7 +11681,7 @@
 12	bo	bo	ADP	pr	AdpType=Prep	11	fixed	_	_
 13	axaftinê	axaftin	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	16	nmod	_	_
 14	jî	jî	PART	emph	_	16	advmod	_	_
-15	bê	hatin	VERB	vblex	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	bê	hatin	AUX	vblex	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
 16	perwerdekirin	perwerdekirin	VERB	vblex	VerbForm=Inf	10	ccomp	_	SpaceAfter=No
 17	.	.	PUNCT	sent	_	10	punct	_	_
 
@@ -11791,7 +11791,7 @@
 9	Kurdî	kurdî	ADJ	adj	_	8	flat	_	_
 10	ya	yê	ADP	con	AdpType=Post|Gender=Fem|Number=Sing	8	flat	_	_
 11	Stenbolê	Stenbol	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	8	flat	_	_
-12	hate	hatin	VERB	vblex	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	_
+12	hate	hatin	AUX	vblex	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	_
 13	hilbijartin	hilbijartin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 14	.	.	PUNCT	sent	_	13	punct	_	_
 
@@ -11829,7 +11829,7 @@
 6	û	û	CCONJ	cnjcoo	_	7	cc	_	_
 7	berxwedan	berxwedan	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	5	conj	_	_
 8	jî	jî	PART	emph	_	10	advmod	_	_
-9	tên	hatin	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	tên	hatin	AUX	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
 10	kirin	kirin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	sent	_	10	punct	_	_
 
@@ -11941,7 +11941,7 @@
 4	de	de	ADP	post	AdpType=Post	2	case	_	_
 5	dîwarên	dîwar	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Plur	8	nsubj	_	_
 6	taybetî	taybetî	ADJ	adj	Degree=Pos	5	amod	_	_
-7	hatine	hatin	VERB	vblex	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+7	hatine	hatin	AUX	vblex	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
 8	çêkirin	çêkirin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	sent	_	8	punct	_	_
 
@@ -12022,7 +12022,7 @@
 6	duyem	duyem	ADJ	adj	_	5	amod	_	_
 7	li	li	ADP	pr	AdpType=Prep	8	case	_	_
 8	Stokholmê	Stokholm	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	_
-9	hat	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	_
+9	hat	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	_
 10	çapkirin	çapkirin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	sent	_	10	punct	_	_
 
@@ -12088,7 +12088,7 @@
 5	de	de	ADP	post	AdpType=Post	3	case	_	_
 6	li	li	ADP	pr	AdpType=Prep	7	case	_	_
 7	Kobaniyê	Kobanî	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	_
-8	hate	hatin	VERB	vblex	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
+8	hate	hatin	AUX	vblex	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
 9	veşartin	veşartin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	sent	_	9	punct	_	_
 
@@ -12285,7 +12285,7 @@
 13	-	-	PUNCT	guio	_	14	punct	_	SpaceAfter=No
 14	avesta	avesta	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	conj	_	_
 15	jî	jî	PART	emph	_	17	advmod	_	_
-16	tê	hatin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	tê	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
 17	gotin	gotin	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 18	.	.	PUNCT	sent	_	17	punct	_	_
 

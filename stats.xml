@@ -18,7 +18,7 @@
     <tag name="ADJ">439</tag><!-- din, mezin, kurdî, bilind, nû, zêde, aciz, baş, ecêb, kûr -->
     <tag name="ADP">1691</tag><!-- di, de, ji, bi, li, yê, re, ve, ser, bo -->
     <tag name="ADV">249</tag><!-- ne, niha, gelek, herî, tenê, berê, pêk, îro, her, hêj -->
-    <tag name="AUX">314</tag><!-- bûn, dê, dan -->
+    <tag name="AUX">431</tag><!-- bûn, hatin, dê, dan -->
     <tag name="CCONJ">365</tag><!-- û, lê, an, ango, yan, qey, heger, herwekî, yanî, hetanî -->
     <tag name="DET">223</tag><!-- ev, ew, her, hin, gelek, çend, tu, hindek, çi, heman -->
     <tag name="INTJ">17</tag><!-- belê, na, heyhat -->
@@ -30,14 +30,14 @@
     <tag name="PUNCT">1279</tag><!-- ., ,, :, ;, -, ?, (, ), ", ... -->
     <tag name="SCONJ">204</tag><!-- ku, gava, heke, dema, ji, ber, wextê, da, hem, lewra -->
     <tag name="SYM">3</tag><!-- /, % -->
-    <tag name="VERB">1159</tag><!-- hatin, kirin, dan, gotin, hebûn, dîtin, girtin, çûn, ketin, karîn -->
+    <tag name="VERB">1042</tag><!-- kirin, dan, gotin, hebûn, hatin, dîtin, girtin, çûn, ketin, karîn -->
     <tag name="X">30</tag><!-- gelek, hişyar, alfabeya, berdewam, dayîk, ji, pêşkêş, bi, binav, derbas -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="42">
     <feat name="AdpType" value="Post" upos="ADP,PRON">470</feat><!-- de, re, ve, ya, a, yên, da, yê, ê, ên -->
     <feat name="AdpType" value="Prep" upos="ADP">1123</feat><!-- di, bi, ji, li, ser, bo, ber, piştî, jê, pê -->
-    <feat name="Aspect" value="Perf" upos="VERB">37</feat><!-- hate, hatine, hatiye, nehatiye, da bûye, nehatime, nehatine -->
+    <feat name="Aspect" value="Perf" upos="AUX,VERB">37</feat><!-- hate, hatine, hatiye, nehatiye, da bûye, nehatime, nehatine -->
     <feat name="Aspect" value="Prog" upos="AUX,VERB">86</feat><!-- dida, dikir, dihate, dadiket, dibû, dihatin, digeriya, digirt, rûdinişt, digeriyan -->
     <feat name="Case" value="Acc" upos="DET,NOUN,NUM,PRON,PROPN">1635</feat><!-- min, me, wî, wê, Holmes, _, te, vê, wan, gund -->
     <feat name="Case" value="Con" upos="ADJ,NOUN,PROPN,X">1287</feat><!-- sala, oda, xweha, zirbavê, navê, serê, zimanê, Stonêrê, dema, dengê -->
@@ -53,7 +53,7 @@
     <feat name="Gender" value="Masc" upos="ADP,DET,NOUN,PRON,PROPN">1331</feat><!-- Holmes, wî, Rweylot, zirbavê, _, gund, navê, serê, zimanê, Stonêrê -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">15</feat><!-- meke, bikin, nebe, Rahêje, berdin, bike, bikelînin, binêre, ke, rûne -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">1166</feat><!-- e, ye, bû, tê, da, kir, hatiye, dibe, gote, bûn -->
-    <feat name="Mood" value="Opt" upos="VERB">6</feat><!-- bikira, bidîta, bigota, bihata, bistandana -->
+    <feat name="Mood" value="Opt" upos="AUX,VERB">6</feat><!-- bikira, bidîta, bigota, bihata, bistandana -->
     <feat name="Mood" value="Sub" upos="AUX,VERB">127</feat><!-- bike, bikin, bidî, bêje, herin, be, bibin, bibêje, hebe, herî -->
     <feat name="Number" value="Plur" upos="ADP,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">1062</feat><!-- me, em, wan, bûn, gelek, du, yên, kurdan, hatine, caran -->
     <feat name="Number" value="Plur,Sing" upos="DET,PRON">315</feat><!-- xwe, ev, hin, çend, hev, ew, hinek, kû, _, hindik -->
@@ -62,7 +62,7 @@
     <feat name="Person" value="1" upos="AUX,PRON,VERB">421</feat><!-- min, me, em, ez, bûn, im, herin, bibin, dizanin, ketin -->
     <feat name="Person" value="2" upos="AUX,PRON,VERB">137</feat><!-- te, tu, bidî, bikin, we, hûn, herî, meke, bibî, bikî -->
     <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">1298</feat><!-- wî, e, ye, bû, ew, wê, tê, da, kir, hatiye -->
-    <feat name="Polarity" value="Neg" upos="ADV,DET,VERB">100</feat><!-- ne, tu, meke, nayê, nehatiye, nîne, nikarî bû, nizanî, ti, tune -->
+    <feat name="Polarity" value="Neg" upos="ADV,AUX,DET,VERB">100</feat><!-- ne, tu, meke, nayê, nehatiye, nîne, nikarî bû, nizanî, ti, tune -->
     <feat name="PronType" value="Dem" upos="DET,NOUN,PRON">293</feat><!-- _, ev, vê, wan, wê, ew, vî, demê, derê, van -->
     <feat name="PronType" value="Ind" upos="DET,NOUN,PRON">330</feat><!-- her, hin, gelek, çend, tu, hinek, dengekî, tiştek, tiştekî, carekê -->
     <feat name="PronType" value="Int" upos="ADV,DET,PRON">19</feat><!-- çi, Kî, ka, çiqas -->
