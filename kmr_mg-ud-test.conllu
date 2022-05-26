@@ -9257,8 +9257,8 @@
 2	vê	ev	DET	det	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
 3	rêbazê	rêbaz	NOUN	n	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	14	nmod	_	_
 4	de	de	ADP	post	AdpType=Post	3	case	_	_
-5	em	em	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	_
-6	dê	dê	AUX	fut	Tense=Fut	14	aux	_	_
+5	em	em	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	CorrectSpaceAfter=No
+6	ê	dê	AUX	fut	Tense=Fut	14	aux	_	_
 7	zanyariyên	zanyarî	NOUN	n	Case=Voc|Definite=Def|Gender=Fem|Number=Plur	14	obj	_	_
 8	giştî	giştî	ADJ	adj	Degree=Pos	7	amod	_	_
 9	yên	yê	ADP	con	AdpType=Post|Gender=Fem,Masc|Number=Plur	7	case	_	_
