@@ -21,6 +21,8 @@ If you use this treebank in your work, please cite:
 
 # Changelog
 
+* 2022-11-15 v2.11
+  * Fixed validation errors.
 * 2021-05-15 v2.8
   * The oblique case is labeled Case=Acc following the UD guidelines.
   * Removed undocumented relation subtype case:circ (2 occurrences).
