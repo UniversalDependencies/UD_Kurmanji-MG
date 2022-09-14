@@ -1338,7 +1338,7 @@
 3	Min	ez	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
 4	qet	qet	ADV	adv	_	8	advmod	_	_
 5	tu	tu	DET	det	Polarity=Neg|PronType=Ind	6	det	_	_
-6	tişt	tişt	NOUN	n	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	_
+6	tişt	tişt	NOUN	n	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	obj	_	_
 7	ne	ne	ADV	adv	Polarity=Neg	8	advmod	_	_
 8	bihîst	bihîstin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	parataxis	_	SpaceAfter=No
 9	.	.	PUNCT	sent	_	8	punct	_	_
@@ -5621,13 +5621,13 @@
 
 # sent_id = sherlock:sherlock19.vislcg.txt:7:217
 # text = Cûlyayê, gava mar pê ve da ew dîti bû.
-1	Cûlyayê	Cûlya	PROPN	np	Case=Acc|Gender=Fem|Number=Sing	8	nsubj	_	SpaceAfter=No
+1	Cûlyayê	Cûlya	PROPN	np	Case=Acc|Gender=Fem|Number=Sing	10	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	cm	_	1	punct	_	_
 3	gava	gava	SCONJ	cnjsub	_	8	mark	_	_
 4	mar	mar	NOUN	n	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	_
 5-6	pê	_	_	_	_	_	_	_	_
 5	pê	bi	ADP	pr	AdpType=Prep	6	case	_	_
-6	_	ew	PRON	prn	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	8	nmod	_	_
+6	_	ew	PRON	prn	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	8	obl	_	_
 7	ve	ve	ADP	post	AdpType=Post	6	case	_	_
 8	da	dan	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	advcl	_	_
 9	ew	ew	PRON	prn	Case=Nom|Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
@@ -7797,7 +7797,7 @@
 
 # sent_id = wiki:wikibank.vislcg.txt:125:3387
 # text = Pirtûkên wan yên ku hatina nivîsandin, têne guharandin bi tirki û orjinalê wan yên kurdî têne windakirin.
-1	Pirtûkên	pirtûk	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Plur	18	nsubj	_	_
+1	Pirtûkên	pirtûk	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Plur	9	nsubj	_	_
 2	wan	ew	PRON	prn	Case=Acc|Gender=Fem,Masc|Number=Plur|PronType=Dem	1	nmod:poss	_	_
 3	yên	yê	ADP	con	AdpType=Post|Gender=Fem,Masc|Number=Plur	1	case	_	_
 4	ku	ku	SCONJ	cnjsub	_	6	mark	_	_
