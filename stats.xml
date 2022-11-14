@@ -80,13 +80,13 @@
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="35">
-    <dep name="acl">68</dep>
+    <dep name="acl">69</dep>
     <dep name="advcl">74</dep>
     <dep name="advmod">339</dep>
     <dep name="advmod:neg">5</dep>
     <dep name="amod">301</dep>
     <dep name="appos">30</dep>
-    <dep name="aux">147</dep>
+    <dep name="aux">146</dep>
     <dep name="case">1527</dep>
     <dep name="cc">364</dep>
     <dep name="ccomp">138</dep>
@@ -103,12 +103,12 @@
     <dep name="fixed">218</dep>
     <dep name="flat">120</dep>
     <dep name="mark">186</dep>
-    <dep name="nmod">1148</dep>
+    <dep name="nmod">1147</dep>
     <dep name="nmod:poss">945</dep>
-    <dep name="nsubj">823</dep>
+    <dep name="nsubj">822</dep>
     <dep name="nummod">78</dep>
-    <dep name="obj">333</dep>
-    <dep name="obl">17</dep>
+    <dep name="obj">334</dep>
+    <dep name="obl">18</dep>
     <dep name="obl:dat">115</dep>
     <dep name="orphan">2</dep>
     <dep name="parataxis">72</dep>
