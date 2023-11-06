@@ -100,10 +100,10 @@
     <dep name="det">213</dep>
     <dep name="discourse">28</dep>
     <dep name="dislocated">2</dep>
-    <dep name="fixed">218</dep>
-    <dep name="flat">120</dep>
+    <dep name="fixed">214</dep>
+    <dep name="flat">123</dep>
     <dep name="mark">186</dep>
-    <dep name="nmod">1147</dep>
+    <dep name="nmod">1148</dep>
     <dep name="nmod:poss">945</dep>
     <dep name="nsubj">822</dep>
     <dep name="nummod">78</dep>

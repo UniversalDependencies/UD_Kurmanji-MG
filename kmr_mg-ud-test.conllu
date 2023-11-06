@@ -3311,7 +3311,7 @@
 7	oda	ode	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	_
 8	ko	ku	SCONJ	cnjsub	_	15	mark	_	_
 9	banû	banû	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	15	nsubj	_	_
-10	Stonêr	Stonêr	PROPN	np	Case=Nom|Gender=Masc|Number=Sing	9	fixed	_	_
+10	Stonêr	Stonêr	PROPN	np	Case=Nom|Gender=Masc|Number=Sing	9	flat	_	_
 11	îro	îro	ADV	adv	_	15	advmod	_	_
 12-13	tê	_	_	_	_	_	_	_	_
 12	tê	di	ADP	pr	AdpType=Prep	13	case	_	_
@@ -5111,7 +5111,7 @@
 # sent_id = sherlock:sherlock17.vislcg.txt:16:324
 # text = Dr. Rweylot li ber masê, li ser kursî rûniştî bû; her du milên xwe berda bûn kêlekên xwe; serê wî keti bû paş, çavên wî ber bi bên bûn.
 1	Dr.	Dr.	NOUN	abbr	_	10	nsubj	_	_
-2	Rweylot	Rweylot	PROPN	np	Case=Nom|Gender=Masc|Number=Sing	1	fixed	_	_
+2	Rweylot	Rweylot	PROPN	np	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
 3	li	li	ADP	x	_	5	case	_	_
 4	ber	ber	ADP	pr	AdpType=Prep	3	fixed	_	_
 5	masê	mase	NOUN	n	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
@@ -8917,7 +8917,7 @@
 3	derbasî	derbasî	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	_
 4	Zanîngeha	zanîngeh	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	3	obl:dat	_	_
 5	New	New	PROPN	np	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nmod:poss	_	_
-6	Yorkê	York	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	fixed	_	_
+6	Yorkê	York	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	flat	_	_
 7	bûye	bûn	AUX	vbcop	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
 8	û	û	CCONJ	cnjcoo	_	13	cc	_	_
 9	perwerdeya	perwerde	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	13	obj	_	_
@@ -10244,7 +10244,7 @@
 # text = Li Yekîtiya Ewropayê îngilîzî zimanekî fermî ye.
 1	Li	li	ADP	pr	AdpType=Prep	2	case	_	_
 2	Yekîtiya	yekîtî	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	_
-3	Ewropayê	ewropa	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	fixed	_	_
+3	Ewropayê	ewropa	PROPN	np	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	_
 4	îngilîzî	îngilîzî	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	_
 5	zimanekî	ziman	NOUN	n	Case=Con|Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
 6	fermî	fermî	ADJ	adj	_	5	amod	_	_
