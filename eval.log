@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Kurmanji-MG:
-commit 4a28d0a1c2794ae06f182abc65696d6e3c5f46e6
-Merge: c342de3 db32ce3
+commit cbc4d4fb2bebd8b64037d5974520b3cd986d1431
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Mon Nov 6 12:34:03 2023 +0100
 Size: counted 10260 of 10260 words (nodes).
 Size: min(0, log((N/1000)**2)) = 4.65650567948525.
 Size: maximum value 13.815511 is for 1000000 words or more.
