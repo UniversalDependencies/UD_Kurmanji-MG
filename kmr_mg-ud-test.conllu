@@ -6659,20 +6659,20 @@
 15	.	.	PUNCT	sent	_	3	punct	_	_
 
 # sent_id = wiki:wikibank.vislcg.txt:54:1468
-# text = Di 647an Iran, Lîbya hat dagir kirin û dagir kirina Anatoliya jî dest pê kir.
+# text = Di 647an Iran, Lîbya hat dagirkirin û dagir kirina Anatoliya jî dest pê kir.
 1	Di	di	ADP	pr	AdpType=Prep	2	case	_	_
 2	647an	647	NUM	num	Case=Acc|Number=Plur|NumType=Card	7	nmod	_	_
 3	Iran	îran	PROPN	np	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	cm	_	5	punct	_	_
 5	Lîbya	Lîbya	PROPN	np	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
 6	hat	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
-7	dagir kirin	dagirkirin	VERB	vblex	VerbForm=Inf	0	root	_	_
+7	dagirkirin	dagir kirin	VERB	vblex	VerbForm=Inf	0	root	_	_
 8	û	û	CCONJ	cnjcoo	_	13	cc	_	_
 9	dagir	dagir	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	13	nsubj	_	_
 10	kirina	kirin	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	9	compound	_	_
 11	Anatoliya	Anatoliya	PROPN	np	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	nmod:poss	_	_
 12	jî	jî	PART	emph	_	13	advmod	_	_
-13	dest pê kir	destpêkirin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	SpaceAfter=No
+13	dest pê kir	dest pê kirin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	SpaceAfter=No
 14	.	.	PUNCT	sent	_	7	punct	_	_
 
 # sent_id = wiki:wikibank.vislcg.txt:55:1497
@@ -9433,7 +9433,7 @@
 9	.	.	PUNCT	sent	_	7	punct	_	_
 
 # sent_id = wiki:wikibank.vislcg.txt:226:6144
-# text = Di dema Yewnana kevin de gelek Spor hatin pêk anîn.
+# text = Di dema Yewnana kevin de gelek Spor hatin pêkanîn.
 1	Di	di	ADP	pr	AdpType=Prep	2	case	_	_
 2	dema	dem	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	_
 3	Yewnana	Yewnan	PROPN	np	Case=Con|Definite=Def|Gender=Fem|Number=Sing	2	nmod:poss	_	_
@@ -9442,8 +9442,7 @@
 6	gelek	gelek	DET	det	Number=Plur|PronType=Ind	7	det	_	_
 7	Spor	spor	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	10	nsubj	_	_
 8	hatin	hatin	AUX	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	_
-9	pêk	pêk	ADV	adv	_	10	compound:lvc	_	_
-10	anîn	anîn	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	pêkanîn	pêkanîn	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	sent	_	10	punct	_	_
 
 # sent_id = wiki:wikibank.vislcg.txt:227:6167
