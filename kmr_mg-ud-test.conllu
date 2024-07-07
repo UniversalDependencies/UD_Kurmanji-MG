@@ -6043,7 +6043,7 @@
 7	qismên	qism	NOUN	n	Case=Con|Definite=Def|Gender=Masc|Number=Plur	10	nmod	_	_
 8	sûreyan	sûre	NOUN	n	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	7	nmod:poss	_	_
 9	tê	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
-10	pêkanîn	pêkanîn	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
+10	pêkanîn	pêk anîn	VERB	vblex	VerbForm=Inf	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	sent	_	10	punct	_	_
 
 # sent_id = wiki:wikibank.vislcg.txt:18:430
@@ -6666,13 +6666,13 @@
 4	,	,	PUNCT	cm	_	5	punct	_	_
 5	Lîbya	Lîbya	PROPN	np	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
 6	hat	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
-7	dagir kirin	dagirkirin	VERB	vblex	VerbForm=Inf	0	root	_	_
+7	dagir kirin	dagir kirin	VERB	vblex	VerbForm=Inf|Typo=Yes	0	root	_	CorrectForm=dagirkirin
 8	û	û	CCONJ	cnjcoo	_	13	cc	_	_
 9	dagir	dagir	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	13	nsubj	_	_
 10	kirina	kirin	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	9	compound	_	_
 11	Anatoliya	Anatoliya	PROPN	np	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	nmod:poss	_	_
 12	jî	jî	PART	emph	_	13	advmod	_	_
-13	dest pê kir	destpêkirin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	SpaceAfter=No
+13	dest pê kir	dest pê kirin	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	SpaceAfter=No
 14	.	.	PUNCT	sent	_	7	punct	_	_
 
 # sent_id = wiki:wikibank.vislcg.txt:55:1497
@@ -9442,9 +9442,8 @@
 6	gelek	gelek	DET	det	Number=Plur|PronType=Ind	7	det	_	_
 7	Spor	spor	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	10	nsubj	_	_
 8	hatin	hatin	AUX	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	_
-9	pêk	pêk	ADV	adv	_	10	compound:lvc	_	_
-10	anîn	anîn	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-11	.	.	PUNCT	sent	_	10	punct	_	_
+9	pêk anîn	pêk anîn	VERB	vblex	Typo=Yes|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|CorrectForm=pêkanîn
+10	.	.	PUNCT	sent	_	10	punct	_	_
 
 # sent_id = wiki:wikibank.vislcg.txt:227:6167
 # text = Rêberî ji Silêman pêxember re kiriye û bûye sedem ku ew di çolê de avê bibîne.
