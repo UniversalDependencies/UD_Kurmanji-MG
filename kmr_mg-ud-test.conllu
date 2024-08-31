@@ -9435,15 +9435,15 @@
 # sent_id = wiki:wikibank.vislcg.txt:226:6144
 # text = Di dema Yewnana kevin de gelek Spor hatin pêk anîn.
 1	Di	di	ADP	pr	AdpType=Prep	2	case	_	_
-2	dema	dem	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	_
+2	dema	dem	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	_
 3	Yewnana	Yewnan	PROPN	np	Case=Con|Definite=Def|Gender=Fem|Number=Sing	2	nmod:poss	_	_
 4	kevin	kevn	ADJ	adj	Degree=Pos	3	amod	_	_
 5	de	de	ADP	post	AdpType=Post	2	case	_	_
 6	gelek	gelek	DET	det	Number=Plur|PronType=Ind	7	det	_	_
-7	Spor	spor	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	10	nsubj	_	_
-8	hatin	hatin	AUX	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	_
+7	Spor	spor	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	9	nsubj	_	_
+8	hatin	hatin	AUX	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
 9	pêk anîn	pêk anîn	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Past|Typo=Yes|VerbForm=Fin	0	root	_	SpaceAfter=No|CorrectForm=pêkanîn
-10	.	.	PUNCT	sent	_	10	punct	_	_
+10	.	.	PUNCT	sent	_	9	punct	_	_
 
 # sent_id = wiki:wikibank.vislcg.txt:227:6167
 # text = Rêberî ji Silêman pêxember re kiriye û bûye sedem ku ew di çolê de avê bibîne.
