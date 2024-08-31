@@ -6666,7 +6666,7 @@
 4	,	,	PUNCT	cm	_	5	punct	_	_
 5	Lîbya	Lîbya	PROPN	np	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
 6	hat	hatin	AUX	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
-7	dagir kirin	dagir kirin	VERB	vblex	VerbForm=Inf|Typo=Yes	0	root	_	CorrectForm=dagirkirin
+7	dagir kirin	dagir kirin	VERB	vblex	Typo=Yes|VerbForm=Inf	0	root	_	CorrectForm=dagirkirin
 8	û	û	CCONJ	cnjcoo	_	13	cc	_	_
 9	dagir	dagir	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	13	nsubj	_	_
 10	kirina	kirin	NOUN	n	Case=Con|Definite=Def|Gender=Fem|Number=Sing	9	compound	_	_
@@ -9442,7 +9442,7 @@
 6	gelek	gelek	DET	det	Number=Plur|PronType=Ind	7	det	_	_
 7	Spor	spor	NOUN	n	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	10	nsubj	_	_
 8	hatin	hatin	AUX	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	_
-9	pêk anîn	pêk anîn	VERB	vblex	Typo=Yes|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|CorrectForm=pêkanîn
+9	pêk anîn	pêk anîn	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Past|Typo=Yes|VerbForm=Fin	0	root	_	SpaceAfter=No|CorrectForm=pêkanîn
 10	.	.	PUNCT	sent	_	10	punct	_	_
 
 # sent_id = wiki:wikibank.vislcg.txt:227:6167
