@@ -1,13 +1,13 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Kurmanji-MG:
-commit cbc4d4fb2bebd8b64037d5974520b3cd986d1431
+commit e5e31485864f7379103ad4ebae2039a51c2e0847
+Merge: dc3be09 a179763
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 6 12:34:03 2023 +0100
-Size: counted 10260 of 10260 words (nodes).
-Size: min(0, log((N/1000)**2)) = 4.65650567948525.
+Size: counted 10259 of 10259 words (nodes).
+Size: min(0, log((N/1000)**2)) = 4.65631073821115.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Did not find more than 10000 training words.
 Split: Did not find at least 10000 development words.
@@ -15,16 +15,18 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 7851 out of 10260 total words have one or more features.
+Features: 7851 out of 10259 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 30 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
                TOTAL         17
 Udapi: found 17 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 10260 words.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 10259 words.
 Genres: found 2 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang kmr --max-err=10 UD_Kurmanji-MG/kmr_mg-ud-test.conllu
+[Line 410 Sent sherlock:sherlock01.vislcg.txt:25:672 Node 9]: [L3 Warning leaf-det] 'det' not expected to have children (9:çi:det --> 7:ez:nsubj)
+Warnings: 1
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang kmr --max-err=10 UD_Kurmanji-MG/kmr_mg-ud-train.conllu
 *** PASSED ***
@@ -32,11 +34,11 @@ Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.337049120258599) = 0.0864228513483588
+(weight=0.256410256410256) * (score{size}=0.33703500993866) = 0.0864192333176051
 (weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.983430799220273) = 0.302594092067776
+(weight=0.307692307692308) * (score{udapi}=0.983429184131007) = 0.302593595117233
 (weight=0.0769230769230769) * (score{udeprels}=0.810810810810811) = 0.0623700623700624
-(TOTAL score=0.662488061593136) * (availability=1) * (validity=1) = 0.662488061593136
+(TOTAL score=0.662483946611839) * (availability=1) * (validity=1) = 0.662483946611839
 STARS = 3.5
-UD_Kurmanji-MG	0.662488061593136	3.5
+UD_Kurmanji-MG	0.662483946611839	3.5
