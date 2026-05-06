@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Northern_Kurdish-Kurmanji:
-commit 2f56eaf948c481c370d802880f490d2523a7ea04
-Merge: 0dad7c3 438e490
+commit b2fa1f4d267448a21a1634ef6af97bd05762122c
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 20:18:53 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'kmr_kurmanji'
 Language code (from CoNLL-U file name) = 'kmr'
@@ -25,38 +25,38 @@ Universal relations: 30 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang kmr --max-err=10 UD_Northern_Kurdish-Kurmanji/kmr_kurmanji-ud-test.conllu
-[Line 42 Sent sherlock:sherlock01.vislcg.txt:4:54]: [L3 Warning fixed-without-extpos] Fixed expression 'li ber' does not have the 'ExtPos' feature
-[Line 53 Sent sherlock:sherlock01.vislcg.txt:4:54]: [L3 Warning fixed-without-extpos] Fixed expression 'li ser' does not have the 'ExtPos' feature
-[Line 296 Sent sherlock:sherlock01.vislcg.txt:19:481]: [L3 Warning fixed-without-extpos] Fixed expression 'ji ber' does not have the 'ExtPos' feature
-[Line 306 Sent sherlock:sherlock01.vislcg.txt:20:500]: [L3 Warning fixed-without-extpos] Fixed expression 'ji ber' does not have the 'ExtPos' feature
-[Line 314 Sent sherlock:sherlock01.vislcg.txt:21:513]: [L3 Warning fixed-without-extpos] Fixed expression 'Ji ber' does not have the 'ExtPos' feature
-[Line 332 Sent sherlock:sherlock01.vislcg.txt:22:524]: [L3 Warning fixed-without-extpos] Fixed expression 'ji ber' does not have the 'ExtPos' feature
-[Line 410 Sent sherlock:sherlock01.vislcg.txt:25:672]: [L3 Syntax leaf-det] 'det' not expected to have children (9:çi:det --> 7:ez:nsubj)
-[Line 451 Sent sherlock:sherlock01.vislcg.txt:26:719]: [L3 Warning fixed-without-extpos] Fixed expression 'ji bin' does not have the 'ExtPos' feature
-[Line 518 Sent sherlock:sherlock02.vislcg.txt:3:49]: [L3 Warning fixed-without-extpos] Fixed expression 'Bi tenê' does not have the 'ExtPos' feature
-[Line 518 Sent sherlock:sherlock02.vislcg.txt:3:49]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('Bi')
-[Line 543 Sent sherlock:sherlock02.vislcg.txt:3:49]: [L3 Warning fixed-without-extpos] Fixed expression 'ji bîr' does not have the 'ExtPos' feature
-[Line 678 Sent sherlock:sherlock02.vislcg.txt:12:309]: [L3 Warning fixed-without-extpos] Fixed expression 'di bin' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
-[Line 2573 Sent sherlock:sherlock08.vislcg.txt:5:145]: [L3 Syntax rel-upos-mark] 'mark' should not be 'NOUN' ('beriya')
-[Line 3561 Sent sherlock:sherlock12.vislcg.txt:3:37]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN' ('hela')
-[Line 3638 Sent sherlock:sherlock12.vislcg.txt:7:179]: [L3 Syntax rel-upos-mark] 'mark' should not be 'NOUN' ('Wextê')
-[Line 4234 Sent sherlock:sherlock14.vislcg.txt:7:188]: [L3 Syntax rel-upos-mark] 'mark' should not be 'NOUN' ('Wextê')
-[Line 8915 Sent wiki:wikibank.vislcg.txt:193:5274]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('Ji')
-[Line 8925 Sent wiki:wikibank.vislcg.txt:193:5274]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('li')
-[Line 9324 Sent wiki:wikibank.vislcg.txt:218:5946]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('li')
-[Line 9334 Sent wiki:wikibank.vislcg.txt:219:5969]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('li')
-...suppressing further errors regarding Syntax
-Syntax errors: 11
-Warnings: 200
-*** FAILED *** with 11 errors
+[Line 42 Sent sherlock:sherlock01.vislcg.txt:4:54]: [L3 WARNING fixed-without-extpos] Fixed expression 'li ber' does not have the 'ExtPos' feature
+[Line 53 Sent sherlock:sherlock01.vislcg.txt:4:54]: [L3 WARNING fixed-without-extpos] Fixed expression 'li ser' does not have the 'ExtPos' feature
+[Line 296 Sent sherlock:sherlock01.vislcg.txt:19:481]: [L3 WARNING fixed-without-extpos] Fixed expression 'ji ber' does not have the 'ExtPos' feature
+[Line 306 Sent sherlock:sherlock01.vislcg.txt:20:500]: [L3 WARNING fixed-without-extpos] Fixed expression 'ji ber' does not have the 'ExtPos' feature
+[Line 314 Sent sherlock:sherlock01.vislcg.txt:21:513]: [L3 WARNING fixed-without-extpos] Fixed expression 'Ji ber' does not have the 'ExtPos' feature
+[Line 332 Sent sherlock:sherlock01.vislcg.txt:22:524]: [L3 WARNING fixed-without-extpos] Fixed expression 'ji ber' does not have the 'ExtPos' feature
+[Line 410 Sent sherlock:sherlock01.vislcg.txt:25:672]: [L3 SYNTAX leaf-det] 'det' not expected to have children (9:çi:det --> 7:ez:nsubj)
+[Line 451 Sent sherlock:sherlock01.vislcg.txt:26:719]: [L3 WARNING fixed-without-extpos] Fixed expression 'ji bin' does not have the 'ExtPos' feature
+[Line 518 Sent sherlock:sherlock02.vislcg.txt:3:49]: [L3 WARNING fixed-without-extpos] Fixed expression 'Bi tenê' does not have the 'ExtPos' feature
+[Line 518 Sent sherlock:sherlock02.vislcg.txt:3:49]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('Bi')
+[Line 543 Sent sherlock:sherlock02.vislcg.txt:3:49]: [L3 WARNING fixed-without-extpos] Fixed expression 'ji bîr' does not have the 'ExtPos' feature
+[Line 678 Sent sherlock:sherlock02.vislcg.txt:12:309]: [L3 WARNING fixed-without-extpos] Fixed expression 'di bin' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 1200 Sent sherlock:sherlock03.vislcg.txt:14:373]: [L3 SYNTAX obl-should-be-nmod] The parent (node [3] 'şeva') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2573 Sent sherlock:sherlock08.vislcg.txt:5:145]: [L3 SYNTAX rel-upos-mark] 'mark' should not be 'NOUN' ('beriya')
+[Line 3561 Sent sherlock:sherlock12.vislcg.txt:3:37]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN' ('hela')
+[Line 3638 Sent sherlock:sherlock12.vislcg.txt:7:179]: [L3 SYNTAX rel-upos-mark] 'mark' should not be 'NOUN' ('Wextê')
+[Line 4234 Sent sherlock:sherlock14.vislcg.txt:7:188]: [L3 SYNTAX rel-upos-mark] 'mark' should not be 'NOUN' ('Wextê')
+[Line 8915 Sent wiki:wikibank.vislcg.txt:193:5274]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('Ji')
+[Line 8925 Sent wiki:wikibank.vislcg.txt:193:5274]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('li')
+[Line 9324 Sent wiki:wikibank.vislcg.txt:218:5946]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('li')
+...suppressing further messages regarding ERROR/SYNTAX
+Warnings: 199
+SYNTAX errors: 12
+*** FAILED *** with 12 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang kmr --max-err=10 UD_Northern_Kurdish-Kurmanji/kmr_kurmanji-ud-train.conllu
-[Line 4 Sent wiki:wikibank.vislcg.txt:396:10980]: [L3 Warning fixed-without-extpos] Fixed expression 'dema ku' does not have the 'ExtPos' feature
-[Line 68 Sent wiki:wikibank.vislcg.txt:399:11095]: [L3 Warning fixed-without-extpos] Fixed expression 'Li gorî' does not have the 'ExtPos' feature
-[Line 110 Sent wiki:wikibank.vislcg.txt:402:11156]: [L3 Warning fixed-without-extpos] Fixed expression 'li ser' does not have the 'ExtPos' feature
-[Line 146 Sent wiki:wikibank.vislcg.txt:405:11221]: [L3 Warning fixed-without-extpos] Fixed expression 'Li dijî' does not have the 'ExtPos' feature
-[Line 184 Sent wiki:wikibank.vislcg.txt:408:11282]: [L3 Warning fixed-without-extpos] Fixed expression 'Ji ber' does not have the 'ExtPos' feature
+[Line 4 Sent wiki:wikibank.vislcg.txt:396:10980]: [L3 WARNING fixed-without-extpos] Fixed expression 'dema ku' does not have the 'ExtPos' feature
+[Line 68 Sent wiki:wikibank.vislcg.txt:399:11095]: [L3 WARNING fixed-without-extpos] Fixed expression 'Li gorî' does not have the 'ExtPos' feature
+[Line 110 Sent wiki:wikibank.vislcg.txt:402:11156]: [L3 WARNING fixed-without-extpos] Fixed expression 'li ser' does not have the 'ExtPos' feature
+[Line 146 Sent wiki:wikibank.vislcg.txt:405:11221]: [L3 WARNING fixed-without-extpos] Fixed expression 'Li dijî' does not have the 'ExtPos' feature
+[Line 184 Sent wiki:wikibank.vislcg.txt:408:11282]: [L3 WARNING fixed-without-extpos] Fixed expression 'Ji ber' does not have the 'ExtPos' feature
 Warnings: 5
 *** PASSED ***
 Validity: 0.01
